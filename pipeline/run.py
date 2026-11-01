@@ -54,8 +54,7 @@ class OfflineLLM:
         self.text = path.read_text(encoding="utf-8")
 
     def enrich(self, batch):
-        res = llm.parse_response(self.text, self.allowed)
-        return {p["id"]: res[p["id"]] for p in batch if p["id"] in res}
+        return llm.match_results(llm.parse_response(self.text, self.allowed), batch)
 
 
 def main(argv=None) -> None:
@@ -96,6 +95,13 @@ def main(argv=None) -> None:
 
     # 4. 日本語化（Gemini）。上限に達したら DeepL で翻訳だけ行う
     plist = list(papers.values())
+    redo = 0
+    for p in plist:
+        if p.get("llm") and llm.check_record(p["llm"], p):
+            p.pop("llm")  # 以前の不正な結果（英語のまま・取り違え）はやり直す
+            redo += 1
+    if redo:
+        log(f"以前の日本語化のうち {redo}件に問題があったため、やり直します")
     if not args.skip_llm:
         client = OfflineLLM(cfg, args.offline / "llm.json") if args.offline else None
         n = llm.run(cfg, plist, client=client)

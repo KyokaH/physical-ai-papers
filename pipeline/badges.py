@@ -11,7 +11,14 @@ ACCEPT_RE = re.compile(r"accepted|to appear|published|camera[- ]ready|oral|spotl
 SUBMIT_RE = re.compile(r"submitted to|under review|in submission|under submission", re.I)
 GITHUB_RE = re.compile(r"https?://github\.com/[\w.-]+/[\w.-]+", re.I)
 PROJECT_RE = re.compile(r"https?://[\w.-]+\.github\.io[\w/.-]*", re.I)
-ARXIV_VENUE_RE = re.compile(r"^(arxiv(\.org)?|corr|arxiv preprint.*)$", re.I)
+ARXIV_VENUE_RE = re.compile(r"^(arxiv(\.org)?|corr|arxiv preprint.*|biorxiv.*|medrxiv.*|ssrn.*|"
+                            r"research square.*|preprints?(\.org)?|techrxiv.*|engrxiv.*|osf preprints.*)$", re.I)
+NAME_LIST_RE = re.compile(r"^([A-Z][a-z\-']+ ){1,3}[A-Z][a-z\-']+(, ([A-Z][a-z\-']+ ){1,3}[A-Z][a-z\-']+)+")
+
+
+def looks_like_authors(text: str) -> bool:
+    """journal_ref 欄に著者名が書かれている誤用を見分ける。"""
+    return bool(NAME_LIST_RE.match(text.strip()))
 
 
 def detect_venue(text: str, venues: list[dict]) -> str:
@@ -35,7 +42,9 @@ def compute(paper: dict, venues: list[dict]) -> dict:
 
     status, venue, evidence = "", "", ""
     if jref:
-        venue = detect_venue(jref, venues) or jref[:40]
+        # journal_ref が著者名から始まる書き方のときは、その先頭を採択先として表示しない
+        fallback = (s2_venue or "論文誌に掲載") if looks_like_authors(jref) else jref[:40]
+        venue = detect_venue(jref, venues) or fallback
         status, evidence = "accepted", "journal_ref"
     elif comment and ACCEPT_RE.search(comment) and detect_venue(comment, venues):
         venue = detect_venue(comment, venues)
