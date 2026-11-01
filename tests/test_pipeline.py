@@ -97,3 +97,30 @@ def test_end_to_end_offline(tmp_path):
     assert "今週の注目" in index and "採択 CoRL 2026" in index
     search = json.loads((out / "search.json").read_text(encoding="utf-8"))
     assert any(x["i"] == "2610.21010" and "把持" in x["k"] for x in search)
+
+
+def test_check_record_rejects_english_and_swapped():
+    paper = {"id": "1", "title": "GOFish: Full Field-of-View Gaussian Splatting", "tldr_en": "GOFish reconstructs scenes with full field of view splatting."}
+    ok = {"tldr_ja": "全視野のガウシアンスプラッティングで復元する。", "title_ja": "GOFish：全視野ガウシアンスプラッティング", "title_head": "GOFish: Full Field-of-View"}
+    assert llm.check_record(ok, paper) == ""
+    assert llm.check_record({**ok, "tldr_ja": paper["tldr_en"]}, paper)  # 英語のまま
+    assert llm.check_record({**ok, "title_ja": "TACOS: 地形認識型の接触教師あり学習"}, paper)  # 取り違え
+    assert llm.check_record({**ok, "title_head": "TACOS: Terrain-Aware COntact"}, paper)
+    sim = {"id": "2", "title": "Sim-to-Real Transfer of Agile Quadruped Parkour"}
+    assert llm.check_record({"tldr_ja": "四脚の転移", "title_ja": "四脚パルクールのSim2Real転移"}, sim) == ""
+
+
+def test_match_results_maps_keys_and_drops_bad():
+    batch = [{"id": "a", "title": "Alpha Robot Hands"}, {"id": "b", "title": "Beta Legged Walking"}]
+    raw = {"p1": {"tldr_ja": "手の研究。", "title_ja": "アルファの手", "title_head": "Alpha Robot Hands"},
+           "p2": {"tldr_ja": "English only.", "title_ja": "", "title_head": "Beta Legged Walking"}}
+    out = llm.match_results(raw, batch)
+    assert list(out) == ["a"] and "title_head" not in out["a"]
+
+
+def test_journal_ref_with_author_names_is_ignored():
+    b = badges.compute({"journal_ref": "Francesco Iotti, Alok Ranjan, Franco Angelini, OmniQuad, Mechanism and Machine Theory, Volume 214, 2025",
+                        "comment": "", "abstract": "", "venue": "Mechanism and Machine Theory"}, CFG["venues"])
+    assert b["venue_status"] == "accepted" and b["venue"].startswith("Mechanism and Machine Theory")
+    b2 = badges.compute({"journal_ref": "", "comment": "", "abstract": "", "venue": "bioRxiv"}, CFG["venues"])
+    assert b2["venue_status"] == ""

@@ -19,12 +19,15 @@ from .common import log, make_session
 SYSTEM_PROMPT = """あなたはロボティクスとPhysical AIの研究に詳しい、正確さを最優先する技術翻訳者です。
 与えられた論文の情報だけを根拠に、日本語の要約データを作ります。推測で情報を足してはいけません。
 
+入力は {{"papers": [{{"key": "p1", "title": ..., "abstract": ..., "source_summary": ..., "comment": ...}}, ...]}} です。
 各論文について次を作ってください。
-- title_ja: タイトルの自然な日本語訳。手法名・モデル名（例: RT-2, π0）は英語のまま残す
-- tldr_ja: 一文の日本語要約（全角100字以内）
-  - source_summary がある場合: その英文を忠実に日本語へ翻訳する。情報を足さない
+- key: 入力の key をそのまま返す（論文の取り違えを防ぐため必須）
+- title_head: 入力 title の最初の3語を、英語のまま一字一句そのまま書き写す
+- title_ja: タイトルの自然な日本語訳。手法名・モデル名（例: RT-2, π0）は英語のまま残してよいが、残りは必ず日本語にする
+- tldr_ja: 一文の日本語要約（全角120字以内）。必ず日本語で書く。英文のまま返すことは禁止
+  - source_summary がある場合: その英文を日本語に翻訳する。情報を足さない
   - source_summary が空の場合: abstract から「何を・どうやって・どれくらい良くなったか」を一文でまとめる
-- problem / method / result / limitation: 課題・手法・結果・限界をそれぞれ全角80字以内で。
+- problem / method / result / limitation: 課題・手法・結果・限界をそれぞれ全角80字以内の日本語で。
   abstract に書かれていない項目は「要旨に記載なし」とする（特に limitation）
 - tags: 次の候補から1〜3個（slugで回答）: {tags}
 - keywords_ja: 日本語で検索されそうな語を5〜10個（例: 把持, 二足歩行, 言語指示, 実機実験）
@@ -32,8 +35,8 @@ SYSTEM_PROMPT = """あなたはロボティクスとPhysical AIの研究に詳�
 - real_robot: 実機ロボットでの実験が abstract に明記されていれば "yes"、シミュレーションのみと明記されていれば "no"、判断できなければ "unknown"
 
 出力は次の形のJSONオブジェクトだけにしてください（説明文やコードブロックは不要）:
-{{"papers": [{{"id": "...", "title_ja": "...", "tldr_ja": "...", "problem": "...", "method": "...", "result": "...", "limitation": "...", "tags": ["..."], "keywords_ja": ["..."], "keywords_en": ["..."], "real_robot": "yes|no|unknown"}}]}}
-入力された全論文について、同じ id で必ず1件ずつ返してください。"""
+{{"papers": [{{"key": "p1", "title_head": "...", "title_ja": "...", "tldr_ja": "...", "problem": "...", "method": "...", "result": "...", "limitation": "...", "tags": ["..."], "keywords_ja": ["..."], "keywords_en": ["..."], "real_robot": "yes|no|unknown"}}]}}
+入力された全論文について、同じ key で必ず1件ずつ、入力と同じ順番で返してください。"""
 
 FIELDS = ("title_ja", "tldr_ja", "problem", "method", "result", "limitation")
 
@@ -86,9 +89,9 @@ def pick_model(ids: list[str]) -> str:
 def build_user_message(cfg: dict, batch: list[dict]) -> str:
     limit = cfg["llm"]["abstract_max_chars"]
     items = []
-    for p in batch:
+    for i, p in enumerate(batch, 1):
         items.append({
-            "id": p["id"],
+            "key": f"p{i}",
             "title": p["title"],
             "abstract": p["abstract"][:limit],
             "source_summary": p.get("tldr_en") or p.get("hf_summary_en") or "",
@@ -106,7 +109,7 @@ def parse_response(text: str, allowed_tags: set[str]) -> dict[str, dict]:
     data = json.loads(text)
     out = {}
     for item in data.get("papers", []):
-        pid = str(item.get("id", "")).strip()
+        pid = str(item.get("key") or item.get("id") or "").strip()
         if not pid:
             continue
         rec = {k: str(item.get(k, "") or "").strip() for k in FIELDS}
@@ -116,9 +119,41 @@ def parse_response(text: str, allowed_tags: set[str]) -> dict[str, dict]:
         rec["keywords_en"] = [str(x).strip() for x in (item.get("keywords_en") or []) if str(x).strip()][:8]
         rr = str(item.get("real_robot", "unknown")).lower()
         rec["real_robot"] = rr if rr in ("yes", "no", "unknown") else "unknown"
+        rec["title_head"] = str(item.get("title_head", "") or "").strip()
         if rec["tldr_ja"]:
             out[pid] = rec
     return out
+
+
+JA_RE = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]")
+LATIN_WORD_RE = re.compile(r"[A-Za-z][A-Za-z0-9\-]{2,}")
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", s.lower())
+
+
+def check_record(rec: dict, paper: dict) -> str:
+    """LLMの結果がその論文のものとして妥当か調べる。問題があれば理由を、なければ空文字を返す。"""
+    tldr = rec.get("tldr_ja", "")
+    if not JA_RE.search(tldr):
+        return "要約が日本語になっていない"
+    src = (paper.get("tldr_en") or paper.get("hf_summary_en") or "").strip()
+    if src and _norm(tldr) and _norm(src) and _norm(src)[:40] in _norm(tldr):
+        return "英語の要約をそのまま含んでいる"
+    title = paper.get("title", "")
+    head = rec.get("title_head", "")
+    if head and _norm(head)[:12] and not _norm(title).startswith(_norm(head)[:12]):
+        return "別の論文のタイトルを返している"
+    title_ja = rec.get("title_ja", "")
+    low = title.lower()
+    m = re.match(r"\s*([A-Za-z][\w\-\.]*)\s*[:：]", title_ja)
+    if m and m.group(1).lower() not in low:
+        return "日本語タイトルの手法名が原題と食い違っている"
+    words = LATIN_WORD_RE.findall(title_ja)
+    if len(words) >= 2 and not any(w.lower() in low for w in words):
+        return "日本語タイトルが原題と食い違っている"
+    return ""
 
 
 class GeminiClient:
@@ -167,10 +202,31 @@ class GeminiClient:
                     {"role": "user", "content": build_user_message(self.cfg, batch)}]
         text = self._post(messages)
         try:
-            return parse_response(text, self.allowed_tags)
+            raw = parse_response(text, self.allowed_tags)
         except (json.JSONDecodeError, ValueError) as e:
-            log(f"LLM: 応答のJSONを読めませんでした（{e}）。この塊は次回に回します")
+            log(f"LLM: 応答のJSONを読めませんでした（{e}）")
             return {}
+        return match_results(raw, batch)
+
+
+def match_results(raw: dict[str, dict], batch: list[dict]) -> dict[str, dict]:
+    """p1, p2… の key（または arXiv ID）を論文に対応付け、検査に通ったものだけ返す。"""
+    by_key = {f"p{i}": p for i, p in enumerate(batch, 1)}
+    by_id = {p["id"]: p for p in batch}
+    out = {}
+    for key, rec in raw.items():
+        paper = by_key.get(key) or by_id.get(key)
+        if not paper:
+            continue
+        reason = check_record(rec, paper)
+        if reason:
+            log(f"LLM: {paper['id']} の結果を破棄（{reason}）")
+            continue
+        rec.pop("title_head", None)
+        if not JA_RE.search(rec.get("title_ja", "")):
+            rec["title_ja"] = ""  # 訳せていないタイトルは表示しない（原題を出す）
+        out[paper["id"]] = rec
+    return out
 
 
 def run(cfg: dict, papers: list[dict], client=None) -> int:
@@ -191,6 +247,11 @@ def run(cfg: dict, papers: list[dict], client=None) -> int:
         batch = pending[i:i + size]
         try:
             results = client.enrich(batch)
+            retry = [p for p in batch if p["id"] not in results]
+            if retry:
+                time.sleep(cfg["llm"]["request_interval"])
+                log(f"LLM: {len(retry)}件を再依頼します")
+                results.update(client.enrich(retry))
         except QuotaExhausted as e:
             log(f"LLM: 本日の無料枠を使い切ったようです。残りは次回処理します（{str(e)[:120]}）")
             break
