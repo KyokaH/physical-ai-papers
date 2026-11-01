@@ -1,0 +1,294 @@
+{
+ "papers": [
+  {
+   "id": "2610.21001",
+   "title_ja": "BiFlow-VLA：フローマッチングによる双腕Vision-Language-Actionポリシー",
+   "tldr_ja": "フローマッチングで学習した双腕用VLAにより、実環境タスクの成功率を従来比18ポイント改善した。",
+   "problem": "双腕操作に対応したVLAは推論速度と成功率の両立が難しい。",
+   "method": "1.2万件の遠隔操作デモでフローマッチング学習したVLAモデル。",
+   "result": "7自由度アーム2台・実機10タスクで成功率+18pt、30Hzで動作。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla",
+    "manipulation"
+   ],
+   "keywords_ja": [
+    "双腕",
+    "両腕操作",
+    "フローマッチング",
+    "実機実験",
+    "遠隔操作データ"
+   ],
+   "keywords_en": [
+    "bimanual manipulation",
+    "flow matching",
+    "VLA"
+   ],
+   "real_robot": "yes"
+  },
+  {
+   "id": "2610.21002",
+   "title_ja": "接触の多い組立作業のための潜在世界モデル",
+   "tldr_ja": "触覚と視覚の潜在表現を予測する世界モデルで、接触の多い組立を計画し、モデルフリーRL比で2倍のサンプル効率を得た。",
+   "problem": "接触の多い組立は計画が難しい。",
+   "method": "触覚・視覚の将来潜在を予測する世界モデルをシミュレーションで学習。",
+   "result": "シミュレーションでモデルフリーRLの2倍のサンプル効率。",
+   "limitation": "シミュレーションのみの評価",
+   "tags": [
+    "world-model",
+    "tactile"
+   ],
+   "keywords_ja": [
+    "世界モデル",
+    "組立",
+    "触覚",
+    "シミュレーション",
+    "計画"
+   ],
+   "keywords_en": [
+    "latent world model",
+    "contact-rich assembly"
+   ],
+   "real_robot": "no"
+  },
+  {
+   "id": "2610.21003",
+   "title_ja": "単一RGBカメラによるヒューマノイドの全身遠隔操作",
+   "tldr_ja": "単一カメラで人の全身動作をヒューマノイドに写す低コスト遠隔操作で、模倣学習用データを効率よく集められる。",
+   "problem": "ヒューマノイドの全身デモ収集は高コスト。",
+   "method": "単一RGBカメラで捉えた全身動作をリターゲットする遠隔操作系。",
+   "result": "500件のデモで学習した方策が実機で歩行と箱の操作を実現。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "humanoid",
+    "imitation"
+   ],
+   "keywords_ja": [
+    "ヒューマノイド",
+    "人型ロボット",
+    "遠隔操作",
+    "全身制御",
+    "模倣学習"
+   ],
+   "keywords_en": [
+    "humanoid teleoperation",
+    "whole-body"
+   ],
+   "real_robot": "yes"
+  },
+  {
+   "id": "2610.21004",
+   "title_ja": "TactileDiff：GelSight触覚を用いた手内再配置のための拡散ポリシー",
+   "tldr_ja": "高解像度の触覚画像を条件にした拡散ポリシーで、16自由度ハンドの手内再配置を未知物体で76%成功させた。",
+   "problem": "器用な手での手内操作は視覚だけでは難しい。",
+   "method": "触覚画像で条件付けた拡散ポリシー。",
+   "result": "実機で未知物体20個に対し成功率76%。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "dexterous",
+    "tactile"
+   ],
+   "keywords_ja": [
+    "器用な手",
+    "手内操作",
+    "触覚",
+    "拡散ポリシー",
+    "多指ハンド"
+   ],
+   "keywords_en": [
+    "in-hand reorientation",
+    "diffusion policy",
+    "tactile"
+   ],
+   "real_robot": "yes"
+  },
+  {
+   "id": "2610.21005",
+   "title_ja": "OpenNav-Bench：家庭内の言語誘導ナビゲーションベンチマーク",
+   "tldr_ja": "スキャンした60軒の家で3,000件の言語誘導ナビゲーション課題を提供し、基盤モデル型エージェント12種を評価した。",
+   "problem": "言語誘導ナビゲーションの共通評価基盤が不足。",
+   "method": "60軒の家庭スキャンから3,000エピソードのベンチマークを構築。",
+   "result": "基盤モデル型エージェント12種を比較評価。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "navigation",
+    "dataset"
+   ],
+   "keywords_ja": [
+    "ナビゲーション",
+    "言語指示",
+    "ベンチマーク",
+    "家庭環境"
+   ],
+   "keywords_en": [
+    "vision-language navigation",
+    "benchmark"
+   ],
+   "real_robot": "unknown"
+  },
+  {
+   "id": "2610.21006",
+   "title_ja": "教師・生徒蒸留による四脚パルクールのSim2Real転移",
+   "tldr_ja": "特権情報を使う教師方策を深度入力の生徒方策へ蒸留し、実機の四脚ロボットで0.5mの障害物登りをゼロショットで実現した。",
+   "problem": "俊敏な四脚動作の実機転移は難しい。",
+   "method": "シミュレーションで教師方策を学習し深度ベースの生徒へ蒸留。",
+   "result": "実機で0.5mの障害物を登坂。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "legged",
+    "sim2real",
+    "rl"
+   ],
+   "keywords_ja": [
+    "四脚",
+    "脚ロボット",
+    "パルクール",
+    "Sim2Real",
+    "強化学習"
+   ],
+   "keywords_en": [
+    "quadruped parkour",
+    "sim-to-real"
+   ],
+   "real_robot": "yes"
+  },
+  {
+   "id": "2610.21007",
+   "title_ja": "ロボット基盤モデルのスケーリング則",
+   "tldr_ja": "1,000万〜30億パラメータのロボット基盤モデル40種を学習し、成功率がデータ量とモデル規模にべき乗則で伸びることを示した。",
+   "problem": "ロボット基盤モデルのスケーリング挙動は未解明。",
+   "method": "100万軌跡で規模の異なる40モデルを学習。",
+   "result": "成功率がデータとモデル規模に対しべき乗則に従う。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla"
+   ],
+   "keywords_ja": [
+    "基盤モデル",
+    "スケーリング則",
+    "大規模データ"
+   ],
+   "keywords_en": [
+    "scaling laws",
+    "robot foundation model"
+   ],
+   "real_robot": "unknown"
+  },
+  {
+   "id": "2610.21008",
+   "title_ja": "意図予測モデルを用いた安全な人とロボットの受け渡し",
+   "tldr_ja": "視線と手の姿勢から人の意図を予測して動作を調整する受け渡し制御で、24人の実験で受け渡し時間を短縮した。",
+   "problem": "人への物の受け渡しは安全性と速さの両立が課題。",
+   "method": "視線と手の姿勢から意図を予測し距離を保つ制御器。",
+   "result": "24人のユーザ実験で受け渡し時間が短縮。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "hri"
+   ],
+   "keywords_ja": [
+    "人とロボットの協調",
+    "受け渡し",
+    "安全",
+    "意図推定"
+   ],
+   "keywords_en": [
+    "human-robot handover",
+    "intent prediction"
+   ],
+   "real_robot": "unknown"
+  },
+  {
+   "id": "2610.21009",
+   "title_ja": "自動運転のための占有グリッド世界モデル",
+   "tldr_ja": "シーンの変化を予測する4D占有世界モデルにより、nuScenesでの自動運転の計画性能を改善した。",
+   "problem": "自動運転では将来のシーン予測が計画に重要。",
+   "method": "4D占有グリッドを予測する世界モデル。",
+   "result": "nuScenesで計画性能が向上。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "driving",
+    "world-model"
+   ],
+   "keywords_ja": [
+    "自動運転",
+    "世界モデル",
+    "占有グリッド",
+    "経路計画"
+   ],
+   "keywords_en": [
+    "occupancy world model",
+    "autonomous driving"
+   ],
+   "real_robot": "no"
+  },
+  {
+   "id": "2606.11001",
+   "title_ja": "pi-Next：汎用ロボット方策",
+   "tldr_ja": "多様なロボットデータで学習した汎用VLA方策が、複数の実機で長期の家事タスクを実行した。",
+   "problem": "汎用ロボット方策の実現。",
+   "method": "多様なロボットデータで学習したVLA方策。",
+   "result": "複数種類の実機で長期の家事タスクを実行。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla"
+   ],
+   "keywords_ja": [
+    "汎用ロボット",
+    "基盤モデル",
+    "家事",
+    "実機実験"
+   ],
+   "keywords_en": [
+    "generalist policy",
+    "VLA"
+   ],
+   "real_robot": "yes"
+  },
+  {
+   "id": "2603.09001",
+   "title_ja": "Diffusion Policy 2：高速で頑健な視覚運動方策学習",
+   "tldr_ja": "拡散型の視覚運動方策を見直した高速サンプラーで、実機上100Hzでの動作と頑健性の向上を両立した。",
+   "problem": "拡散方策は推論が遅い。",
+   "method": "高速なサンプラーを提案。",
+   "result": "実機で100Hz動作、頑健性も向上。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "imitation",
+    "manipulation"
+   ],
+   "keywords_ja": [
+    "拡散ポリシー",
+    "模倣学習",
+    "高速推論"
+   ],
+   "keywords_en": [
+    "diffusion policy",
+    "visuomotor"
+   ],
+   "real_robot": "yes"
+  },
+  {
+   "id": "2610.21010",
+   "title_ja": "人の動画から学ぶ器用な把持",
+   "tldr_ja": "ネット上の人の動画から手の姿勢をリターゲットして多指ハンドの把持を学習し、未知物体で60%の成功率を得た。",
+   "problem": "器用な把持のデータ収集は高コスト。",
+   "method": "人の動画の手姿勢をロボットハンドへリターゲット。",
+   "result": "実機の多指ハンドで未知物体の把持成功率60%。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "dexterous"
+   ],
+   "keywords_ja": [
+    "把持",
+    "器用な手",
+    "人の動画",
+    "多指ハンド"
+   ],
+   "keywords_en": [
+    "dexterous grasping",
+    "human videos"
+   ],
+   "real_robot": "yes"
+  }
+ ]
+}

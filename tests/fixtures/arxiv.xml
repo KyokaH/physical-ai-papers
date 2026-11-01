@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom"><opensearch:totalResults>12</opensearch:totalResults><entry>
+<id>http://arxiv.org/abs/2610.21001v1</id><updated>2026-10-30T17:59:01Z</updated><published>2026-10-30T17:59:01Z</published>
+<title>BiFlow-VLA: Bimanual Vision-Language-Action Policies with Flow Matching</title><summary>We present BiFlow-VLA, a vision-language-action model for bimanual manipulation trained with flow matching on 12k teleoperated demonstrations. On 10 real-world tasks with two 7-DoF arms, BiFlow-VLA improves success rate by 18 points over prior VLA baselines while running at 30 Hz. Code is available at https://github.com/example/biflow-vla.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+<arxiv:comment>Accepted to CoRL 2026. Project page: https://example.github.io/biflow</arxiv:comment>
+
+<link href="http://arxiv.org/abs/2610.21001v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2610.21001v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+</entry><entry>
+<id>http://arxiv.org/abs/2610.21002v1</id><updated>2026-10-30T15:20:00Z</updated><published>2026-10-30T15:20:00Z</published>
+<title>Latent World Models for Contact-Rich Assembly</title><summary>We study whether latent world models can plan contact-rich assembly. Our model predicts future tactile and visual latents and is trained entirely in simulation. Experiments in simulation show 2x sample efficiency over model-free RL.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+<arxiv:comment>Submitted to ICRA 2027</arxiv:comment>
+
+<link href="http://arxiv.org/abs/2610.21002v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2610.21002v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+</entry><entry>
+<id>http://arxiv.org/abs/2610.21003v1</id><updated>2026-10-29T12:00:00Z</updated><published>2026-10-29T12:00:00Z</published>
+<title>Whole-Body Humanoid Teleoperation from a Single RGB Camera</title><summary>We propose a low-cost teleoperation system that retargets human whole-body motion captured by a single RGB camera to a humanoid robot. We collect 500 demonstrations and train imitation policies that walk and manipulate boxes on a real humanoid.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+
+
+<link href="http://arxiv.org/abs/2610.21003v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2610.21003v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+</entry><entry>
+<id>http://arxiv.org/abs/2610.21004v1</id><updated>2026-10-29T09:00:00Z</updated><published>2026-10-29T09:00:00Z</published>
+<title>TactileDiff: Diffusion Policies with GelSight Feedback for In-Hand Reorientation</title><summary>TactileDiff conditions a diffusion policy on high-resolution tactile images for in-hand object reorientation with a 16-DoF dexterous hand. Real-robot experiments on 20 unseen objects show 76% success.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+<arxiv:comment>8 pages, 6 figures</arxiv:comment>
+
+<link href="http://arxiv.org/abs/2610.21004v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2610.21004v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+</entry><entry>
+<id>http://arxiv.org/abs/2610.21005v1</id><updated>2026-10-28T18:00:00Z</updated><published>2026-10-28T18:00:00Z</published>
+<title>OpenNav-Bench: A Benchmark for Language-Guided Navigation in Homes</title><summary>We release OpenNav-Bench, a benchmark of 3,000 language-guided navigation episodes across 60 scanned homes, and evaluate 12 foundation-model agents.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+<arxiv:comment>NeurIPS 2026 Datasets and Benchmarks Track (accepted)</arxiv:comment>
+
+<link href="http://arxiv.org/abs/2610.21005v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2610.21005v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/><category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+</entry><entry>
+<id>http://arxiv.org/abs/2610.21006v1</id><updated>2026-10-27T10:00:00Z</updated><published>2026-10-27T10:00:00Z</published>
+<title>Sim-to-Real Transfer of Agile Quadruped Parkour via Teacher-Student Distillation</title><summary>We train a quadruped parkour policy in simulation with privileged information and distill it into a depth-based student. The policy transfers zero-shot to a real quadruped and climbs 0.5 m obstacles.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+
+
+<link href="http://arxiv.org/abs/2610.21006v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2610.21006v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+</entry><entry>
+<id>http://arxiv.org/abs/2610.21007v1</id><updated>2026-10-26T08:00:00Z</updated><published>2026-10-26T08:00:00Z</published>
+<title>Scaling Laws for Robot Foundation Models</title><summary>We train 40 robot foundation models from 10M to 3B parameters on a mixture of 1M robot trajectories and find power-law scaling of success rate with data and model size.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+
+
+<link href="http://arxiv.org/abs/2610.21007v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2610.21007v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/><category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+</entry><entry>
+<id>http://arxiv.org/abs/2610.21008v1</id><updated>2026-10-24T08:00:00Z</updated><published>2026-10-24T08:00:00Z</published>
+<title>Safe Human-Robot Handover with Predictive Intent Models</title><summary>We present a handover controller that predicts human intent from gaze and hand pose and adjusts robot motion to keep separation distance. A user study with 24 participants shows reduced handover time.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+
+
+<link href="http://arxiv.org/abs/2610.21008v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2610.21008v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+</entry><entry>
+<id>http://arxiv.org/abs/2610.21009v1</id><updated>2026-10-21T08:00:00Z</updated><published>2026-10-21T08:00:00Z</published>
+<title>Occupancy World Models for Autonomous Driving</title><summary>We propose a 4D occupancy world model that forecasts scene evolution for autonomous driving and improves planning on nuScenes.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+
+<arxiv:journal_ref>IEEE Robotics and Automation Letters, 2026</arxiv:journal_ref>
+<link href="http://arxiv.org/abs/2610.21009v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2610.21009v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/><category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+</entry><entry>
+<id>http://arxiv.org/abs/2606.11001v1</id><updated>2026-06-10T08:00:00Z</updated><published>2026-06-10T08:00:00Z</published>
+<title>pi-Next: A Generalist Robot Policy</title><summary>We introduce a generalist vision-language-action policy trained on diverse robot data that performs long-horizon household tasks on multiple real robot embodiments.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+<arxiv:comment>Accepted at RSS 2026</arxiv:comment>
+
+<link href="http://arxiv.org/abs/2606.11001v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2606.11001v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+</entry><entry>
+<id>http://arxiv.org/abs/2603.09001v1</id><updated>2026-03-05T08:00:00Z</updated><published>2026-03-05T08:00:00Z</published>
+<title>Diffusion Policy 2: Fast and Robust Visuomotor Policy Learning</title><summary>We revisit diffusion-based visuomotor policies and propose a faster sampler that runs at 100 Hz on real robots while improving robustness.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+
+
+<link href="http://arxiv.org/abs/2603.09001v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2603.09001v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+</entry><entry>
+<id>http://arxiv.org/abs/2610.21010v1</id><updated>2026-10-31T11:00:00Z</updated><published>2026-10-31T11:00:00Z</published>
+<title>Learning Dexterous Grasping from Human Videos</title><summary>We learn dexterous grasping policies from internet human videos by retargeting hand poses, achieving 60% grasp success on unseen objects with a real multi-fingered hand.</summary>
+<author><name>Taro Example</name></author><author><name>Jane Doe</name></author>
+
+
+<link href="http://arxiv.org/abs/2610.21010v1" rel="alternate" type="text/html"/>
+<link title="pdf" href="http://arxiv.org/pdf/2610.21010v1" rel="related" type="application/pdf"/>
+<arxiv:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/><category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+</entry></feed>

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}分類 | {{ site.title }}{% endblock %}
+{% block content %}
+<h1>分類</h1>
+<p class="page-note">分類はAIが論文ごとに1〜3個付けています。</p>
+<table class="table">
+  <thead><tr><th scope="col">分類</th><th scope="col" class="num">直近30日</th><th scope="col" class="num">全期間</th></tr></thead>
+  <tbody>
+  {% for t in tags %}
+  <tr><td><a href="{{ root }}tags/{{ t.slug }}/index.html">{{ t.name }}</a></td><td class="num">{{ t.recent }}</td><td class="num">{{ t.total }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

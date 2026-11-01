@@ -1,0 +1,35 @@
+{% macro evidence(p) %}
+<ul class="evidence" aria-label="根拠">
+  {% if p.venue_status == "accepted" %}<li class="ev ev-accepted" title="判定元：{{ p.venue_evidence }}">採択 {{ p.venue }}</li>
+  {% elif p.venue_status == "submitted" %}<li class="ev ev-submitted" title="査読前（投稿中）">投稿中 {{ p.venue }}</li>{% endif %}
+  {% if p.code_url %}<li class="ev ev-code">コード{% if p.github_stars %} ★{{ p.github_stars|kfmt }}{% endif %}</li>{% endif %}
+  {% if p.real_robot == "yes" %}<li class="ev ev-real">実機評価</li>
+  {% elif p.real_robot == "no" %}<li class="ev ev-sim">シミュレーションのみ</li>{% endif %}
+  {% if p.citations %}<li class="ev">引用 {{ p.citations }}</li>{% endif %}
+  {% if p.hf_upvotes %}<li class="ev">HF {{ p.hf_upvotes }}票</li>{% endif %}
+</ul>
+{% endmacro %}
+
+{% macro row(p, root, show_date=True, rank=None, reasons=None) %}
+<article class="entry">
+  <div class="entry-side">
+    {% if rank %}<span class="rank">{{ rank }}</span>{% endif %}
+    {% if show_date %}<time datetime="{{ p.date }}">{{ p.date[5:]|replace("-", "/") }}</time>{% endif %}
+    {% for slug, name in p.tags %}<a class="tag" href="{{ root }}tags/{{ slug }}/index.html">{{ name }}</a>{% endfor %}
+  </div>
+  <div class="entry-body">
+    {% if p.tldr_ja %}
+    <p class="tldr"><a href="{{ root }}paper/{{ p.id }}/index.html">{{ p.tldr_ja }}</a></p>
+    {% else %}
+    <p class="tldr tldr-pending"><a href="{{ root }}paper/{{ p.id }}/index.html">日本語化を待っています（次回の更新で処理します）</a></p>
+    {% endif %}
+    <p class="titles">
+      {% if p.source_label %}<span class="src src-{{ p.source }}" title="{{ p.source_title }}">{{ p.source_label }}</span>{% endif %}
+      {% if p.title_ja %}<span class="title-ja">{{ p.title_ja }}</span>{% endif %}
+      <span class="title-en" lang="en">{{ p.title }}</span>
+    </p>
+    {% if reasons %}<p class="reasons">注目の理由：{{ reasons|join("、") }}</p>{% endif %}
+    {{ evidence(p) }}
+  </div>
+</article>
+{% endmacro %}

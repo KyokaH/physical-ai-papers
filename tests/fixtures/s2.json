@@ -1,0 +1,119 @@
+[
+ {
+  "paperId": "s2-2610.21001",
+  "tldr": {
+   "model": "tldr@v2",
+   "text": "BiFlow-VLA uses flow matching to train a bimanual VLA that improves real-world success by 18 points."
+  },
+  "citationCount": 12,
+  "influentialCitationCount": 3,
+  "venue": "Conference on Robot Learning",
+  "externalIds": {
+   "ArXiv": "2610.21001"
+  }
+ },
+ {
+  "paperId": "s2-2610.21002",
+  "tldr": null,
+  "citationCount": 0,
+  "influentialCitationCount": 0,
+  "venue": "arXiv.org",
+  "externalIds": {
+   "ArXiv": "2610.21002"
+  }
+ },
+ {
+  "paperId": "s2-2610.21003",
+  "tldr": {
+   "model": "tldr@v2",
+   "text": "A single-camera teleoperation system enables low-cost data collection for humanoid imitation learning."
+  },
+  "citationCount": 4,
+  "influentialCitationCount": 0,
+  "venue": "arXiv.org",
+  "externalIds": {
+   "ArXiv": "2610.21003"
+  }
+ },
+ null,
+ {
+  "paperId": "s2-2610.21005",
+  "tldr": {
+   "model": "tldr@v2",
+   "text": "OpenNav-Bench provides 3,000 language-guided navigation episodes to evaluate foundation-model agents."
+  },
+  "citationCount": 2,
+  "influentialCitationCount": 0,
+  "venue": "",
+  "externalIds": {
+   "ArXiv": "2610.21005"
+  }
+ },
+ {
+  "paperId": "s2-2610.21006",
+  "tldr": {
+   "model": "tldr@v2",
+   "text": "A teacher-student pipeline transfers agile parkour from simulation to a real quadruped zero-shot."
+  },
+  "citationCount": 6,
+  "influentialCitationCount": 1,
+  "venue": "arXiv.org",
+  "externalIds": {
+   "ArXiv": "2610.21006"
+  }
+ },
+ {
+  "paperId": "s2-2610.21007",
+  "tldr": {
+   "model": "tldr@v2",
+   "text": "Robot foundation model success rate follows power-law scaling with data and model size."
+  },
+  "citationCount": 21,
+  "influentialCitationCount": 5,
+  "venue": "arXiv.org",
+  "externalIds": {
+   "ArXiv": "2610.21007"
+  }
+ },
+ null,
+ {
+  "paperId": "s2-2610.21009",
+  "tldr": {
+   "model": "tldr@v2",
+   "text": "A 4D occupancy world model improves autonomous driving planning."
+  },
+  "citationCount": 3,
+  "influentialCitationCount": 0,
+  "venue": "IEEE Robotics and Automation Letters",
+  "externalIds": {
+   "ArXiv": "2610.21009"
+  }
+ },
+ {
+  "paperId": "s2-2606.11001",
+  "tldr": {
+   "model": "tldr@v2",
+   "text": "A generalist VLA policy performs long-horizon household tasks across embodiments."
+  },
+  "citationCount": 180,
+  "influentialCitationCount": 41,
+  "venue": "Robotics: Science and Systems",
+  "externalIds": {
+   "ArXiv": "2606.11001"
+  }
+ },
+ {
+  "paperId": "s2-2603.09001",
+  "tldr": {
+   "model": "tldr@v2",
+   "text": "A faster diffusion sampler enables 100 Hz visuomotor policies on real robots."
+  },
+  "citationCount": 95,
+  "influentialCitationCount": 20,
+  "venue": "arXiv.org",
+  "externalIds": {
+   "ArXiv": "2603.09001"
+  }
+ },
+ null
+]

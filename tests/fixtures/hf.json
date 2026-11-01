@@ -1,0 +1,57 @@
+[
+ {
+  "paper": {
+   "id": "2610.21001",
+   "upvotes": 214,
+   "githubRepo": "https://github.com/example/biflow-vla",
+   "githubStars": 1200,
+   "ai_summary": "BiFlow-VLA trains bimanual VLA policies with flow matching."
+  },
+  "numComments": 2,
+  "title": "2610.21001"
+ },
+ {
+  "paper": {
+   "id": "2610.21003",
+   "upvotes": 96,
+   "githubRepo": null,
+   "githubStars": 0,
+   "ai_summary": "Single RGB camera whole-body teleoperation for humanoids."
+  },
+  "numComments": 2,
+  "title": "2610.21003"
+ },
+ {
+  "paper": {
+   "id": "2610.21004",
+   "upvotes": 41,
+   "githubRepo": "https://github.com/example/tactilediff",
+   "githubStars": 310,
+   "ai_summary": "Tactile-conditioned diffusion policy for in-hand reorientation reaching 76% real success."
+  },
+  "numComments": 2,
+  "title": "2610.21004"
+ },
+ {
+  "paper": {
+   "id": "2610.21007",
+   "upvotes": 158,
+   "githubRepo": null,
+   "githubStars": 0,
+   "ai_summary": "Scaling laws for robot foundation models."
+  },
+  "numComments": 2,
+  "title": "2610.21007"
+ },
+ {
+  "paper": {
+   "id": "2610.21010",
+   "upvotes": 33,
+   "githubRepo": null,
+   "githubStars": 0,
+   "ai_summary": ""
+  },
+  "numComments": 2,
+  "title": "2610.21010"
+ }
+]

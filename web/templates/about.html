@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}このサイトについて | {{ site.title }}{% endblock %}
+{% block content %}
+<article class="prose">
+<h1>このサイトについて</h1>
+<p>{{ site.description }}。個人の情報収集用です。</p>
+
+<h2>収録している論文</h2>
+<ul>
+  <li>arXivの {{ cfg.arxiv.primary_categories|join("、") }} に投稿されたすべての論文</li>
+  <li>{{ cfg.arxiv.secondary_categories|join("、") }} のうち、要旨に次の語を含む論文：{{ cfg.arxiv.secondary_keywords|join("、") }}</li>
+</ul>
+<p>毎日1回、GitHub Actionsで自動更新しています。</p>
+
+<h2>一文要約の出どころ</h2>
+<p>要約の横の印で、どこから作った要約かが分かります。</p>
+<table class="table">
+  <tr><th scope="row"><span class="src src-s2">S2</span></th><td>Semantic ScholarのTLDR（英語の一文要約）を日本語訳したもの</td></tr>
+  <tr><th scope="row"><span class="src src-hf">HF</span></th><td>Hugging Face PapersのAI要約を日本語訳したもの</td></tr>
+  <tr><th scope="row"><span class="src src-ai">AI生成</span></th><td>上の2つがない論文について、要旨からAI（Gemini）が作ったもの</td></tr>
+  <tr><th scope="row"><span class="src src-deepl">DeepL</span></th><td>AIを使えなかった日に、英語のTLDRを機械翻訳したもの（予備）</td></tr>
+</table>
+
+<h2>根拠の印</h2>
+<table class="table">
+  <tr><th scope="row"><span class="ev ev-accepted">採択</span></th><td>arXivのjournal_ref、コメント欄の「accepted / to appear」、またはSemantic Scholarの掲載先から判定</td></tr>
+  <tr><th scope="row"><span class="ev ev-submitted">投稿中</span></th><td>コメント欄に「submitted to / under review」とある論文。査読前なので採択とは区別しています</td></tr>
+  <tr><th scope="row"><span class="ev ev-code">コード</span></th><td>要旨・コメント欄のGitHubリンク、またはHugging Face Papersに登録されたリポジトリ</td></tr>
+  <tr><th scope="row"><span class="ev ev-real">実機評価</span></th><td>要旨に実機ロボットでの実験が明記されているとAIが判断したもの</td></tr>
+</table>
+
+<h2 id="score">注目度の計算</h2>
+<p>次の点数の合計で並べています。重みは設定ファイル（config.yaml）で変えられます。</p>
+<table class="table">
+  <tr><th scope="row">Hugging Face Papersの票</th><td>1票につき {{ cfg.trending.weights.hf_upvotes }}点（今週・今月のみ）</td></tr>
+  <tr><th scope="row">引用数</th><td>1件につき {{ cfg.trending.weights.citations }}点</td></tr>
+  <tr><th scope="row">影響力のある引用</th><td>1件につき {{ cfg.trending.weights.influential_citations }}点</td></tr>
+  <tr><th scope="row">採択済み</th><td>{{ cfg.trending.weights.accepted }}点</td></tr>
+  <tr><th scope="row">コード公開</th><td>{{ cfg.trending.weights.code }}点（GitHubスター数に応じて加点）</td></tr>
+</table>
+
+<h2>注意</h2>
+<p>要約・分類・実機評価の判定はAIによるもので、誤りを含むことがあります。引用や判断の前に、必ず原文を確認してください。このサイトはarXiv、Semantic Scholar、Hugging Faceとは関係ありません。</p>
+</article>
+{% endblock %}

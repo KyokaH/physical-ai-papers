@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% from "_macros.html" import row %}
+{% block title %}注目論文 | {{ site.title }}{% endblock %}
+{% block content %}
+<h1>注目論文</h1>
+<p class="page-note">投稿直後の論文はまだ引用されていないため、期間によって物差しを変えています。計算方法は<a href="{{ root }}about/index.html#score">このサイトについて</a>に書いています。</p>
+<nav class="segments" aria-label="期間">
+  <a href="#week">今週<span>HFの票・GitHubスター</span></a>
+  <a href="#month">今月<span>上記と引用数</span></a>
+  <a href="#classic">定番<span>{{ tr.classic_min_days }}日〜1年前、引用と採択</span></a>
+</nav>
+{% for key, title, items in [("week", "今週", week), ("month", "今月", month), ("classic", "定番", classic)] %}
+<section id="{{ key }}" aria-labelledby="h-{{ key }}">
+  <div class="sec-head"><h2 id="h-{{ key }}">{{ title }}</h2></div>
+  {% for p in items %}{{ row(p, root, rank=loop.index, reasons=p.reasons) }}{% else %}<p class="empty">この期間に指標のある論文はまだありません。</p>{% endfor %}
+</section>
+{% endfor %}
+{% endblock %}

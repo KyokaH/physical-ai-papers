@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}検索 | {{ site.title }}{% endblock %}
+{% block content %}
+<h1>検索</h1>
+<form class="search" role="search" id="search-form">
+  <label for="q" class="visually-hidden">キーワード</label>
+  <input id="q" name="q" type="search" placeholder="例：器用な把持　触覚　ヒューマノイド" autocomplete="off">
+  <button type="submit">検索</button>
+  <fieldset class="filters">
+    <legend class="visually-hidden">絞り込み</legend>
+    <label for="tag" class="visually-hidden">分類</label>
+    <select id="tag" name="tag">
+      <option value="">すべての分類</option>
+      {% for t in tags %}<option value="{{ t.slug }}">{{ t.name }}</option>{% endfor %}
+    </select>
+    <label><input type="checkbox" name="a" value="1"> 採択済みのみ</label>
+    <label><input type="checkbox" name="c" value="1"> コードあり</label>
+    <label><input type="checkbox" name="r" value="1"> 実機評価あり</label>
+  </fieldset>
+</form>
+<p class="page-note">日本語で入力すると、日本語の要約・キーワードに加えて、対応する英語の言葉（例：把持 → grasp）でも探します。複数の言葉はスペースで区切ると、すべてを含む論文に絞り込みます。</p>
+<p id="expanded" class="expanded" aria-live="polite"></p>
+<div id="results" aria-live="polite"></div>
+<script>window.SEARCH_ROOT = "{{ root }}";</script>
+<script src="{{ root }}static/search.js" defer></script>
+{% endblock %}

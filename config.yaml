@@ -1,0 +1,101 @@
+# PhysicalAI 論文ウォッチ 設定ファイル
+# ここを書き換えると、取得する論文・分類タグ・注目度の計算を調整できます。
+
+site:
+  title: "PhysicalAI 論文ウォッチ"
+  description: "PhysicalAI / Robotics の最新論文を、日本語TLDRと根拠バッジで一覧するサイト"
+
+arxiv:
+  # このカテゴリの論文はすべて取得する
+  primary_categories: ["cs.RO"]
+  # 次のカテゴリは、要旨にキーワードを含む論文だけ取得する
+  secondary_categories: ["cs.CV", "cs.LG", "cs.AI"]
+  secondary_keywords:
+    - "robot"
+    - "robotic"
+    - "embodied"
+    - "manipulation"
+    - "humanoid"
+    - "vision-language-action"
+    - "sim-to-real"
+    - "legged"
+  page_size: 200        # 1リクエストで取得する件数
+  max_results: 1000     # 1回の実行で取得する上限
+  request_interval: 3.5 # arXiv規約（3秒に1回）より少し長めに待つ
+
+semantic_scholar:
+  refresh_days: 120     # 直近この日数の論文は、引用数とTLDRを毎回更新する
+  batch_size: 400       # 1リクエストで問い合わせる件数（上限500）
+  request_interval: 1.2
+
+huggingface:
+  lookback_days: 14     # Daily Papersは公開後14日まで投稿されるため
+
+llm:
+  base_url: "https://generativelanguage.googleapis.com/v1beta/openai/"
+  # 空欄なら、利用可能なモデルからFlash-Lite系を自動で選ぶ
+  model: ""
+  batch_size: 20        # 1回の依頼でまとめて処理する論文数
+  request_interval: 7   # 依頼の間隔（秒）。無料枠の1分あたり上限に引っかからないように
+  max_papers_per_run: 400  # 1回の実行で処理する上限。残りは次回に回す
+  abstract_max_chars: 1800
+
+# 分類タグ（LLMはこの中からだけ選ぶ）
+tags:
+  - {slug: vla, name: "VLA・ロボット基盤モデル"}
+  - {slug: world-model, name: "世界モデル"}
+  - {slug: imitation, name: "模倣学習"}
+  - {slug: rl, name: "強化学習"}
+  - {slug: sim2real, name: "Sim2Real・シミュレーション"}
+  - {slug: manipulation, name: "マニピュレーション"}
+  - {slug: dexterous, name: "器用な手・把持"}
+  - {slug: humanoid, name: "ヒューマノイド"}
+  - {slug: legged, name: "脚ロボット・移動"}
+  - {slug: navigation, name: "ナビゲーション・SLAM"}
+  - {slug: driving, name: "自動運転"}
+  - {slug: perception, name: "3D知覚・センシング"}
+  - {slug: tactile, name: "触覚"}
+  - {slug: planning, name: "タスク計画・推論"}
+  - {slug: hri, name: "人とロボットの協調・安全"}
+  - {slug: dataset, name: "データセット・ベンチマーク"}
+  - {slug: hardware, name: "ハードウェア・制御"}
+  - {slug: other, name: "その他"}
+
+# 査読付きとして扱う会議・論文誌（コメント欄・journal_ref・S2のvenueから判定）
+venues:
+  - {name: "CoRL", pattern: "\\bCoRL\\b|Conference on Robot Learning"}
+  - {name: "RSS", pattern: "\\bRSS\\b|Robotics: Science and Systems"}
+  - {name: "ICRA", pattern: "\\bICRA\\b|International Conference on Robotics and Automation"}
+  - {name: "IROS", pattern: "\\bIROS\\b|Intelligent Robots and Systems"}
+  - {name: "Humanoids", pattern: "\\bHumanoids\\b"}
+  - {name: "HRI", pattern: "\\bHRI\\b|Human-Robot Interaction"}
+  - {name: "RA-L", pattern: "\\bRA-?L\\b|Robotics and Automation Letters"}
+  - {name: "T-RO", pattern: "\\bT-?RO\\b|Transactions on Robotics"}
+  - {name: "IJRR", pattern: "\\bIJRR\\b|International Journal of Robotics Research"}
+  - {name: "Science Robotics", pattern: "Science Robotics"}
+  - {name: "CVPR", pattern: "\\bCVPR\\b|Computer Vision and Pattern Recognition"}
+  - {name: "ICCV", pattern: "\\bICCV\\b"}
+  - {name: "ECCV", pattern: "\\bECCV\\b"}
+  - {name: "NeurIPS", pattern: "\\bNeurIPS\\b|Neural Information Processing Systems"}
+  - {name: "ICLR", pattern: "\\bICLR\\b|Learning Representations"}
+  - {name: "ICML", pattern: "\\bICML\\b|International Conference on Machine Learning"}
+  - {name: "AAAI", pattern: "\\bAAAI\\b"}
+
+# 注目論文の計算（数字を変えると順位の付け方が変わります）
+trending:
+  week_days: 7
+  month_days: 30
+  classic_min_days: 30
+  classic_max_days: 365
+  top_n: 50
+  weights:
+    hf_upvotes: 1.0
+    citations: 3.0
+    influential_citations: 8.0
+    accepted: 10.0
+    code: 3.0
+
+site_build:
+  new_days: 14        # 新着ページに載せる日数
+  search_days: 180    # 検索対象にする日数
+  tag_page_limit: 300

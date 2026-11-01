@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "_macros.html" import row %}
+{% block title %}新着 | {{ site.title }}{% endblock %}
+{% block content %}
+<h1>新着（過去{{ days }}日）</h1>
+<nav class="datejump" aria-label="日付へ移動">
+  {% for d, items in by_date %}<a href="#d-{{ d }}">{{ d[5:]|replace("-", "/") }}<span>{{ items|length }}</span></a>{% endfor %}
+</nav>
+{% for d, items in by_date %}
+<section id="d-{{ d }}" aria-labelledby="h-{{ d }}">
+  <div class="sec-head"><h2 id="h-{{ d }}">{{ d|replace("-", "/") }} <span class="count">{{ items|length }}件</span></h2></div>
+  {% for p in items %}{{ row(p, root, show_date=False) }}{% endfor %}
+</section>
+{% else %}
+<p class="empty">まだ論文がありません。GitHub Actionsで収集を実行すると表示されます。</p>
+{% endfor %}
+{% endblock %}

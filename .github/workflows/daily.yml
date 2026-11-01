@@ -1,0 +1,74 @@
+name: 論文の収集とサイト更新
+
+on:
+  schedule:
+    # 毎日 01:17 UTC（日本時間 10:17）。arXivの新着公開（日本時間9〜10時ごろ）の後に動かす
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "何日さかのぼって取得するか（初回は14がおすすめ）"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: ライブラリをインストール
+        run: pip install -r requirements.txt
+
+      - name: 論文を収集して日本語化
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+        run: python -m pipeline.run --days "${{ github.event.inputs.days || '3' }}"
+
+      - name: データを保存（コミット）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "data: $(date -u +%Y-%m-%d) の更新"
+            git push
+          fi
+
+      - name: サイトを生成
+        run: python web/build.py --out _site
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

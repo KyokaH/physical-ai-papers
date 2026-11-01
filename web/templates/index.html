@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% from "_macros.html" import row %}
+{% block content %}
+<section class="intro">
+  <p class="lede">PhysicalAIとロボティクスの新着論文を、日本語の一文要約で読む。</p>
+  <p class="intro-note">arXivのcs.ROを中心に毎日収集し、根拠の強さ（採択・コード・実機評価）を添えています。</p>
+</section>
+
+<section class="tagstrip" aria-labelledby="h-tags">
+  <h2 id="h-tags" class="visually-hidden">分類ごとの件数</h2>
+  <ul>
+    {% for t in tags if t.total %}
+    <li><a href="{{ root }}tags/{{ t.slug }}/index.html"><span class="tn">{{ t.name }}</span><span class="tc">{{ t.recent }}</span></a></li>
+    {% endfor %}
+  </ul>
+  <p class="tagstrip-note">数字は直近30日の件数</p>
+</section>
+
+<section aria-labelledby="h-week">
+  <div class="sec-head">
+    <h2 id="h-week">今週の注目</h2>
+    <a href="{{ root }}trending/index.html">50位まで見る</a>
+  </div>
+  {% for p in week %}{{ row(p, root, rank=loop.index, reasons=p.reasons) }}{% else %}<p class="empty">今週はまだ指標が集まっていません。数日たつと表示されます。</p>{% endfor %}
+</section>
+
+{% for d, items in latest_days %}
+<section aria-labelledby="h-{{ d }}">
+  <div class="sec-head">
+    <h2 id="h-{{ d }}">{{ d|replace("-", "/") }} の新着 <span class="count">{{ items|length }}件</span></h2>
+    {% if loop.first %}<a href="{{ root }}new/index.html">過去2週間を見る</a>{% endif %}
+  </div>
+  {% for p in items %}{{ row(p, root, show_date=False) }}{% endfor %}
+</section>
+{% endfor %}
+{% endblock %}

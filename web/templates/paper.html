@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% from "_macros.html" import evidence %}
+{% block title %}{{ p.title_ja or p.title }} | {{ site.title }}{% endblock %}
+{% block content %}
+<article class="paper">
+  <p class="crumb"><time datetime="{{ p.date }}">{{ p.date|replace("-", "/") }}</time>
+    {% for slug, name in p.tags %}<a class="tag" href="{{ root }}tags/{{ slug }}/index.html">{{ name }}</a>{% endfor %}</p>
+  <h1 class="paper-title">{{ p.title_ja or p.title }}</h1>
+  {% if p.title_ja %}<p class="paper-en" lang="en">{{ p.title }}</p>{% endif %}
+
+  {% if p.tldr_ja %}
+  <section class="paper-tldr" aria-labelledby="h-tldr">
+    <h2 id="h-tldr">一文要約 <span class="src src-{{ p.source }}" title="{{ p.source_title }}">{{ p.source_label }}</span></h2>
+    <p class="tldr-big">{{ p.tldr_ja }}</p>
+    {% if p.tldr_en %}<p class="tldr-orig" lang="en">原文：{{ p.tldr_en }}</p>{% endif %}
+  </section>
+  {% endif %}
+
+  <section aria-labelledby="h-ev">
+    <h2 id="h-ev">根拠</h2>
+    {{ evidence(p) }}
+    <table class="table facts">
+      <tr><th scope="row">採択先</th><td>{% if p.venue_status == "accepted" %}{{ p.venue }}（判定元：{{ {"journal_ref": "arXivのjournal_ref", "comment": "arXivのコメント欄", "semantic_scholar": "Semantic Scholar"}[p.venue_evidence] }}）{% elif p.venue_status == "submitted" %}{{ p.venue }}に投稿中（査読前）{% else %}情報なし（プレプリント）{% endif %}</td></tr>
+      <tr><th scope="row">実機評価</th><td>{{ {"yes": "あり（要旨に記載）", "no": "なし（シミュレーションのみ）", "unknown": "要旨からは判断できず"}[p.real_robot] }}</td></tr>
+      <tr><th scope="row">コード</th><td>{% if p.code_url %}<a href="{{ p.code_url }}">{{ p.code_url }}</a>{% if p.github_stars %}（★{{ p.github_stars|kfmt }}）{% endif %}{% else %}見つかりませんでした{% endif %}</td></tr>
+      {% if p.project_url %}<tr><th scope="row">プロジェクト</th><td><a href="{{ p.project_url }}">{{ p.project_url }}</a></td></tr>{% endif %}
+      <tr><th scope="row">引用</th><td>{{ p.citations }}件（うち影響力のある引用 {{ p.influential }}件）{% if p.s2_id %} <a href="https://www.semanticscholar.org/arxiv/{{ p.id }}">Semantic Scholarで見る</a>{% endif %}</td></tr>
+      <tr><th scope="row">注目度</th><td>{% if p.hf_upvotes %}Hugging Face Papersで{{ p.hf_upvotes }}票 <a href="https://huggingface.co/papers/{{ p.id }}">HFで見る</a>{% else %}Hugging Face Papersへの掲載なし{% endif %}</td></tr>
+    </table>
+  </section>
+
+  {% if p.sections %}
+  <section aria-labelledby="h-sum">
+    <h2 id="h-sum">要旨のまとめ</h2>
+    <dl class="sections">
+      {% for k, v in p.sections %}<dt>{{ k }}</dt><dd>{{ v }}</dd>{% endfor %}
+    </dl>
+  </section>
+  {% endif %}
+
+  <section aria-labelledby="h-orig">
+    <h2 id="h-orig">原文</h2>
+    <p class="links"><a href="{{ p.abs_url }}">arXivで開く</a><a href="{{ p.pdf_url }}">PDFを開く</a></p>
+    <p class="authors" lang="en">{{ p.authors|join(", ") }}</p>
+    <details>
+      <summary>要旨（英語）を表示</summary>
+      <p lang="en" class="abstract">{{ p.abstract }}</p>
+      {% if p.comment %}<p lang="en" class="meta">Comments: {{ p.comment }}</p>{% endif %}
+      {% if p.journal_ref %}<p lang="en" class="meta">Journal ref: {{ p.journal_ref }}</p>{% endif %}
+      <p class="meta">カテゴリ：{{ p.categories|join(", ") }} / arXiv ID：{{ p.id }}</p>
+    </details>
+  </section>
+
+  {% if p.keywords_ja or p.keywords_en %}
+  <section aria-labelledby="h-kw">
+    <h2 id="h-kw">検索用キーワード</h2>
+    <p class="keywords">{% for k in p.keywords_ja + p.keywords_en %}<a href="{{ root }}search/index.html?q={{ k|urlencode }}">{{ k }}</a>{% endfor %}</p>
+  </section>
+  {% endif %}
+  {% if p.model %}<p class="meta">日本語化：{{ p.model }}</p>{% endif %}
+</article>
+{% endblock %}

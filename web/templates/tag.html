@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% from "_macros.html" import row %}
+{% block title %}{{ tag.name }} | {{ site.title }}{% endblock %}
+{% block content %}
+<p class="crumb"><a href="{{ root }}tags/index.html">分類</a></p>
+<h1>{{ tag.name }} <span class="count">{{ tag.total }}件</span></h1>
+{% for p in items %}{{ row(p, root) }}{% else %}<p class="empty">この分類の論文はまだありません。</p>{% endfor %}
+{% endblock %}
