@@ -1855,7 +1855,7 @@
   "hf_comments": 2,
   "hf_summary_en": "RoboArchitect automates robot harness design by iteratively revising control code around a frozen policy, substantially improving success on unseen scenes and tasks without model updates.",
   "github_repo": "https://github.com/roboarchitect-ai/RoboArchitect",
-  "github_stars": 9,
+  "github_stars": 10,
   "project_page": "https://roboarchitect-ai.github.io/",
   "llm": {
    "title_ja": "RoboArchitect：永続的メモリを用いたロボットエージェントの設計自動化",
@@ -9724,11 +9724,11 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 7,
+  "hf_upvotes": 8,
   "hf_comments": 2,
   "hf_summary_en": "OpenFlyV2 is a unified onboard vision-language-action model that enables real-time aerial navigation and reasoning on resource-constrained hardware using shared multimodal representations.",
   "github_repo": "https://github.com/Ideal-ljl/AeroBrain",
-  "github_stars": 25,
+  "github_stars": 26,
   "project_page": "https://ideal-ljl.github.io/AeroBrain/",
   "badges": {
    "venue": "",
@@ -14584,7 +14584,7 @@
   "hf_comments": 2,
   "hf_summary_en": "Venus-DefakerOne2 is a unified anti-forgery foundation model that extends detection to diverse forgery forms and media types through alternating LoRA and full-parameter tuning and entropy-based test adaptation.",
   "github_repo": "https://github.com/inclusionAI/DefakerOne2",
-  "github_stars": 60,
+  "github_stars": 72,
   "project_page": "https://venus-guangjian.github.io/Venus-DeFakerOne2/"
  },
  "2610.37917": {
@@ -19055,7 +19055,7 @@
   "hf_comments": 2,
   "hf_summary_en": "RynnWorld-Latent learns cross-embodiment world dynamics via 3D-grounded latent actions, enabling joint pretraining on diverse video sources and synthetic data generation for improved robot policy performance.",
   "github_repo": "https://github.com/alibaba-damo-academy/RynnWorld-Latent",
-  "github_stars": 14,
+  "github_stars": 16,
   "project_page": "https://alibaba-damo-academy.github.io/RynnWorld-Latent.github.io/",
   "badges": {
    "venue": "",
@@ -21099,7 +21099,7 @@
   "hf_comments": 3,
   "hf_summary_en": "A simulated benchmark for language-conditioned spatial manipulation on low-cost robot arms reveals that hybrid LLM agents outperform learned vision-language-action policies, with ranking consistency between simulation and real hardware.",
   "github_repo": "https://github.com/5hadytru/so101_bench",
-  "github_stars": 43,
+  "github_stars": 44,
   "project_page": "https://so101-bench.github.io/",
   "badges": {
    "venue": "",
@@ -21975,11 +21975,11 @@
   "citations": 2,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 152,
+  "hf_upvotes": 170,
   "hf_comments": 3,
   "hf_summary_en": "The Trinity framework recursively improves multimodal agents by organizing tasks into a capability tree, generating simulated training worlds, and routing specialized harness modules to boost performance on diverse benchmarks.",
   "github_repo": "https://github.com/InfRec-Cardinal/The-Trinity",
-  "github_stars": 57,
+  "github_stars": 58,
   "project_page": "https://trinity-rsi.github.io/",
   "badges": {
    "venue": "",
@@ -24383,7 +24383,7 @@
   "hf_comments": 3,
   "hf_summary_en": "EmbodiedLab evaluates embodied agents that must physically interact with simulated laboratory apparatus to discover scientific principles through self-directed experimentation.",
   "github_repo": "https://github.com/HexaFuture/EmbodiedLab",
-  "github_stars": 18,
+  "github_stars": 19,
   "project_page": "https://hexafuture.ai/benchmarks/embodiedlab",
   "badges": {
    "venue": "",
@@ -29681,7 +29681,7 @@
   "hf_comments": 2,
   "hf_summary_en": "InteractiveWorld provides a verifiable simulation environment and benchmark to evaluate whether multimodal language models can reliably guide humans through physical tasks.",
   "github_repo": "https://github.com/facebookresearch/InteractiveWorld",
-  "github_stars": 215,
+  "github_stars": 216,
   "project_page": "https://meta-interactiveworld.github.io/",
   "badges": {
    "venue": "",
@@ -36864,7 +36864,7 @@
   "hf_comments": 2,
   "hf_summary_en": "DiscoDemo uses reinforcement learning to generate diverse successful robot manipulation trajectories for training more robust visuomotor imitation policies.",
   "github_repo": "https://github.com/DAVIAN-Robotics/DiscoDemo",
-  "github_stars": 16,
+  "github_stars": 17,
   "project_page": "https://davian-robotics.github.io/DiscoDemo/",
   "badges": {
    "venue": "",
@@ -38498,7 +38498,7 @@
   "hf_comments": 2,
   "hf_summary_en": "Flora is an open-source industrial data engine for robotics foundation models that provides captioning, outcome and process reward labeling, and pretraining data curation at scale with high accuracy and low cost.",
   "github_repo": "https://github.com/NVIDIA/Flora",
-  "github_stars": 94,
+  "github_stars": 96,
   "project_page": "https://research.nvidia.com/labs/gear/flora/",
   "badges": {
    "venue": "",
@@ -39832,7 +39832,7 @@
   "abs_url": "https://arxiv.org/abs/2610.31429",
   "pdf_url": "https://arxiv.org/pdf/2610.31429v1",
   "s2_id": "584c00843e92a45b1afabd7e109cead51deffd26",
-  "tldr_en": "PhysTrace is introduced, a training-free framework aligning MLLM-generated, history-conditioned expectations with observed video windows to temporally localize physical violations and provide interpretable descriptions without task-specific probes or classifiers, enabling interpretable physical consistency analysis across timesteps.",
+  "tldr_en": "PhysTrace is introduced, a training-free framework that uses MLLMs to formulate history-conditioned physical expectations and tracks their agreement with observed video windows through temporal video--language alignment, rather than relying on direct plausibility judgments or task-specific probes.",
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
@@ -42206,7 +42206,7 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 27,
+  "hf_upvotes": 28,
   "hf_comments": 2,
   "hf_summary_en": "Pretrained LeWorldModel's reproduction of small action effects is evaluated via Gram matrices across perturbation scales, showing scale-dependent sensitivity differences and higher errors than environment references.",
   "github_repo": "",
@@ -46167,7 +46167,7 @@
   "hf_comments": 2,
   "hf_summary_en": "CausGround extracts reusable action preconditions and effects from interaction experience to improve embodied planning and reasoning across diverse environments without model retraining.",
   "github_repo": "https://github.com/Intelligent-Interaction/CausGround",
-  "github_stars": 4,
+  "github_stars": 5,
   "project_page": "https://causground.github.io/",
   "badges": {
    "venue": "",
@@ -47825,7 +47825,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.29408v1",
   "s2_id": "b2fee3512cd21c80e4503b16bbf1359a95cc88df",
   "tldr_en": "This work introduces LiveAct, a Heterogeneous Action Interface centered on a Heterogeneous Action Interface whose two components mirror this decomposition, and instantiates the formulation on six multi-agent sources spanning games and multi-robot manipulation, and evaluates visual quality, action following, agent attribution, and latency.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
