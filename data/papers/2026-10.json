@@ -5202,7 +5202,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.40565v1",
   "s2_id": "005a04ba4c307d52051a3d19352197d8aab80812",
   "tldr_en": "Gym-Anything for Robotics is introduced, a framework in which coding agents create realistic robotics simulations and introduces several new ways for frontier models to improve, including in-context learning across repeated attempts, a privileged teacher that reads the simulator state and teaches a student in context, and self-assisted learning from the model's own privileged experience.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "llm": {
@@ -14584,7 +14584,7 @@
   "hf_comments": 2,
   "hf_summary_en": "Venus-DefakerOne2 is a unified anti-forgery foundation model that extends detection to diverse forgery forms and media types through alternating LoRA and full-parameter tuning and entropy-based test adaptation.",
   "github_repo": "https://github.com/inclusionAI/DefakerOne2",
-  "github_stars": 93,
+  "github_stars": 105,
   "project_page": "https://venus-guangjian.github.io/Venus-DeFakerOne2/"
  },
  "2610.37917": {
@@ -16939,7 +16939,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.37326v1",
   "s2_id": "622ad7834776e504dacb56518dc87f2de7cb1f82",
   "tldr_en": "ScIntBench is introduced, a unified benchmark centered on interaction readiness that executes prescribed manipulation actions in physics simulation and measures task success, capability and progress, post-interaction integrity, and dynamic plausibility.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -18096,7 +18096,7 @@
   "hf_comments": 3,
   "hf_summary_en": "EvidenceConnect synthesizes training data to strengthen visual evidence connection, improving spatial perception and multimodal reasoning across diverse tasks.",
   "github_repo": "https://github.com/inclusionAI/Zooming-without-Zooming-v2",
-  "github_stars": 16,
+  "github_stars": 17,
   "project_page": "https://github.com/inclusionAI/Zooming-without-Zooming-v2",
   "llm": {
    "title_ja": "ズームなしのズーム v2：詳細の把握から証拠の結合へ向けた汎化可能なマルチモーダル知覚",
@@ -19055,7 +19055,7 @@
   "hf_comments": 2,
   "hf_summary_en": "RynnWorld-Latent learns cross-embodiment world dynamics via 3D-grounded latent actions, enabling joint pretraining on diverse video sources and synthetic data generation for improved robot policy performance.",
   "github_repo": "https://github.com/alibaba-damo-academy/RynnWorld-Latent",
-  "github_stars": 16,
+  "github_stars": 17,
   "project_page": "https://alibaba-damo-academy.github.io/RynnWorld-Latent.github.io/",
   "badges": {
    "venue": "",
@@ -22649,7 +22649,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.36011v1",
   "s2_id": "8f8b1bc40738a9e89407f45c331a82bc7dc093d8",
   "tldr_en": "E0.5 is presented, a geometry-native world-action model built directly on 3D foundation models that explicitly predicts future 3D states together with actions, enabling the model to capture geometric world dynamics beyond action-only modeling or future video prediction.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -28039,7 +28039,7 @@
   "hf_comments": 3,
   "hf_summary_en": "RynnVLA-Latent leverages latent actions derived from diverse video to pretrain large vision-language-action policies, achieving high success across simulated and real-world robot benchmarks without embodiment-specific tuning.",
   "github_repo": "https://github.com/alibaba-damo-academy/RynnVLA-Latent",
-  "github_stars": 15,
+  "github_stars": 16,
   "project_page": "https://alibaba-damo-academy.github.io/RynnVLA-Latent.github.io/",
   "llm": {
    "title_ja": "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
@@ -37869,7 +37869,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.31845v1",
   "s2_id": "acfa2bf60eb05931e02fbe777e20c82f2350d4a9",
   "tldr_en": "EgoForesight is introduced, a vision-language-action framework that learns jointly from both sources by reducing the influence of unreliable action labels and exploiting demonstrated outcomes as complementary supervision, unifying reliability-aware action learning with outcome-informed representation transfer.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -49370,7 +49370,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.29014v2",
   "s2_id": "ea80692aa3ca7c72718befa460387b5e831095a0",
   "tldr_en": "GenXR-Bench establishes a reproducible testbed for evaluating coding agents in the interactive and physically situated conditions of spatial computing and identifies recurring misunderstandings in asynchronous sensor lifecycles, physical grounding, and embodied interaction semantics.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -55835,7 +55835,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.27690v1",
   "s2_id": "3f225a31e5aeda022f6b861e5e831adaf75e2ad4",
   "tldr_en": "This work presents NeoWorld-3, a coding-agent framework that reconstructs interactive 3D worlds from visual observations via tunable, executable programs, and achieves state-of-the-art geometric fidelity and physical readiness.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -64734,8 +64734,8 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2610.25596",
   "pdf_url": "https://arxiv.org/pdf/2610.25596v1",
-  "s2_id": "cb39ae7e21a7e20a94b5137a5a07133826cb9bd0",
-  "tldr_en": "Across model and task families, models generated abstract representations of relational structure and combined them additively with representations of entity identity, binding entities to roles within that structure.",
+  "s2_id": "b325809fb26b1b313db07f9808c22230dec60c47",
+  "tldr_en": "Across models and tasks, models formed abstract representations of relational structure, additively combining them with representations of entity identity, revealing a conserved organization analogous to a cognitive map supporting flexible and systematic reasoning in language models.",
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
