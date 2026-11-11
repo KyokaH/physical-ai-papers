@@ -509,7 +509,7 @@
    "venue_status": "",
    "venue_evidence": "",
    "code_url": "https://github.com/lose4578/Auriga",
-   "project_url": "",
+   "project_url": "https://auriga.stelledge.com/",
    "real_robot": "unknown"
   },
   "fetched_at": "2026-11-03T07:54:27+00:00",
@@ -517,7 +517,13 @@
   "tldr_en": "Developed across 13 cross-task capability iterations and frozen for evaluation, Auriga ranks first on the RoboDojo leaderboard with a 57.7% success rate (64.0 Score), more than doubling the reference harness on the same model, and remains first under scene randomization while learned policies drop by up to 33.9%.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "",
+  "hf_upvotes": 4,
+  "hf_comments": 3,
+  "hf_summary_en": "Auriga, a task-agnostic agent harness, closes most of the planning-execution gap in zero-shot robot manipulation by combining explicit task beliefs, calibrated 3D measurements, dual-arm control, and execution monitoring, achieving state-of-the-art results on RoboDojo and RoboCasa365.",
+  "github_repo": "https://github.com/lose4578/Auriga",
+  "github_stars": 34,
+  "project_page": "https://auriga.stelledge.com/"
  },
  "2611.01081": {
   "id": "2611.01081",
@@ -1270,7 +1276,7 @@
   "fetched_at": "2026-11-03T07:54:27+00:00",
   "s2_id": "9c0461c8512084000da61ecebdbffc30a19cfa3d",
   "tldr_en": "The trade-off is quantified: an admissible wrench set built from contact friction cones and support-polygon tipping margins is shrunk for robustness to bounded mass and friction errors, and any command in the shrunken set provably leaves the furniture static.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "llm": {
@@ -4363,7 +4369,7 @@
   },
   "fetched_at": "2026-11-02T07:38:43+00:00",
   "s2_id": "cb1d277617b8352ad386196def349b11abb513b2",
-  "tldr_en": "A complete analytical characterization of the optimal trajectories for two robots that start and end at rest, under double-integrator dynamics and a squared-acceleration objective is derived.",
+  "tldr_en": "A complete analytical characterization of the optimal trajectories for two robots with zero initial and final velocities, under double-integrator dynamics and a squared-acceleration objective is derived.",
   "citations": 1,
   "influential_citations": 0,
   "venue": ""
@@ -4429,7 +4435,7 @@
   "fetched_at": "2026-11-02T07:38:43+00:00",
   "s2_id": "353f6a638ce2b59f77d7516ca67fce98f94477bc",
   "tldr_en": "This work exploits the structure of optimal trajectories by organizing optimization around contacts, at which robots reach the minimum allowed separation, and forms a coupled algebraic system in contact variables and reconstruct trajectories analytically between contacts.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": ""
  },
@@ -5202,7 +5208,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.40565v1",
   "s2_id": "005a04ba4c307d52051a3d19352197d8aab80812",
   "tldr_en": "Gym-Anything for Robotics is introduced, a framework in which coding agents create realistic robotics simulations and introduces several new ways for frontier models to improve, including in-context learning across repeated attempts, a privileged teacher that reads the simulator state and teaches a student in context, and self-assisted learning from the model's own privileged experience.",
-  "citations": 1,
+  "citations": 2,
   "influential_citations": 0,
   "venue": "",
   "llm": {
@@ -5332,7 +5338,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.40539v1",
   "s2_id": "a6e7280763bcfc38f1913c7dfedae23b26190494",
   "tldr_en": "PhysVLMM is a method that maintains a physical belief for every articulated part of a Vision-Language-Motion Map and answers a planner's queries about it, with two algorithms: a map update and a query.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "llm": {
@@ -13707,7 +13713,33 @@
    "project_url": "",
    "real_robot": "unknown"
   },
-  "fetched_at": "2026-11-01T06:22:14+00:00"
+  "fetched_at": "2026-11-01T06:22:14+00:00",
+  "llm": {
+   "title_ja": "リード・シェップ追跡者の円錐状視野からの最短時間脱走：より高速な逃走者",
+   "tldr_ja": "要旨に記載なし",
+   "problem": "要旨に記載なし",
+   "method": "要旨に記載なし",
+   "result": "要旨に記載なし",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "other"
+   ],
+   "keywords_ja": [
+    "最短時間脱走",
+    "追跡逃走問題",
+    "非ホロノミック",
+    "ゲーム理論"
+   ],
+   "keywords_en": [
+    "minimum-time escape",
+    "pursuer-evader game",
+    "Reeds-Shepp",
+    "differential games"
+   ],
+   "real_robot": "unknown",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  }
  },
  "2610.38104": {
   "id": "2610.38104",
@@ -14580,11 +14612,11 @@
    "real_robot": "no"
   },
   "fetched_at": "2026-11-01T06:22:14+00:00",
-  "hf_upvotes": 22,
+  "hf_upvotes": 21,
   "hf_comments": 2,
   "hf_summary_en": "Venus-DefakerOne2 is a unified anti-forgery foundation model that extends detection to diverse forgery forms and media types through alternating LoRA and full-parameter tuning and entropy-based test adaptation.",
   "github_repo": "https://github.com/inclusionAI/DefakerOne2",
-  "github_stars": 105,
+  "github_stars": 112,
   "project_page": "https://venus-guangjian.github.io/Venus-DeFakerOne2/"
  },
  "2610.37917": {
@@ -19048,7 +19080,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.36791v1",
   "s2_id": "917758178c8c2b1443ddcb8e2c6f2a3f674ca0ba",
   "tldr_en": "RynnWorld-Latent is presented, a cross-embodiment video world model that uses the 3D-grounded latent actions introduced by RynnLAM as a shared conditioning interface that enables joint pretraining on human interaction videos, robot demonstrations, and simulation rollouts without requiring a common native action space.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 10,
@@ -21979,7 +22011,7 @@
   "hf_comments": 3,
   "hf_summary_en": "The Trinity framework recursively improves multimodal agents by organizing tasks into a capability tree, generating simulated training worlds, and routing specialized harness modules to boost performance on diverse benchmarks.",
   "github_repo": "https://github.com/InfRec-Cardinal/The-Trinity",
-  "github_stars": 63,
+  "github_stars": 66,
   "project_page": "https://trinity-rsi.github.io/",
   "badges": {
    "venue": "",
@@ -22373,11 +22405,11 @@
    "model": "gemini-3.5-flash-lite",
    "tldr_source": "s2"
   },
-  "hf_upvotes": 9,
+  "hf_upvotes": 10,
   "hf_comments": 2,
   "hf_summary_en": "OSWAM enables real-time, high-quality action generation in autonomous driving and embodied control by initializing diffusion with structured imagination tokens and distilling future-conditioned privileged information into a single denoising step.",
   "github_repo": "https://github.com/PolyU-VCLab/OSWAM",
-  "github_stars": 20,
+  "github_stars": 21,
   "project_page": "https://gwenzhang.github.io/OSWAM"
  },
  "2610.35832": {
@@ -22415,7 +22447,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.35832v1",
   "s2_id": "9de40a2d64762a550172006d6b9a340aa565863f",
   "tldr_en": "This study characterizes the capability boundary of a frontier MLLM agent and suggests directions for improving future agent harness design.",
-  "citations": 0,
+  "citations": 2,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -23574,7 +23606,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.35607v1",
   "s2_id": "074d47f8e42592bb24832aa3d982d52a8227a05e",
   "tldr_en": "Value Gradient Lookahead and Pullback (VaLoP), which computes this correction with one vector-Jacobian product, and VaLoP-Fast, which amortizes it with a small head that, for text-to-image models, is trained with a single reward and reused for the others, robustly outperform existing value-gradient guidance on the target reward.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -26570,7 +26602,7 @@
   "hf_comments": 3,
   "hf_summary_en": "The study introduces a benchmark and metric to evaluate whether robot navigation policies adapt continuous motion to obstacle safety semantics, revealing a gap in translating semantic caution into safe movement.",
   "github_repo": "https://github.com/OSMA-Bench/OSMA-Bench",
-  "github_stars": 2,
+  "github_stars": 3,
   "project_page": "https://osma-bench.github.io/",
   "badges": {
    "venue": "",
@@ -28448,7 +28480,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.34186v1",
   "s2_id": "52feffeb9d5f65221b79c2d9b0697030e8f8d09e",
   "tldr_en": "HuGe, a family of Humanoid Generalist VLAs pre-trained on over 2,000 hours of egocentric human and robot data, is introduced, a three-stage training pipeline that combines egocentric pre-training, humanoid adaptation, and downstream fine-tuning that achieves the state-of-the-art on simulation benchmark HumanoidArena.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 4,
@@ -29307,7 +29339,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.34051v2",
   "s2_id": "cc701aa838320195405ea4cb24c6294ff9afdcb8",
   "tldr_en": "BEHAVIOR-Spatial is presented, a benchmark built on BEHAVIOR-1K that measures spatial question answering, point-based target grounding, and robot action to examine how VLM spatial understanding relates to VLA behavior.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -29744,7 +29776,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.33959v1",
   "s2_id": "cb11ae51dfc17412d4dece8df36ae172767e09b9",
   "tldr_en": "A task and motion planning (TAMP) framework that integrates task-directed interactive information-gathering with interleaved planning and execution and demonstrates how interaction-driven state updates and recovery replanning support continued execution under uncertain outcomes and external disturbances.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -31094,7 +31126,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.33705v1",
   "s2_id": "9d5d2baec3465af8997aebbc6a9ca32133ffd290",
   "tldr_en": "It is proved that touch alone cannot rule this hypothesis out, derive when another look is worth its cost, and show that a constant load and friction cannot be told apart while a part moves one way.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -40634,7 +40666,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.31166v1",
   "s2_id": "e2fd7c296a85a6e14d8f2c4ce01a1ef4fee88d30",
   "tldr_en": "W WholeBodyMem is presented, an object-guided perceptual memory that keeps the pre-history of object events seen before the robot acts on its goal, which surpasses memoryless and uniform-memory baselines and raises its base policy's success.",
-  "citations": 1,
+  "citations": 2,
   "influential_citations": 1,
   "venue": "",
   "badges": {
@@ -40701,7 +40733,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.31162v1",
   "s2_id": "aca7140a861cbee738109f30cb2bb9626eb22188",
   "tldr_en": "This work proposes HiSTEVE, a hierarchical VLA agent with a capability-aware agent harness that achieves state-of-the-art atomic-task performance, scoring 85.0% on MineStudio Bench and a 37.4% average success rate on OpenHA, while also completing long-horizon tasks such as crafting an iron pickaxe from scratch like human players.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 39,
@@ -42690,7 +42722,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.30781v1",
   "s2_id": "5d09c7fd18aac33a817d426962df0ce54e8f574c",
   "tldr_en": "DeXplicit is introduced, a dexterous manipulation world model that predicts how the world evolves explicitly in metric 3D before rendering its visual consequences, and enables efficient causal generation, requiring only two denoising steps per block while conditioning on generated history.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -43151,7 +43183,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.30606v1",
   "s2_id": "a4d5bf45333237e717adce2e86081616a0614fe2",
   "tldr_en": "CMAR-search is proposed, a novel framework built upon Commonsense and Memory Augmented Reasoning that significantly surpasses state-of-the-art baselines in both success rate and search efficiency for object search in dynamic interactive environments.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "IEEE International Conference on Robotics and Automation",
   "badges": {
@@ -43288,13 +43320,13 @@
   "pdf_url": "https://arxiv.org/pdf/2610.30589v1",
   "s2_id": "9c2b0c052db04f8773f00fbd4fae0830626dfee9",
   "tldr_en": "Experiments in both simulation and real-world environments demonstrate that the proposed OASIS system can perform complex open-vocabulary retrieval and navigation, while also enabling relocation of displaced objects after scene changes.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
-  "venue": "",
+  "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
   "badges": {
-   "venue": "",
-   "venue_status": "",
-   "venue_evidence": "",
+   "venue": "Proceedings of the 34th ACM Internationa 2026",
+   "venue_status": "accepted",
+   "venue_evidence": "semantic_scholar",
    "code_url": "",
    "project_url": "",
    "real_robot": "yes"
@@ -45154,7 +45186,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.29964v1",
   "s2_id": "3fbffc8740aadd649358582ca2bcb2ea905ea99d",
   "tldr_en": "An active perception framework is proposed that enables a high degree-of-freedom (DoF) mobile manipulator to inspect uncertain or safety-critical regions with its hand camera during navigation and unifies navigation, map maintenance, and active perception in a closed loop.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -48359,7 +48391,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.29282v1",
   "s2_id": "03d734089f123d282969e78672a9cfb1621ce1bb",
   "tldr_en": "Relational Geometry Forcing (RGF), which transfers geometric priors from a frozen 3D foundation model by aligning pairwise feature relations instead of pointwise features, is proposed, showing consistent gains across diverse manipulation scenarios and WAM paradigms.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -51965,7 +51997,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.28480v1",
   "s2_id": "251172bb9753a85caaffee850f2c1281848f9606",
   "tldr_en": "SuperMimic removes compute as the bottleneck to scaling humanoid whole-body control, making it practical to measure motion-tracking scaling laws, and transfers to a physical Unitree G1 across diverse and acrobatic motions.",
-  "citations": 6,
+  "citations": 7,
   "influential_citations": 2,
   "venue": "",
   "badges": {
@@ -53664,7 +53696,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.28074v1",
   "s2_id": "a5c0a1cce6209f3dea39f2601ba2431690718d60",
   "tldr_en": "The Slot-based Joint-Embedding Predictive Architecture (Slot-JEPA) is proposed, which decomposes dense representations into stable semantic slots and time-varying spatial masks and improves goal-conditioned planning across six planar environments and four robotic arm planning tasks on the REALM-JEPA benchmark.",
-  "citations": 1,
+  "citations": 2,
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 5,
@@ -53847,7 +53879,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.28698v1",
   "s2_id": "aa040b3197c2123c11b022d1f5e0f41d6d464e2d",
   "tldr_en": "The limits of imitation and persistent gaps in distant worlds suggest that building generalist embodied agents requires richer training stages beyond continued pre-training, and the authors' models are competitive with Minecraft specialists and frontier models in 3D worlds, and perform best in real-time settings.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 71,
@@ -55303,7 +55335,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.27756v1",
   "s2_id": "ba0980f444c5ccf6902d709756e5c23a02d3ba02",
   "tldr_en": "This work gives VLMs the same actions as dumb image tools with no visual intelligence of their own in a training-free agent loop and claims that a model that counts by marking leaves a normally hidden serial procedure on the image, and the developmental principles of counting turn those marks into an interpretable audit of serial visual reasoning.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
@@ -59112,7 +59144,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.26813v1",
   "s2_id": "0b11d69855e85e5eeaa036be501b24ed89863e3c",
   "tldr_en": "PICA-WAM, a self-supervised training framework that casts perturbation invariance as an auxiliary cross-appearance self-alignment task for WAMs, consistently improves robustness under visual perturbations, preserves nominal performance in simulation, and raises the real robot success rate.",
-  "citations": 0,
+  "citations": 2,
   "influential_citations": 0,
   "venue": "",
   "badges": {
