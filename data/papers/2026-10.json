@@ -1858,10 +1858,10 @@
   "abs_url": "https://arxiv.org/abs/2610.42141",
   "pdf_url": "https://arxiv.org/pdf/2610.42141v1",
   "hf_upvotes": 8,
-  "hf_comments": 2,
+  "hf_comments": 3,
   "hf_summary_en": "RoboArchitect automates robot harness design by iteratively revising control code around a frozen policy, substantially improving success on unseen scenes and tasks without model updates.",
   "github_repo": "https://github.com/roboarchitect-ai/RoboArchitect",
-  "github_stars": 10,
+  "github_stars": 11,
   "project_page": "https://roboarchitect-ai.github.io/",
   "llm": {
    "title_ja": "RoboArchitect：永続的メモリを用いたロボットエージェントの設計自動化",
@@ -9734,7 +9734,7 @@
   "hf_comments": 2,
   "hf_summary_en": "OpenFlyV2 is a unified onboard vision-language-action model that enables real-time aerial navigation and reasoning on resource-constrained hardware using shared multimodal representations.",
   "github_repo": "https://github.com/Ideal-ljl/AeroBrain",
-  "github_stars": 27,
+  "github_stars": 28,
   "project_page": "https://ideal-ljl.github.io/AeroBrain/",
   "badges": {
    "venue": "",
@@ -14616,7 +14616,7 @@
   "hf_comments": 2,
   "hf_summary_en": "Venus-DefakerOne2 is a unified anti-forgery foundation model that extends detection to diverse forgery forms and media types through alternating LoRA and full-parameter tuning and entropy-based test adaptation.",
   "github_repo": "https://github.com/inclusionAI/DefakerOne2",
-  "github_stars": 116,
+  "github_stars": 125,
   "project_page": "https://venus-guangjian.github.io/Venus-DeFakerOne2/"
  },
  "2610.37917": {
@@ -20808,7 +20808,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.36454v1",
   "s2_id": "88003d5dc5d06472d98859c89d56cfd9912d8653",
   "tldr_en": "",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "llm": {
