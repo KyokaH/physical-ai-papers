@@ -56,7 +56,12 @@
    "project_url": "",
    "real_robot": "unknown"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "176840c354e0493bfdc12c333ba0b6d5b262222b",
+  "tldr_en": "The Prototypical Visual Imagination framework is introduced, shortened as ProtoVis-Nav, which forces the model to imagine an outcome-associated local visual representation for the intended next UAV movement and uses predicted prototypes as context for generating the final action.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.17314": {
   "id": "2611.17314",
@@ -113,7 +118,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "6fbd96c71917dbf89c4e5daebb98209b019e3606",
+  "tldr_en": "The results suggest that meta-learning can tune a network's starting point to organize subsequent learning along systematic, functionally meaningful trajectories through the space of possible parameter vectors, providing a geometric basis for realizing inductive biases in neural networks.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.17238": {
   "id": "2611.17238",
@@ -184,7 +194,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "d9fa9742a9b1c46ca9c110bd16e2063e972bf626",
+  "tldr_en": "HEIR pairs human speech, measured gaze, and egocentric video with robot observations and teleoperated navigation-manipulation trajectories, while each session preserves successive episodes, and provides a valuable resource for studying user-centric robot interaction in naturalistic household environments.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.17213": {
   "id": "2611.17213",
@@ -244,7 +259,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "3e4a9c698fe8ee3321b3ff7767cca3a3b3a5bff2",
+  "tldr_en": "This work presents an iterative clustering algorithm for collaborative task allocation in heterogeneous multi-robot systems, and analyzes the convergence of the algorithm and characterize how cluster size constraints determine which suboptimal assignments could trap the algorithm.",
+  "citations": 10,
+  "influential_citations": 1,
+  "venue": "IEEE Robotics and Automation Letters"
  },
  "2611.17163": {
   "id": "2611.17163",
@@ -311,7 +331,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "ae2b9f177040b96566df753692b4861cfe658a88",
+  "tldr_en": "Flying-on-a-Word (Flow) is formulated, a task requiring a UAV to convert concise natural-language instruction, egocentric visual observation, and current state dynamics into continuous flight actions, and UAV-Flow, a comprehensive dataset comprising 30,692 expert-piloted real-world trajectories across eight distinct motion categories equipped with task-specific completion criteria.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.17160": {
   "id": "2611.17160",
@@ -381,7 +406,12 @@
    "project_url": "",
    "real_robot": "unknown"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "9bdbd73c017ccd50fcb1e7b26236c46293ba4ede",
+  "tldr_en": "XBot-Omni is presented, a Thinker--Talker--Actor architecture that extends the Omni paradigm to robotic modalities, including body motion and facial expressions, with ``X''representing the extensibility to robotic-specific modalities.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.17159": {
   "id": "2611.17159",
@@ -442,7 +472,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "1139201296db5eb4b2b636f3917d9797fc6cf12e",
+  "tldr_en": "",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.17142": {
   "id": "2611.17142",
@@ -509,7 +544,12 @@
    "project_url": "https://bb0928.github.io/forge/",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "f2771534bdb3e66cb682a499d01b6d34ddf844c6",
+  "tldr_en": "ForGE, a force-aware multi-granularity control system with a coarse-to-fine command space spanning velocity navigation, planar foot placement, wrist-pose tracking, wrist-pose tracking, and optional force-conditioning inputs, is proposed.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.17110": {
   "id": "2611.17110",
@@ -573,7 +613,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "790968d3b88429192a469f45731a88ae5e546173",
+  "tldr_en": "Without requiring paired data, the language descriptions of unpaired human and robot clips are used to estimate semantic similarities and supervise cross-embodiment correspondence, which translates into soft neighborhood structures that guide human latent actions toward semantically related robot latents while robot action reconstruction grounds the latent space in control.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.17060": {
   "id": "2611.17060",
@@ -613,11 +658,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.17060",
   "pdf_url": "https://arxiv.org/pdf/2611.17060v1",
-  "hf_upvotes": 9,
-  "hf_comments": 1,
+  "hf_upvotes": 26,
+  "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/Ropedia/Ropedia-Xperience-2",
-  "github_stars": 3,
+  "github_stars": 16,
   "project_page": "https://ropedia.com/xperience/2-research/",
   "llm": {
    "title_ja": "Ropedia Xperience 2: 物理AIの環境と行動のスケーリングのためのゴールドスタンダード",
@@ -657,7 +702,12 @@
    "project_url": "https://ropedia.com/xperience/2-research/",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "3076f11f3ce9108f9085f499f589a768bcc8eff9",
+  "tldr_en": "Ropedia Xperience 2 is introduced, comprising 1,589 released metric-scale 3D scans and a collection of 4,230 egocentric recordings of 74 tasks that can be repurposed for robot learning, laying a data foundation for establishing scaling laws over environments and behaviors.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.17020": {
   "id": "2611.17020",
@@ -715,7 +765,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "0a06e0d63debf90cecbb13de19d28bfb43b747ac",
+  "tldr_en": "The answer is to adapt the system's reliance on the LLM as evidence about the LLM's performance accumulates, and the reviewed comparisons suggest that adapting reliance can improve system performance.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.17005": {
   "id": "2611.17005",
@@ -777,7 +832,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "5adf5ad38257ac819db5e5eddab75d20cf31f88f",
+  "tldr_en": "Self-informed sampling (SIFS) is presented, a data-efficient expert-sampling strategy that uses a learned time-to-go to query the expert only where the policy deviates from time-optimal behavior, and a complete training and control architecture that jointly addresses dataset correlation, suboptimal expert labels, covariate shift, constraint satisfaction and model mismatch.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16937": {
   "id": "2611.16937",
@@ -836,7 +896,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "71afb2dceb6f017be23df5889ea76a3588c90bac",
+  "tldr_en": "S1-Evo perturbs untrusted fields via contract-aware evidence channels to induce original task evidence with original task evidence while preserving fact invariance, and is proposed, a self-evolving framework tailored to S1's contract-based option competition and margin feedback.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16918": {
   "id": "2611.16918",
@@ -896,7 +961,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "ffa688b70a457d68453662255e9f78ce2bc4d315",
+  "tldr_en": "CT-SGAL-LIO is proposed, a continuous-time refinement module that smooths the posterior pose stream of a discrete SGal(3) estimator without modifying the estimator itself, and improves short-term motion accuracy while largely preserving global accuracy.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16877": {
   "id": "2611.16877",
@@ -957,7 +1027,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "9855be222bfae7ce264cb64449ea9927eb9f5400",
+  "tldr_en": "A rigorous theoretical analysis of existing error bounds and algorithms establishes a rigorous, near-optimal foundation for discrete offline IPP under bounded uncertainty constraints, offering clear and principled guidance for future work in continuous-space and online formulations.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16872": {
   "id": "2611.16872",
@@ -1039,7 +1114,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "2a878d625579e85e4e2f96d46e5f9294bbcac75a",
+  "tldr_en": "This work investigates human guidance as a source of priors for feasible actions and simulation as an auxiliary environment for exploring and testing candidate policies to highlight CaP's potential to turn experience into reliable, reusable physical skills.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16861": {
   "id": "2611.16861",
@@ -1110,7 +1190,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "0c2290858999926454561d2343fa5d6e2601af7d",
+  "tldr_en": "Visual Cipher Bench is introduced, a collection of 40 original visual puzzles that provide a rigorous benchmark for measuring long-horizon visual reasoning in agents and shows that the primary bottleneck of current agents lies not in executing multi-step plans, but in autonomously discovering rules from visual evidence.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16822": {
   "id": "2611.16822",
@@ -1170,7 +1255,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "69b8556cf8bd5ff482dd5607b3da4d48c1553cfe",
+  "tldr_en": "A novel class of Bayesian Conjugate Distributions on extended special Euclidean groups SE_n(3) for global motion uncertainty representation and estimation is proposed, indicating the advantages of BCD-based estimators over two classic Kalman filters on Lie groups with various initial uncertainties and measurement noise.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16789": {
   "id": "2611.16789",
@@ -1232,7 +1322,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "275594a86745f083ba01218e8e6735c04a01bb9b",
+  "tldr_en": "This study examines the use of deep learning techniques for anomaly detection and error classification in screwdriving processes, demonstrating the effectiveness of anomaly detection and confirming that deep learning models can distinguish between multiple error categories beyond traditional binary classification.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": "Procedia CIRP"
  },
  "2611.16752": {
   "id": "2611.16752",
@@ -1294,7 +1389,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "30792db97c46553258b4f5ed3e49d5f230fea65d",
+  "tldr_en": "AgriSense, a framework combining an Isaac Sim virtual greenhouse, a quadruped mobile manipulator, RGB and LiDAR-inertial sensing, environmental control, and supervised vision-language decision support, is presented, an evaluated decision-support and robotic-intervention framework for a virtual greenhouse.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16742": {
   "id": "2611.16742",
@@ -1359,7 +1459,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "d3bf16cdb609ad67a7013d51af0036195d77d694",
+  "tldr_en": "",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16728": {
   "id": "2611.16728",
@@ -1435,11 +1540,22 @@
    "venue": "",
    "venue_status": "",
    "venue_evidence": "",
-   "code_url": "",
-   "project_url": "",
+   "code_url": "https://github.com/egox-dream/egox",
+   "project_url": "https://egox-dream.github.io/",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "2ce8ebc17fc5544d09cf5bef3b2b05da2caffe33",
+  "tldr_en": "EgoX, an egocentric cross-embodiment learning framework that organizes heterogeneous demonstrations through semantically corresponding observation and action modalities, is introduced, demonstrating the benefits of broader pretraining mixtures, modular interfaces, and embodiment dreaming.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": "",
+  "hf_upvotes": 1,
+  "hf_comments": 1,
+  "hf_summary_en": "EgoX is an egocentric cross-embodiment learning framework that pretrains a modular Transformer with embodiment dreaming on heterogeneous human, robot, and simulated demonstrations, then fine-tunes it to improve manipulation task progress, especially under out-of-distribution conditions.",
+  "github_repo": "https://github.com/egox-dream/egox",
+  "github_stars": 9,
+  "project_page": "https://egox-dream.github.io/"
  },
  "2611.16725": {
   "id": "2611.16725",
@@ -1492,14 +1608,19 @@
    "tldr_source": "ai"
   },
   "badges": {
-   "venue": "",
-   "venue_status": "",
-   "venue_evidence": "",
+   "venue": "IEEE International Symposium on Robot an 2026",
+   "venue_status": "accepted",
+   "venue_evidence": "semantic_scholar",
    "code_url": "",
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "666ecdac4505e75efaa03ccbcde2d34ab322429b",
+  "tldr_en": "An attention-aware navigation framework that classifies each pedestrian as attentive or distracted in real-time using 3D skeletal features and a Random Forest classifier, then dynamically widens cost-map safety margins around distracted individuals to drive proactive avoidance.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": "IEEE International Symposium on Robot and Human Interactive Communication"
  },
  "2611.16671": {
   "id": "2611.16671",
@@ -1558,7 +1679,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "d650a434598d68930f49737f635fdb3a654e3295",
+  "tldr_en": "NSDL outperforms end-to-end planners and formalize-then-plan baselines on both benchmarks and with three backbones from 3B to 8B; the 7B model reaches 97.0% out-of-distribution accuracy on VIKI-L2.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16652": {
   "id": "2611.16652",
@@ -1617,7 +1743,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "09822f79e155fbf8523f5048e8a5c63b1e9f74d0",
+  "tldr_en": "CABOT, a computational model for autonomous mobile robots in which the discrete plane the robots operate on is not a passive stage but an active computing medium, is introduced and it is proved that neither can be solved field-silently with any number of states.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16645": {
   "id": "2611.16645",
@@ -1679,7 +1810,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "7d140b9447479b63d065e36671a24df9e1868186",
+  "tldr_en": "Component interventions and expert-relative action-structure comparisons support demonstration-informed continuations and reveal task-dependent effects of visual conditioning, history length, and planning horizon.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16632": {
   "id": "2611.16632",
@@ -1742,7 +1878,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "c6c9975786e0b97e2007af6a61860765c06071c4",
+  "tldr_en": "Reins is presented, a harness in which an off-the-shelf model operates a dual-arm robot with 3D perception tools and atomic actions that report contact and grip that helps drive real robots through long-horizon, contact-rich manipulation, blind while the arm moves and while they think.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16590": {
   "id": "2611.16590",
@@ -1804,7 +1945,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "fb02283a36bf8f3ab8f17b39843146e7e6cdf1b7",
+  "tldr_en": "AstroMemBench supports the design, development, and selection of memory systems for embodied spacecraft agents and a Scenario-Challenge-Capability design method that maps these requirements to executable memory tests is introduced.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16589": {
   "id": "2611.16589",
@@ -1871,7 +2017,12 @@
    "project_url": "https://stvla.github.io/",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "f94c6d3e9b323046c582c0095315d3e54d52a64c",
+  "tldr_en": "STVLA is introduced, a framework that incorporates features from a pretrained visual geometry foundation model into temporal memory alongside visual representations that allows the policy to recall past scene structure as context for current action decisions.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16583": {
   "id": "2611.16583",
@@ -1929,7 +2080,12 @@
    "project_url": "https://refiner-project.github.io/",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "a1254335dbaea37d74f2d8545830a0d51a33293f",
+  "tldr_en": "This work introduces ReFineR: an offline framework to finely register individual images to pre-reconstructed point clouds, and shows that an automatic point cloud rescale factor can be estimated prior to optimization, enabling robust refinement across a wide range of scenarios using a single scale-invariant formulation.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16538": {
   "id": "2611.16538",
@@ -1995,7 +2151,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "4c79982f9cd305e1470455f8966c549ee73512a1",
+  "tldr_en": "This service uses an application programming interface (API) to provide programmatic access to Pl@ntNet's plant recognition models and the associated taxonomic processing and enables the implementation of automated identification workflows without human intervention and can thus directly link large image collections and automated observation systems to an AI-based plant identification system.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16507": {
   "id": "2611.16507",
@@ -2057,7 +2218,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "bc9a051175485a5446f905d164d3ecdd518ed554",
+  "tldr_en": "",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16487": {
   "id": "2611.16487",
@@ -2118,7 +2284,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "299a4c48566bbabbf0daa3fa6eceee4a14cc1609",
+  "tldr_en": "HeMeR is an inference framework that performs KV reconciliation between dynamically updated memory contexts and reusable KV states and reconciles only the KV states affected by memory-content updates, enabling efficient and stable inference as memory contents evolve during interaction.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16473": {
   "id": "2611.16473",
@@ -2178,7 +2349,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "8bb34ce232e81fda69907d5754a02aa88d7430b7",
+  "tldr_en": "It is argued that multimodal bidirectional streaming is needed to reduce the frequency of turn-taking failures, and earlier methods for improving speech recognition and turn-taking in interaction with social robots are looked at.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16472": {
   "id": "2611.16472",
@@ -2239,7 +2415,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "f622f933eee38fa49015c8cc853c67a0eca9a92d",
+  "tldr_en": "This work benchmarked RTAB-Map and ORB-SLAM3 on the Raspberry Pi 5 using six TUM RGB-D sequences at three image resolutions, recording tracking coverage, trajectory error, time per frame, memory, CPU load and temperature for every run, and profiles both systems at the stage and function level.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16450": {
   "id": "2611.16450",
@@ -2297,7 +2478,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "22ca0d99f04373aa75941c586b6f247c641e0069",
+  "tldr_en": "These results clarify which quantities can support training recommendations and when an apparently favorable predictive metric has a different interpretation and which quantities can support training recommendations through a common conditional-distribution target.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16439": {
   "id": "2611.16439",
@@ -2358,7 +2544,12 @@
    "project_url": "https://robbyant-research.github.io/Lingbot-ALOHA/",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "20cb2435a01a2b8f23763be05538b2acb2e2f679",
+  "tldr_en": "HALO, a human-aligned data collection system for whole-body mobile manipulation, aligns the operator's perception and action space with the robot while preserving direct physical feedback and natural locomotion and enables more natural whole-body demonstrations.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16424": {
   "id": "2611.16424",
@@ -2431,7 +2622,12 @@
    "project_url": "https://hfwang2001.github.io/physcapbench-site/",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "5071116203cbffa9dc4dcdf040b9d629b360d0f6",
+  "tldr_en": "This work introduces PhysCapBench, to its knowledge the first unified physical-caption benchmark spanning all three domains: third-person scenes, egocentric manipulation, and handheld-gripper demonstrations, which provides human-verified annotations for 1,500 video sequences and evaluates accuracy and coverage through seven physical dimensions.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16423": {
   "id": "2611.16423",
@@ -2490,7 +2686,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "362108de585b6aef22ade4e65236b0390afbab1a",
+  "tldr_en": "VOKE is presented, a kinematics-aware perception framework that augments existing object and hand-object pose estimators to recover a complete object kinematic state comprising pose, linear and angular velocity, and linear and angular acceleration.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16422": {
   "id": "2611.16422",
@@ -2549,7 +2750,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "8e27358f8e40888f6caa9eaa12c741ece8c81ee2",
+  "tldr_en": "BlinkMimic, a recipe that makes training a tracking policy for a library of motions for whole-body motion tracking faster, and splits training time into the cost of an iteration, the iterations needed to fit the motions, and the iterations needed to remove the last failures.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16419": {
   "id": "2611.16419",
@@ -2613,7 +2819,12 @@
    "project_url": "https://see-want.github.io/",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "550afc61c52e731a6868152d37c544c29141effc",
+  "tldr_en": "VIM's predicted mission enables a vision-language-action (VLA) policy to take over from the operator mid-task in a real-world environment unseen during VIM fine-tuning, reducing human teleoperation time by 34.6% relative to GPT-4o and 39.8% relative to GPT-5.6 Luna, while cutting intent-prediction latency by roughly 70% on average.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16386": {
   "id": "2611.16386",
@@ -2674,7 +2885,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "1f78110fd07d3ec9bc357dd978747d3a1d9f2022",
+  "tldr_en": "CGEM, a critic-gated event memory that uses a critic to select events with large estimated changes in success probability, is introduced, a critic-gated event memory that uses a critic to select events with large estimated changes in success probability.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16374": {
   "id": "2611.16374",
@@ -2748,7 +2964,12 @@
    "project_url": "https://maniladder-benchmark.github.io/",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "afd592f0ecfd3a140bec05ead490a2b9fafa6830",
+  "tldr_en": "ManiLad- der provides a calibrated ladder for measuring, comparing, and advancing robotic manipulation capabilities, and verified across different random seeds, policies, and agentic learning systems.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16346": {
   "id": "2611.16346",
@@ -2809,7 +3030,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "ac2d396b6c58e5070c287977fc5b323a6ea4b4fe",
+  "tldr_en": "In MuJoCo, a separate residual policy is trained for each of ten bipeds on its mapped reference from one four-second walking clip, which uses the measured robot state to correct joint commands during contact.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16337": {
   "id": "2611.16337",
@@ -2871,7 +3097,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "b2eb83acf284b956ed714a75378a1626f4c44877",
+  "tldr_en": "A memory-efficient parallel policy-learning framework for collapse-reactive retreat via hybrid terrain modeling that supports over 100 times as many parallel environments as fine-resolution rigid-block terrain within the same GPU memory limit.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16312": {
   "id": "2611.16312",
@@ -2930,7 +3161,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "ab51e830d1f8e069dcaee804f78049eee5a23ee7",
+  "tldr_en": "Ally is an open-source physics engine for robot learning in which rigid robots, cloth, cables, liquids, granular material and soft bodies share one scene, and how throughput grows with the number of worlds is reported.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16297": {
   "id": "2611.16297",
@@ -3005,7 +3241,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "9e7eb723d427051ccf8b6b0edabcb94db41884a8",
+  "tldr_en": "An overview of the integrated technologies developed for the Open Platform League at RoboCup@Home 2026 in Incheon is presented and a RoomPlan-based method that semi-automatically registers furniture geometry and labels to generate semantic maps is introduced.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16282": {
   "id": "2611.16282",
@@ -3066,7 +3307,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "aa14c567cc6611fc0e900e4631dbca155db8a8aa",
+  "tldr_en": "VINE uses an obstacle map estimation network that takes exocentric images, camera pose, robot pose, and room dimensions as input and produces a viewpoint-invariant obstacle map, which performs better than perspective mapping approaches and surpasses the navigation success rate of PPO with an onboard camera in simulated environments.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16275": {
   "id": "2611.16275",
@@ -3127,7 +3373,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "2ec9ed87eacc5ee61d1cdf1fc1ea9b0aeaa2cb2e",
+  "tldr_en": "This study presents a preliminary demo study of a Matter-based IoMT testbed with a specific HealthVitals cluster, and demonstrates that this custom telemetry model can operate within the tested Matter configuration without modifying commissioning or secure-session mechanisms.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16250": {
   "id": "2611.16250",
@@ -3180,14 +3431,19 @@
    "tldr_source": "ai"
   },
   "badges": {
-   "venue": "",
-   "venue_status": "",
-   "venue_evidence": "",
+   "venue": "IEEE Sensors Journal",
+   "venue_status": "accepted",
+   "venue_evidence": "semantic_scholar",
    "code_url": "",
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "4663192ee8f3d6d6cb7823e2b053d6a4429361bb",
+  "tldr_en": "",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": "IEEE Sensors Journal"
  },
  "2611.16246": {
   "id": "2611.16246",
@@ -3251,7 +3507,12 @@
    "project_url": "",
    "real_robot": "unknown"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "a55deffd1b7ed429a66b00f413feb4e40e367c67",
+  "tldr_en": "H2E, a task-level experience distillation method that converts agent sessions into VLA training data and raises the success rate of an 8B VLA from 35.0% to 44.9% on all 3,189 REVERIE-CE val-unseen episodes.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16221": {
   "id": "2611.16221",
@@ -3309,7 +3570,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "256584dd0cc2872f00910fed1201e5bb2cf561bc",
+  "tldr_en": "BWM-Forge is presented, a code-driven framework for controllable video generation in robotics that supports multiple robot embodiments, synchronized viewpoints, and appearance variation from a shared scene program.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16218": {
   "id": "2611.16218",
@@ -3370,7 +3636,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "315d99bfce9355de9e6a78956910abc8aab909cd",
+  "tldr_en": "This paper presents a quadratic programming (QP)-based feedback controller for multi-robot conflict resolution with input constraints that enables yielding preferences while guaranteeing deadlock-free operation by design.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16213": {
   "id": "2611.16213",
@@ -3434,7 +3705,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "7f5639dcacf2ab988a73b22a54ab69634201adc3",
+  "tldr_en": "This work extends existing deterministic task and motion planning solvers to partially observable object rearrangement tasks, while still being able to take advantage of the efficiency and compositional generalization over long horizons of the base solver.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16205": {
   "id": "2611.16205",
@@ -3497,7 +3773,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "a94c966504787addcfcc11e7755ce08f21bb65db",
+  "tldr_en": "",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16188": {
   "id": "2611.16188",
@@ -3558,7 +3839,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "f0995b7ebfaad554c7984e937f26e5a39ce640e7",
+  "tldr_en": "This work presents PERA, a method for learning new skills by reusing existing motion capabilities, which freezes a pretrained mixture-of-experts policy and trains an additional task expert and its routing score using task rewards or teacher-action supervision.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16116": {
   "id": "2611.16116",
@@ -3620,7 +3906,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "8611606abcf09fb5d0801a9d522a7127b9e3b142",
+  "tldr_en": "Robo-SWE, a dataset of 236 executable issue-resolution tasks mined from merged pull requests in 28 public robotics repositories in four domains: ROS 2 systems, simulation and physics engines, robotics algorithm libraries, and robot-learning frameworks, is presented.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16056": {
   "id": "2611.16056",
@@ -3682,7 +3973,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "fac9e65299798283e13ac4ecf04cebe795338b97",
+  "tldr_en": "Across the evaluated Video-LLM backbones, BiScopeNet improves action, hand-role, and object recognition over the corresponding supervised baselines, achieving the strongest aggregate performance among the evaluated configurations on BiScopeCap.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16020": {
   "id": "2611.16020",
@@ -3744,7 +4040,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "5462e74c4aa2adf4794788c3f418b490b1b65c53",
+  "tldr_en": "This work proposes Latent Expertise and Optimality Scoring based Imitation Learning (LEOS-IL), a principled framework that jointly learns a state-action optimality scoring model and latent expertise levels for each demonstrator from unlabeled suboptimal offline demonstrations.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16012": {
   "id": "2611.16012",
@@ -3804,7 +4105,12 @@
    "project_url": "https://topoego.github.io",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "67d6918ba1e415263613afdf65679ac029f42f6d",
+  "tldr_en": "TopoEgo is introduced, the first benchmark dedicated to topological changes in egocentric video (covering fission, fusion, open, and close), alongside Topo-4DGS, a topology-aware reconstruction method that significantly outperforms state-of-the-art 4DGS approaches across topological changes, especially on post-event frames.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.16009": {
   "id": "2611.16009",
@@ -3868,10 +4174,21 @@
    "venue_status": "",
    "venue_evidence": "",
    "code_url": "https://github.com/ZefanW/JustRUA",
-   "project_url": "https://zefanw.github.io/JustRUA",
+   "project_url": "https://zefanw.github.io/JustRUA/",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "5baab0e81aae7d61e63738f68df6b9a012469dca",
+  "tldr_en": "Even with no learned policy, self-improvement loop or task-specific tuning, this simple harness raises the score on the RoboDojo simulation benchmark substantially, from 29.7 to 50.3.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": "",
+  "hf_upvotes": 4,
+  "hf_comments": 3,
+  "hf_summary_en": "A simplified evaluation harness that keeps full episode history and stops motions early substantially improves robot-use agent scores on RoboDojo, with scene geometry providing the largest additional benefit.",
+  "github_repo": "https://github.com/ZefanW/JustRUA",
+  "github_stars": 0,
+  "project_page": "https://zefanw.github.io/JustRUA/"
  },
  "2611.15981": {
   "id": "2611.15981",
@@ -3935,7 +4252,12 @@
    "project_url": "https://dexremo.github.io",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "df3e8b8c8ada93f5f6a644f87038bc7c36b0001b",
+  "tldr_en": "",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15974": {
   "id": "2611.15974",
@@ -4016,7 +4338,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "5502c662a3688fcb36d77ce57f911b8f668245cb",
+  "tldr_en": "FLUX-mimic, a video-action model, motivated by the potential of video pretraining to capture motion and interaction patterns that enable sample-efficient training is proposed, built on a backbone pretrained on large-scale web and industrial task data, and an action expert to generate robot trajectories.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15964": {
   "id": "2611.15964",
@@ -4072,7 +4399,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "717ca1cccd7585cba739d52664854f6ebb7a8118",
+  "tldr_en": "A COMBS-score is proposed: a multi-modal fusion of a human informed semantic network, LLM, and VLM, to initialize the belief over object locations, which grounds the abstractions and reduces reliance on a single model.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15941": {
   "id": "2611.15941",
@@ -4132,7 +4464,12 @@
    "project_url": "https://xiliu8006.github.io/Lang-SVG/",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "82487d8590645136c220707eb19267483313a324",
+  "tldr_en": "Lang-SVG is proposed, which introduces an explicit tree structure to organize SVG primitives with semantic labels and parent-child relationships and introduces a new evaluation protocol that measures structural quality and semantic part alignment.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15937": {
   "id": "2611.15937",
@@ -4193,7 +4530,12 @@
    "project_url": "https://mmahdavian.github.io/MOSAIC/",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "e5f74db5382ca643ec3dc6dbce17b4b3b413cf46",
+  "tldr_en": "MOSAIC is proposed, a modular spatial- and obstacle-aware framework that can be integrated with pretrained VLA policies to improve object-level scene understanding and action generation and provides explicit semantic, geometric, and obstacle-aware cues while preserving the underlying pretrained VLA architecture.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15928": {
   "id": "2611.15928",
@@ -4254,7 +4596,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "dafc04ce707b34e4f485c1f6b12d439f42cf8aad",
+  "tldr_en": "A case is made for granting robots force authority in stages, with a person or organization explicitly responsible for its use with a person or organization explicitly responsible for its use.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15834": {
   "id": "2611.15834",
@@ -4338,7 +4685,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "feb0d8a2654979681d50a4857ce6eb89fb7dcd19",
+  "tldr_en": "A material classifier trained on real GelSight presses still works on encode-decode reconstructions from pretrained image models is tested, and a tactile generator needs a latent space, and SD-VAE latents are chosen and a photo-to-touch generator trained in them is shown.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15802": {
   "id": "2611.15802",
@@ -4403,7 +4755,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "2b0270e5ba0d0596a0ec7637875b0737fa2ad9d7",
+  "tldr_en": "RUMI is presented, a handheld universal manipulation interface matched to the Robotiq 2F-85 with exchangeable fingertip sensors that preserves the target gripper geometry while enabling natural input before contact and force measurement after contact and a haptic feedback mechanism that supports force-aware teleoperation for simulated and real robots.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15781": {
   "id": "2611.15781",
@@ -4462,7 +4819,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "ba6d93a597a81e6717a1976083d28dd28eecb8e4",
+  "tldr_en": "This work extends a previous MPC framework by integrating obstacle and pedestrian detection, Koopman-based motion prediction, and online prediction-error estimation directly within the collision-avoidance mechanism.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15743": {
   "id": "2611.15743",
@@ -4520,7 +4882,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "1170789147769c5859ced5011e12df971e31296a",
+  "tldr_en": "A closed-loop human-robot simulation calibrated to published healthy and stroke group kinematics supports mechanical characterization and movement-dependent correction toward more comparable robotic assessments, motivating validation in patients.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15689": {
   "id": "2611.15689",
@@ -4577,7 +4944,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "fd155b327b06d98170ed5bbdeca5896cb3413f73",
+  "tldr_en": "This work introduces Bayesian Active Miss-aware Object Search (BAMOS) to investigate how target belief, occupancy belief, and detector errors affect search decisions and highlights the importance of maintaining and updating target beliefs to support reliable active search under uncertain detector observations.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15659": {
   "id": "2611.15659",
@@ -4637,7 +5009,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "f4b61baf12ac6eb90c4b650e8442a2b5e3cf84b5",
+  "tldr_en": "GraSLA is proposed, a lightweight and effective spatial-language-action model with grasp hypotheses as geometric priors that employs spatial and language foundation models to encode scene geometry and task semantics, and integrate them with grasp hypotheses through bidirectional cross-attention for continuous action prediction.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15658": {
   "id": "2611.15658",
@@ -4695,7 +5072,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "761f1d2ed786acbd43fdddedb15a10b677022304",
+  "tldr_en": "This work compares two strategies: compact proximal policy optimization (PPO) policies transferred from simulation for object- and hole-region reaching, and force-guided Cartesian placement using approximately 2 N normal contact and spiral search and supports an embedded architecture combining learned free-space reaching with explicit contact correction.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15651": {
   "id": "2611.15651",
@@ -4757,7 +5139,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "924d8acaa4a4df7555f0f079f4e7a0ada009b697",
+  "tldr_en": "Embodied-Corrector combines OPD to internalize the planning distribution under accurate prefixes into that under self-generated ones, and generates plans from self-generated prefixes while a contrastive forward pass with accurate prefixes compares token probabilities to reinforce or suppress planning tokens.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15650": {
   "id": "2611.15650",
@@ -4815,7 +5202,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "00757b4de5008606f96199bf53029d5f1b95039b",
+  "tldr_en": "",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15638": {
   "id": "2611.15638",
@@ -4875,7 +5267,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "a40d69e17318096c6abd5259410b7fc6714e92dc",
+  "tldr_en": "The Helping Hand is proposed, a two-segment continuum robotic grasper that, together with an electrosurgical knife, enables tissue traction and cutting within a single 3.7 mm working channel.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15607": {
   "id": "2611.15607",
@@ -4934,7 +5331,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "f8411747c025cf1cbc9984c24dc59404457e68e5",
+  "tldr_en": "The new causal explainability method FADO (Feature-wise Amortized Do-Operators), an amortized inference method using prior-fitted networks trained on synthetic tabular datasets generated by structural causal models that provides better explanations under a range of settings for which standard predictive attribution fails.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15589": {
   "id": "2611.15589",
@@ -4997,7 +5399,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "e151f2649e480ff2abe3b7702b1f5527b787c273",
+  "tldr_en": "EMS-Nav is introduced, a biologically inspired multi-scale navigation framework for online, on-device operation that combines multi-scale understanding with computational efficiency to support diverse language goals on resource-constrained robots.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15565": {
   "id": "2611.15565",
@@ -5055,7 +5462,12 @@
    "project_url": "https://icra-2027-gengenik.github.io/",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "39cb823026e86addba9c6a6e9bdd4f077911be1c",
+  "tldr_en": "GenGenIK is introduced, a generative modeling approach that supports mobile bases, multiple end-effectors and targets, scene awareness, and preferences over robot behavior within a common interface and outperforms existing methods in both solve rate and runtime.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15524": {
   "id": "2611.15524",
@@ -5119,7 +5531,12 @@
    "project_url": "https://dnd-sidc.github.io/",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "8c65feb2f10811c3e2e7b1bda3786189f66901d3",
+  "tldr_en": "This work develops a fully automated synthetic data collection pipeline, using re-projection of known 3D coordinates to generate labels automatically and domain randomization to bridge the reality gap, providing the perceptual foundation for a robot that can autonomously play Chef's Hat against human players.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15491": {
   "id": "2611.15491",
@@ -5153,7 +5570,12 @@
    "project_url": "",
    "real_robot": "unknown"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "8b78146353c4a0ccb42df64665950093d59125a4",
+  "tldr_en": "This work studies what makes a pretrained VLA reactive, using \\pihalf{} on two dynamic simulation benchmarks and three real-robot tasks to vary the prediction and execution horizons, compare synchronous and asynchronous inference, test methods that deliver actions sooner or keep successive chunks continuous, and adapt the policy with motion cues and latent-space reinforcement learning.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15490": {
   "id": "2611.15490",
@@ -5216,7 +5638,12 @@
    "project_url": "https://zibindong.github.io/actioncodec2-page/",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "c11b282bc05bf1a5885693cfc46fa5c780037c5c",
+  "tldr_en": "This work introduces ActionCodec2, a non-neural streaming tokenizer that releases actions incrementally while keeping trajectory reconstruction error within a prescribed tolerance, and derives the exact minimum for translation and constant-factor-tight bounds for rotation from co-occurring primitive symbols.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15488": {
   "id": "2611.15488",
@@ -5278,7 +5705,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "84373362fd447de91e711574664630c782d270de",
+  "tldr_en": "FloCOS, a conditional flow-matching framework that predicts compact forward occupancy sets with high occupancy coverage, is proposed, and real-world vehicle experiments confirm its ability to support collision-free planning in interactive scenarios.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15443": {
   "id": "2611.15443",
@@ -5341,7 +5773,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "65b7877f9242f8efd70219f2683636f442e72e29",
+  "tldr_en": "The first open SPARC datasets collected during the IEEE ICRA 2026 Legged Robot Challenges and RoboCup Rescue 2026 are presented, an open-source software stack for autonomous navigation is released, and initial simulation assets representing RoboCup Rescue test environments are provided.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15429": {
   "id": "2611.15429",
@@ -5401,7 +5838,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "43c24d3eacb9502844d19b6512abc50c4b1c3b7b",
+  "tldr_en": "IncR-3DSGG is proposed, which builds 3D scene graphs incrementally from posed RGB images, eliminating the use of depth sensors at inference and shows that relations and metrically grounded 3D object representations can be predicted from posed RGB images alone.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15389": {
   "id": "2611.15389",
@@ -5463,7 +5905,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "153e0e5fcced282b359ec1accb8bd77f35ac2edf",
+  "tldr_en": "",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15386": {
   "id": "2611.15386",
@@ -5521,7 +5968,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "79c8a4a262fd1baf166bfcb46680dda64e4b031b",
+  "tldr_en": "",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15381": {
   "id": "2611.15381",
@@ -5584,7 +6036,12 @@
    "project_url": "https://so101-turtlebot4.github.io/mobile-bimanual-cleaning/",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "f30ea8ab9a9b78389fa823457e9c4a2cbb7a1086",
+  "tldr_en": "A low-cost and reproducible mobile bimanual platform integrating two LeRobot SO-101 manipulators with a TurtleBot 4 and a LeRobot-ROS 2 software stack is presented, demonstrating the feasibility of long-horizon mobile bimanual manipulation on accessible hardware while highlighting remaining challenges in reliable VLA deployment.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15368": {
   "id": "2611.15368",
@@ -5649,7 +6106,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "296a1facfadc96144ea0217e2a6a88e3b610756f",
+  "tldr_en": "Simulation and real-world experiments demonstrate that Bind-WAM can establish binding uncertainty as a strong, interpretable signal for selective future imagination.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15360": {
   "id": "2611.15360",
@@ -5712,7 +6174,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "1e1ed820ad41ecd50074daaba4b3cde8d00a6255",
+  "tldr_en": "Coupled Alternating Refinement for Ego-trajectories is proposed, which decomposes trajectory refinement into waypoint residual correction and position-conditioned heading generation and simplifies refinement through clear physical specialization while preserving conditional coupling during prediction and optimization.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15339": {
   "id": "2611.15339",
@@ -5773,7 +6240,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "326acab230822a0bd961dc8b4ccf171274ae9ba3",
+  "tldr_en": "An interactive perception framework that infers granular material properties directly from force-torque measurements acquired during scooping is presented and the relevance of the inferred properties to downstream manipulation is demonstrated by examining their correlation with the maximum acceleration the materials can withstand without spilling from the spoon during transport.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15317": {
   "id": "2611.15317",
@@ -5834,7 +6306,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "c85a2c1f9501ed12acf4f8d425c5743e77376f7e",
+  "tldr_en": "BiPOP, a framework that couples Large Language Models (LLMs) with Temporal Partial-Order Planning for long-horizon bimanual manipulation, outperforms open-loop planning with strong reasoning models and closed-loop ReAct-style planning in success rate, planning time, and plan efficiency.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15296": {
   "id": "2611.15296",
@@ -5896,7 +6373,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "ace8f9326dd3fbe17e6da602bcaf97c6aed15203",
+  "tldr_en": "This work proposes a framework for learning trajectory planning policies using the analytic policy gradient (APG) method and uses it to train APG-Planner, a vision-based high-speed trajectory planner that demonstrates comparable or superior performance to existing baseline methods in simulation and achieves speeds of up to 11\\,m/s in real-world flight experiments.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15280": {
   "id": "2611.15280",
@@ -5965,7 +6447,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "72b281e482765d9cb9f766cecc9d8506bb17750f",
+  "tldr_en": "A unified learning framework is introduced that treats local navigation and locomotion as a joint optimization problem, bypassing the twist or pose command interface of classical control hierarchies and produces both trail racing and agile parkour, shaped only through terrain semantics and episode length.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15277": {
   "id": "2611.15277",
@@ -6026,7 +6513,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "53658d55cb2e5d41c2b95da09b9938593c7867d2",
+  "tldr_en": "",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15217": {
   "id": "2611.15217",
@@ -6113,7 +6605,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "ed8b24cf051a6cf2c066b1f18f8ba73c15e98d8d",
+  "tldr_en": "Ten key challenges that hinder the development of weather-resilient autonomy are identified, including data scarcity, domain shifts, limitations in multimodal perception, control robustness, and validation gaps, among others.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15216": {
   "id": "2611.15216",
@@ -6173,7 +6670,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "7c6b42c821fbbefa19d093f7e00711c5a1c199a4",
+  "tldr_en": "It is shown that the strong numbers reported by existing PIS methods are largely an artifact of single-instance benchmarks: when evaluated on realistic scenes with several same-category look-alikes, prior point-prompt methods collapse, because the correct instance is frequently never surfaced as a prompt.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15215": {
   "id": "2611.15215",
@@ -6236,7 +6738,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "a80655cc5fd4dd70c8f365f263c52bffe79d378c",
+  "tldr_en": "After-WM, a world model with Adaptive Fast-slow Timescales for Error-driven Retention, whose prediction errors drive a fast correction that fades and a slow correction that persists, while dynamically adjusting the combination weights of pre-trained experts without altering them, to overcome the trade-offs among responsiveness, stability and persistence.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15135": {
   "id": "2611.15135",
@@ -6312,7 +6819,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "1762096e0ec329e8ba163ddd3ac6c182658bef5a",
+  "tldr_en": "The Autonomous Robotic Translational System (ARTS), an open-source three-arm platform for autonomy research in minimally invasive surgery, built entirely from purchasable parts for about USD 137,000 is presented.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15117": {
   "id": "2611.15117",
@@ -6377,7 +6889,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "fb55fd9bf102f999ecd77c3cb7a0d5a5342567ec",
+  "tldr_en": "PolyMorphWBC is presented, a hierarchical controller that takes an EE trajectory as the sole task-level motion command and generates coordinated arm--base motions across four families of 6-DoF mounted arms, with extended-reach trajectories beyond the initial fixed-base reach.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15112": {
   "id": "2611.15112",
@@ -6437,7 +6954,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "3ab428906f3663cefee3fce66cbed316799e1293",
+  "tldr_en": "Elastra, a simulation framework for modeling this interaction and supporting the training and evaluation of robot control policies, is presented and used to train the Unitree G1 humanoid to stand up on mattresses and trampolines.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15101": {
   "id": "2611.15101",
@@ -6498,7 +7020,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "1b742a09ea025eed9895e29e9cb5dd24b3c2f2e3",
+  "tldr_en": "This work proposes CFGComposer: a jointly-trained AT2M diffusion model that estimates $s_I$ via a CFG analogy and injects it as an $\\epsilon$-space correction and demonstrates best-in-class semantic fidelity on BEAT.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15093": {
   "id": "2611.15093",
@@ -6556,7 +7083,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "02ed1c143666bbf4feceecab32e6f853a5cce63b",
+  "tldr_en": "PreNav, an ObjectNav framework on semi-static environments, is presented and experiments show that PreNav outperforms a strong online baseline under matched structural priors, using a generator trained only on room-level ScanNet++ scenes and applied to floor-level Gibson without fine-tuning.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15082": {
   "id": "2611.15082",
@@ -6613,7 +7145,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "ace580144c1b64135ec729eb4fa9825334916da5",
+  "tldr_en": "Pretrained video world models are compared and chosen as components for robot learning largely by future-prediction scores, and persistence alone recovers the encoder ordering expected from pretraining, a sign that the probe tracks real signal.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15078": {
   "id": "2611.15078",
@@ -6673,7 +7210,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "aa26734e8beaffe59ef5f9dba13fabfe05d10d06",
+  "tldr_en": "CrowdMAPS is evaluated using keyframe-centric goal-pose annotations supplied by non-expert annotators and train imitation policies on the resulting MAPS data, establishing CrowdMAPS as a scalable digital layer for real-robot data collection.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15066": {
   "id": "2611.15066",
@@ -6735,7 +7277,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "3d199a533280bfbf66b250f89a9c218e75d397cd",
+  "tldr_en": "This work proposes MiniPose, a practical pipeline for miniature-based real RGB-D data collection that addresses both the data-acquisition burden and the sim-to-real gap, and evaluates two RGB-D pose estimators with different formulations, PVN3D and RDPN6D, to examine whether the benefit depends on a particular network.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15048": {
   "id": "2611.15048",
@@ -6792,7 +7339,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "1abfaa502d484171dfbd7c56f8a8093ed1dac1bd",
+  "tldr_en": "Inspecting the forced response to action perturbations through sensitivity analysis is one way to audit how well WMs can predict the consequences of counterfactual actions.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15020": {
   "id": "2611.15020",
@@ -6859,7 +7411,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "0eb310b6bf528a9087897f6bff0a74896d80a3db",
+  "tldr_en": "These results support task-specific simulation evaluation through joint assessment of task outcomes and physical-response consistency through joint assessment of task outcomes and physical-response consistency.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.15011": {
   "id": "2611.15011",
@@ -6918,7 +7475,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "99d8fda4f89dc0fef50e81894d3ef01d6d4e141e",
+  "tldr_en": "This key insight is that a pretrained policy already supplies a useful nominal behavior: refinement can focus on predicting how small action corrections change its outcome, and therefore learn this local response in a form that is cheap to optimize.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14985": {
   "id": "2611.14985",
@@ -6979,7 +7541,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "e7b793c06b98fcb46df69daaee87ad15aa568189",
+  "tldr_en": "Results demonstrate compliant guidance as a reusable, sensor-free extension to pretrained humanoid motion trackers as a reusable, sensor-free extension to pretrained humanoid motion trackers.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14981": {
   "id": "2611.14981",
@@ -7041,7 +7608,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "64fad22bd85da4fd6016a5902d3801bbee688d05",
+  "tldr_en": "A unified pipeline that transforms a single RGB image into a humanoid motion reference that reconstructs scene geometry from the input image, generates a human interaction conditioned on the reconstructed scene, and retargets the motion to a humanoid robot is presented.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14969": {
   "id": "2611.14969",
@@ -7114,7 +7686,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "4854ec83d1a7a804c04816ef066dba5693eb76a5",
+  "tldr_en": "XInfer, a production-deployed VLA serving system designed to reduce the inference infrastructure cost of large-scale robotic deployments, is presented, achieving 1.26-3.75 times the effective robot capacity of state-of-the-art systems under physical-execution constraints.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14958": {
   "id": "2611.14958",
@@ -7175,7 +7752,12 @@
    "project_url": "https://emvit-mde.github.io",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "46468f995e0b09388238620e9a7ea2eb8caacd1a",
+  "tldr_en": "EM-ViT is a monocular depth estimation model that learns to adapt online relative depth inputs from a foundation model prior to the metric scale with observations collected during robotic operations, and can adapt to novel scenes faster and with higher accuracy than existing MDE foundation models.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14955": {
   "id": "2611.14955",
@@ -7236,7 +7818,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "15a11c100d2f417778f7472e86c0fd0dd3adb8d3",
+  "tldr_en": "A single-seed case study of a Recurrent State Space Model world model with active-inference planning in the CARLA driving simulator is identified, identifying aosterior-prior gap---posterior (observation-filtered) states retain obstacle information that imagined rollout states progressively lose.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14953": {
   "id": "2611.14953",
@@ -7303,7 +7890,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "053d1589c94cde1bb846565b06ab0d094af338ff",
+  "tldr_en": "RSLiveBench-UAV is introduced, a continually evolving vision-language benchmark driven by recurring acquisition of real UAV imagery and connects fresh physical observations, entity-centered answer production, and systematic model evaluation to support continual assessment of ASI.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14942": {
   "id": "2611.14942",
@@ -7362,7 +7954,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "6566066938cf26857dc1e2b5a8aec3b8f370b9e5",
+  "tldr_en": "Emergent vision-shaped thinking (EVT) is revealed: text-only reasoning that causally recruits representations introduced or strengthened by vision-language training, without assuming an image-like internal format.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14941": {
   "id": "2611.14941",
@@ -7425,7 +8022,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "4b0b4d29eaa6407dd8624cdbb50b3631e85b9491",
+  "tldr_en": "Reality Perception Gap is introduced, a benchmark of 10,000 videos from frontier generators and partially synthetic edits, processed with cross-platform repost compression and paired with real footage that carries camera-side optical artifacts, suggesting that robust detection requires training under deployment conditions and combining low-level, temporal, and semantic evidence.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14918": {
   "id": "2611.14918",
@@ -7488,7 +8090,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "1276d9d5f9b2dff264d21438b0945d61dcfb9f51",
+  "tldr_en": "A diffeomorphic vector-field alignment (DIVAL) method, which aligns the vector field's direction with the robot's initial heading so the robot can follow the vector field from the start and maintain heading alignment with the reshaped vector field throughout the motion.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14897": {
   "id": "2611.14897",
@@ -7546,7 +8153,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "f70736f2147d9349717cd301731bca4b37c2539f",
+  "tldr_en": "This work derives interpretable lexicon-based indicators of urgency, trust, greed, and other persuasion cues from the combined email dataset and evaluates how much signal they carry and whether they transfer to held-out email sources.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14895": {
   "id": "2611.14895",
@@ -7608,7 +8220,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "17c6d419abade38651d3fc5c3780668e7592a00c",
+  "tldr_en": "This work proposes HeadIO, which combines a body-frame heading decomposition with a bidirectional Mamba backbone for head-mounted inertial odometry, and achieves state-of-the-art performance on the authors' primary metric, RTE-5s, on all Aria-glasses datasets, which natively provide body-frame semantics for the decomposition method.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14880": {
   "id": "2611.14880",
@@ -7667,7 +8284,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "4f015924778de718bbc0a25c4e1d6eae4ca500ef",
+  "tldr_en": "FOE-Dreamer is presented, a model-based reinforcement learning framework that trains a defender online and directly in a network on cloud infrastructure, without a simulator stage, and achieves about 2$\\times better episode loss than Rainbow and IQN baselines under matched compute.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14856": {
   "id": "2611.14856",
@@ -7726,7 +8348,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "8d14fbfdaa97c0cdb7b944bb9e2c76e93e72e33f",
+  "tldr_en": "A corner theorem locates the gap routing aims to close, and reports that global calibrated fusion (InvB) beats the best single expert on worst-family AUC, selective risk (AURC), and low-false-positive recall, stably across protocols.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14853": {
   "id": "2611.14853",
@@ -7789,7 +8416,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "2b0182189863ce143a787a155436485ea3003c31",
+  "tldr_en": "A novel framework that modulates traditional Social Force, guided by Model Predictive Control to plan ahead, bounded by Control Barrier Functions (CBF) to increase safety for robot groups repositioning behaviors is proposed.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14840": {
   "id": "2611.14840",
@@ -7853,7 +8485,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "22fe058d7067d89814a19a71d97dd69ec056bb83",
+  "tldr_en": "SPIRE is introduced, a recurrent-spiking system that infers latent contexts from action-outcome evidence and learns context-specific motor actors online and demonstrates autonomous recovery and causal reuse of motor skills for new learning in continuous embodied control.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14834": {
   "id": "2611.14834",
@@ -7916,7 +8553,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "528d8a1c9ff724b4412c87c00ce64e863b31d408",
+  "tldr_en": "H, a lightweight framework that uses hindsight from a frozen VLA's own deployments to improve action verification, is proposed, a lightweight framework that uses hindsight from a frozen VLA's own deployments to improve action verification.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14769": {
   "id": "2611.14769",
@@ -7976,7 +8618,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "d08faa0e2b83968ae2e795d8416a66a40378e909",
+  "tldr_en": "This work finds thatArena-style rankings of language models are highly vulnerable to several manipulation strategies that unscrupulous providers could use to boost a model's rank: strategic voting, strategic prompting, strategic prompting, and strategic nomination.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14762": {
   "id": "2611.14762",
@@ -8036,7 +8683,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "f3d03add1159287832965e919f3327e1852d7046",
+  "tldr_en": "Although gait with the bypass does not fully replicate that of prosthesis users, it yielded consistent gait patterns after only 10~min of learning, and provides a useful tool for the lower-limb prosthetics research community, facilitating preliminary experiments with able-bodied participants.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14729": {
   "id": "2611.14729",
@@ -8101,7 +8753,12 @@
    "project_url": "",
    "real_robot": "yes"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "c7c091f4f9d35f5b6fdfe9fc8f0a594d82c550a6",
+  "tldr_en": "",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14685": {
   "id": "2611.14685",
@@ -8159,7 +8816,12 @@
    "project_url": "",
    "real_robot": "no"
   },
-  "fetched_at": "2026-11-13T07:53:42+00:00"
+  "fetched_at": "2026-11-13T07:53:42+00:00",
+  "s2_id": "8449ad31399cd3a34bbd6797cdd36ab525a917ee",
+  "tldr_en": "A decentralized terrain-aware multi-drone Thompson Sampling algorithm tailored for search and rescue (SAR) applications that balances exploration of uncertain regions with exploitation of high-probability areas to locate a lost person is proposed.",
+  "citations": 0,
+  "influential_citations": 0,
+  "venue": ""
  },
  "2611.14488": {
   "id": "2611.14488",
@@ -8181,10 +8843,10 @@
   "abs_url": "https://arxiv.org/abs/2611.14488",
   "pdf_url": "https://arxiv.org/pdf/2611.14488v1",
   "hf_upvotes": 8,
-  "hf_comments": 8,
+  "hf_comments": 9,
   "hf_summary_en": "Memory in vision-language-action policies can mistake pauses for progress because it is indexed by time, causing early stopping, while event-based indexing mitigates this without retraining.",
   "github_repo": "https://github.com/bennidict23/memory-clock",
-  "github_stars": 1,
+  "github_stars": 2,
   "project_page": "",
   "llm": {
    "title_ja": "あなたのロボットの記憶はただの時計か？記憶拡張VLAポリシーにおける時間的ショートカット",
@@ -9027,8 +9689,8 @@
    "venue": "",
    "venue_status": "",
    "venue_evidence": "",
-   "code_url": "",
-   "project_url": "",
+   "code_url": "https://github.com/jingjing12110/SE-MMAgents",
+   "project_url": "https://jingjing12110.github.io/SE-MMAgents/",
    "real_robot": "no"
   },
   "fetched_at": "2026-11-11T07:43:32+00:00",
@@ -9036,7 +9698,13 @@
   "tldr_en": "This survey investigates the structural source of asymmetric mechanism transfer across four scenarios: multimodal reasoning, multimodal generation, GUI and Web navigation, and embodied manipulation, and attributes the asymmetry to divergent combinations of scarce factors and resources across opposite transfer directions.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "",
+  "hf_upvotes": 2,
+  "hf_comments": 4,
+  "hf_summary_en": "A survey analyzes why self-improvement mechanisms for multimodal agents transfer unevenly across reasoning, generation, navigation, and manipulation scenarios, framing them as trade-offs over scarce factors and task-structural resources.",
+  "github_repo": "https://github.com/jingjing12110/SE-MMAgents",
+  "github_stars": 0,
+  "project_page": "https://jingjing12110.github.io/SE-MMAgents/"
  },
  "2611.14247": {
   "id": "2611.14247",
@@ -9241,10 +9909,10 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 5,
-  "hf_comments": 8,
+  "hf_comments": 11,
   "hf_summary_en": "",
   "github_repo": "https://github.com/zhuqinfeng1999/LEASH",
-  "github_stars": 4,
+  "github_stars": 5,
   "project_page": "https://zhuqinfeng1999.github.io/LEASH/"
  },
  "2611.14111": {
@@ -10824,7 +11492,7 @@
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/santoshrajkumar/fame-qp",
-  "github_stars": 9,
+  "github_stars": 11,
   "project_page": "https://santoshrajkumar.github.io/proj/fame_qp/"
  },
  "2611.13732": {
@@ -11435,7 +12103,7 @@
    "real_robot": "no"
   },
   "fetched_at": "2026-11-11T07:43:32+00:00",
-  "s2_id": "a95fa0e76c0bd9eca8ca6850bf6d2fcfc661aae9",
+  "s2_id": "b15e5b75fe27ca05d110138fdef9a2e3bfe3aea0",
   "tldr_en": "FlashMotion is presented, a co-designed framework for high-quality long-horizon 3D motion generation under a strict inference budget, covering text-to-motion, music-to-dance, and speech-to-gesture tasks, and a lightweight non-autoregressive BiMamba architecture with condition-guided state selection and AdaIN-based condition fusion mechanism, enhancing cross-modal alignment and generalization to longer motion sequences.",
   "citations": 0,
   "influential_citations": 0,
@@ -12069,7 +12737,7 @@
   "hf_comments": 3,
   "hf_summary_en": "Execution at the Right Length (ExRL) enables sample-efficient adaptation of long-chunk robot policies by training a lightweight adapter to predict each chunk’s execution length using off-policy reinforcement learning.",
   "github_repo": "https://github.com/Frankluox/ExRL",
-  "github_stars": 5,
+  "github_stars": 7,
   "project_page": "https://exrl-project.github.io/",
   "llm": {
    "title_ja": "ExRL：実行長制御による長チャンクポリシーのサンプル効率の高いオンライン適応",
@@ -12177,7 +12845,7 @@
   },
   "fetched_at": "2026-11-11T07:43:32+00:00",
   "s2_id": "11b200f66d558b64a57d369789b90f7b12b128f8",
-  "tldr_en": "This work formalizes the task of beat-iconic gesture generation using emotion and proposes lightweight models that predict iconic timing and intensity, then fill the remaining spans with emotion-conditioned beats at an appropriate intensity level.",
+  "tldr_en": "This work presents an emotion-aware rhythmic–semantic co-speech gesture system that generates iconic and beat behaviors in real time from text and the robot’s internal emotional state, and proposes lightweight models that predict iconic timing and intensity, then fill the remaining spans with emotion-conditioned beats.",
   "citations": 0,
   "influential_citations": 0,
   "venue": ""
@@ -13437,11 +14105,11 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 58,
-  "hf_comments": 3,
+  "hf_upvotes": 57,
+  "hf_comments": 4,
   "hf_summary_en": "",
   "github_repo": "https://github.com/ArcheOne-AI/RoboScript",
-  "github_stars": 141,
+  "github_stars": 174,
   "project_page": "https://archeone-ai.github.io/RoboScript/"
  },
  "2611.12879": {
@@ -13585,8 +14253,8 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 22,
-  "hf_comments": 5,
+  "hf_upvotes": 23,
+  "hf_comments": 7,
   "hf_summary_en": "",
   "github_repo": "https://github.com/shaaaaron/SWAM",
   "github_stars": 41,
@@ -13764,7 +14432,7 @@
   "hf_comments": 2,
   "hf_summary_en": "LingBot-Touch is a tactile foundation model that learns a unified, extensible representation across heterogeneous tactile sensors, yielding plug-and-play tactile tokens that consistently enhance manipulation policies such as diffusion policy and VLA models.",
   "github_repo": "https://github.com/Robbyant/lingbot-touch",
-  "github_stars": 367,
+  "github_stars": 484,
   "project_page": "https://technology.robbyant.com/lingbot-touch",
   "llm": {
    "title_ja": "一般器用把持に向けた異種触覚表現の学習",
@@ -16118,10 +16786,10 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 28,
-  "hf_comments": 3,
+  "hf_comments": 4,
   "hf_summary_en": "",
   "github_repo": "https://github.com/mll-lab-nu/embodied-first-exam",
-  "github_stars": 270,
+  "github_stars": 274,
   "project_page": "https://www.embodied-first-exam.ai/"
  },
  "2611.12175": {
@@ -17231,7 +17899,7 @@
   },
   "fetched_at": "2026-11-10T08:23:42+00:00",
   "s2_id": "411e3d3bd048a03b6bdd00a79b9597a22bcf66ea",
-  "tldr_en": "DPGS-SLAM is a monocular RGB SLAM framework that supports provisional representations of insufficiently observed static backgrounds through asynchronous diffusion-based background completion and provenance-aware Gaussian mapping.",
+  "tldr_en": "The proposed DPGS-SLAM is a monocular RGB SLAM framework that supports provisional representations of insufficiently observed static backgrounds through asynchronous diffusion-based background completion and provenance-aware Gaussian mapping.",
   "citations": 0,
   "influential_citations": 0,
   "venue": ""
@@ -22002,7 +22670,7 @@
   "fetched_at": "2026-11-10T08:23:42+00:00",
   "s2_id": "c3d9c94bb72b6b9c53d47cd3bdcd3ba37dae717b",
   "tldr_en": "3D full-object flow is proposed, an object-centric motion representation that assigns dense 3D trajectories to points across the complete surface of a target object, including its occluded regions, by extending visible-surface object flow to the full object geometry.",
-  "citations": 1,
+  "citations": 2,
   "influential_citations": 0,
   "venue": ""
  },
@@ -23307,7 +23975,7 @@
   "hf_comments": 2,
   "hf_summary_en": "WorldFoundry offers open-source infrastructure for reproducible inference and evaluation of generative world models across video, 3D/4D, embodied action, and interactive systems, with traceable evidence and benchmarks.",
   "github_repo": "https://github.com/OpenEnvision/WorldFoundry",
-  "github_stars": 351,
+  "github_stars": 352,
   "project_page": "https://openenvision.org/WorldFoundry/",
   "llm": {
    "title_ja": "WorldFoundry：世界知能のための統合インフラストラクチャに向けて",
@@ -25080,7 +25748,7 @@
   },
   "fetched_at": "2026-11-09T07:55:05+00:00",
   "s2_id": "4e2bdec92f039ffce8afcf84cf863226c943106c",
-  "tldr_en": "It is proved that $\\chi^2$-regularized MPPI at a temperature set by the scorer's error spread on the proposals is worst-case optimal, that no positive gain can be certified once that spread exceeds the scorer's own, and that an episode's return splits exactly into per-step terms, of which the guarantee covers the selection terms.",
+  "tldr_en": "It is proved that $\\chi^2$-regularized MPPI at a temperature set by the scorer's error spread on the proposals is worst-case optimal, that no gain can be certified once that spread exceeds the scorer's own, and that an episode's return splits exactly into per-step terms, only some of which the guarantee covers.",
   "citations": 0,
   "influential_citations": 0,
   "venue": ""
@@ -26487,7 +27155,7 @@
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/Naturalpad-studio/InstantHMR",
-  "github_stars": 386,
+  "github_stars": 395,
   "project_page": ""
  },
  "2611.09145": {
@@ -26766,10 +27434,10 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 53,
-  "hf_comments": 3,
+  "hf_comments": 4,
   "hf_summary_en": "An embodied multi-agent framework uses learned correction codes and a vision-language-action model with motion-aware history and latent world modeling to improve robot control, failure recovery, and training efficiency.",
   "github_repo": "https://github.com/AutoLab-SAI-SJTU/A2MEAS",
-  "github_stars": 22,
+  "github_stars": 23,
   "project_page": "https://a2-meas.github.io/"
  },
  "2611.08462": {
@@ -26943,7 +27611,7 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.08449",
   "pdf_url": "https://arxiv.org/pdf/2611.08449v1",
-  "hf_upvotes": 116,
+  "hf_upvotes": 117,
   "hf_comments": 1,
   "hf_summary_en": "VFlash employs Flash Primitive Decoding to predict visual primitive coordinates jointly via a lightweight drafter, reducing trajectory prediction error and generation time while improving downstream world action model success.",
   "github_repo": "",
@@ -27370,7 +28038,7 @@
   "abs_url": "https://arxiv.org/abs/2611.08373",
   "pdf_url": "https://arxiv.org/pdf/2611.08373v1",
   "hf_upvotes": 88,
-  "hf_comments": 3,
+  "hf_comments": 4,
   "hf_summary_en": "The SLA model enhances spatial understanding in Vision-Language-Action systems by aligning visual embeddings with 3D spatial representations through continual pre-training and feature-dependent gating.",
   "github_repo": "",
   "github_stars": 0,
@@ -27889,7 +28557,7 @@
    "venue_status": "",
    "venue_evidence": "",
    "code_url": "",
-   "project_url": "https://dagroup-pku.github.io/PyRUA-Lean/RSIJudge",
+   "project_url": "https://dagroup-pku.github.io/PyRUA-Lean/RSIJudge/",
    "real_robot": "no"
   },
   "fetched_at": "2026-11-06T07:54:44+00:00",
@@ -27897,7 +28565,13 @@
   "tldr_en": "This work conducts controlled experiments with a self-improving agent with and without Criteria Exposure (CE), and finds that with CE the agent quickly produces code with a higher success rate under the given criteria, but this advantage disappears when the criteria are changed slightly without departing from the original instructions.",
   "citations": 2,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "",
+  "hf_upvotes": 15,
+  "hf_comments": 4,
+  "hf_summary_en": "Exposing benchmark success criteria to self-improving embodied coding agents can raise measured success under those criteria without improving instructed-task completion, and the advantage weakens under slight criteria changes and transfers poorly across tasks, while instruction-faithful criteria better reflect instructed-task performance.",
+  "github_repo": "",
+  "github_stars": 0,
+  "project_page": "https://dagroup-pku.github.io/PyRUA-Lean/RSIJudge/"
  },
  "2611.08308": {
   "id": "2611.08308",
@@ -31197,7 +31871,7 @@
   "project_page": "https://keio-csg.github.io/FWL-ToPM/",
   "s2_id": "969ac58360acb84671a05814babada7261b29eed",
   "tldr_en": "This work proposes FWL-ToPM, a token pruning and merging mechanism that leverages intensity distributions to selectively reduce tokens while retaining critical waveform content, and introduces FWLAug, a data augmentation framework designed as a regularization method that preserves waveform structure.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": ""
  },
@@ -33876,7 +34550,7 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 11,
-  "hf_comments": 3,
+  "hf_comments": 4,
   "hf_summary_en": "PyRUA-REAL enables coding agents to convert physical robot exploration into persistent executable skills, achieving high success rates across real-world and benchmark tasks through recursive self-improvement.",
   "github_repo": "",
   "github_stars": 0,
@@ -37722,7 +38396,7 @@
   "fetched_at": "2026-11-05T07:53:40+00:00",
   "s2_id": "6fe0dfd6a09aa933065fabb416a39e728e863846",
   "tldr_en": "It is argued that a claim attributing an agent's behavior to its history should carry intervention-verified evidence, per instance or via a validated estimator: freeze an executable mid-trajectory state, alter only the history the agent sees, and continue - executed at a state whose restoration has been measured, with a replay certificate matched to the estimand.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "llm": {
@@ -38923,11 +39597,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.05275",
   "pdf_url": "https://arxiv.org/pdf/2611.05275v1",
-  "hf_upvotes": 82,
+  "hf_upvotes": 83,
   "hf_comments": 3,
   "hf_summary_en": "Route Anything is a framework for dynamically selecting and coordinating specialized AI models and policies across diverse tasks to improve performance and efficiency.",
   "github_repo": "https://github.com/InfRec-Cardinal/route-anything",
-  "github_stars": 21,
+  "github_stars": 22,
   "project_page": "https://mikeeeeeeeeeeeeee.github.io/RouteAnything",
   "llm": {
    "title_ja": "Route Anything：汎用AIシステムにおけるモデルおよび方策ルーティングの研究",
@@ -39270,7 +39944,7 @@
   "abs_url": "https://arxiv.org/abs/2611.05163",
   "pdf_url": "https://arxiv.org/pdf/2611.05163v3",
   "hf_upvotes": 14,
-  "hf_comments": 2,
+  "hf_comments": 3,
   "hf_summary_en": "RoboTryOn translates human demonstration videos into robot videos to train control policies without real robot demonstrations, improving success rates and reducing data collection costs.",
   "github_repo": "https://github.com/ryan-seungyong-lee/RoboTryOn",
   "github_stars": 9,
@@ -40736,10 +41410,10 @@
   "abs_url": "https://arxiv.org/abs/2611.04870",
   "pdf_url": "https://arxiv.org/pdf/2611.04870v1",
   "hf_upvotes": 10,
-  "hf_comments": 2,
+  "hf_comments": 3,
   "hf_summary_en": "PrimeSim is an action-conditioned multiview world model that uses progressive training, unified action representations, view-aware attention, and hierarchical memory to enable consistent, long-horizon robot simulation and policy optimization.",
   "github_repo": "https://github.com/PrimebotTech/PrimeSim",
-  "github_stars": 9,
+  "github_stars": 10,
   "project_page": "https://primebottech.github.io/PrimeSim-website/",
   "llm": {
    "title_ja": "PrimeSim: 大規模クロスエンボディメントデモンストレーションからの汎用世界モデルシミュレータ",
@@ -41582,7 +42256,7 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 12,
-  "hf_comments": 3,
+  "hf_comments": 4,
   "hf_summary_en": "A robot control method repurposes a pretrained video diffusion model as a predictive visual encoder via representation distillation, enabling action prediction without generating future videos and achieving real-time control.",
   "github_repo": "",
   "github_stars": 0,
@@ -42422,7 +43096,7 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 15,
-  "hf_comments": 2,
+  "hf_comments": 3,
   "hf_summary_en": "H2RB adapts pretrained vision-language-action policies to new robots using unpaired human demonstrations via geometry-anchored alignment and a decoupled-decoder tokenizer, substantially improving cross-embodiment skill transfer.",
   "github_repo": "https://github.com/jun-brro/h2rb-code",
   "github_stars": 4,
@@ -43555,7 +44229,7 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 1,
-  "hf_comments": 2,
+  "hf_comments": 3,
   "hf_summary_en": "Visual perturbations can alter physical actions in vision-language-action models while leaving rationales unchanged, demonstrating that unchanged reasoning does not guarantee safe actions.",
   "github_repo": "",
   "github_stars": 0,
@@ -52410,7 +53084,7 @@
   "hf_comments": 2,
   "hf_summary_en": "ODE policy learns action dynamics with neural ODEs to generate continuous, multimodal robot trajectories, improving imitation and reinforcement learning across diverse tasks.",
   "github_repo": "https://github.com/NTUMARS/ODE-POLICY",
-  "github_stars": 109,
+  "github_stars": 114,
   "project_page": "https://ntumars.github.io/ODE/"
  },
  "2611.01713": {
@@ -53075,7 +53749,7 @@
   "hf_comments": 2,
   "hf_summary_en": "Uni-robot-agent enables open-weight robot-use agents to surpass proprietary models in zero-shot manipulation and suggests joint development of four core capabilities for future training.",
   "github_repo": "https://github.com/Open-RUA/uni-robot-agent",
-  "github_stars": 388,
+  "github_stars": 400,
   "project_page": "https://openrua.ai/uni-robot-agent",
   "llm": {
    "title_ja": "ロボット利用エージェントの民主化：オープンモデルによる統合ハーネス",
@@ -53118,7 +53792,7 @@
   "fetched_at": "2026-11-03T07:54:27+00:00",
   "s2_id": "b2626800b91d890fc5b28e8a6ef69f4bc40c0bf3",
   "tldr_en": "Uni-robot-agent is introduced, a unified harness for competitive open-weight robot use that supports further training and links effective robot use to four general capabilities, suggesting that future RUA training should develop them jointly.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": ""
  },
