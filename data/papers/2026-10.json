@@ -2001,7 +2001,7 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2610.42096",
   "pdf_url": "https://arxiv.org/pdf/2610.42096v1",
-  "hf_upvotes": 4,
+  "hf_upvotes": 5,
   "hf_comments": 2,
   "hf_summary_en": "Causal World Action Models enforce sparse routing to isolate action-relevant latent variables, ensuring identifiable causal structure without requiring temporal independence assumptions.",
   "github_repo": "",
@@ -2121,7 +2121,7 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 17,
+  "hf_upvotes": 18,
   "hf_comments": 5,
   "hf_summary_en": "REA unifies deliberative and reactive policies in a single runtime with asynchronous coordination, achieving high success rates with reduced control overhead across simulated and real robot tasks.",
   "github_repo": "",
@@ -12435,7 +12435,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.38502v1",
   "s2_id": "e792eb7faa5947f0d311ea40c18b08e2b24ade43",
   "tldr_en": "This paper introduces OmniQuad, a novel hybrid robot that integrates mecanum wheels with legged locomotion to exploit the benefits of both modalities and describes the complete robot assembly, comprising these wheeled feet and EM-Act actuators.",
-  "citations": 16,
+  "citations": 17,
   "influential_citations": 0,
   "venue": "Mechanism and Machine Theory",
   "llm": {
@@ -14616,7 +14616,7 @@
   "hf_comments": 2,
   "hf_summary_en": "Venus-DefakerOne2 is a unified anti-forgery foundation model that extends detection to diverse forgery forms and media types through alternating LoRA and full-parameter tuning and entropy-based test adaptation.",
   "github_repo": "https://github.com/inclusionAI/DefakerOne2",
-  "github_stars": 136,
+  "github_stars": 147,
   "project_page": "https://venus-guangjian.github.io/Venus-DeFakerOne2/"
  },
  "2610.37917": {
@@ -18393,7 +18393,7 @@
   "tldr_en": "Signed friction distance is used to measure friction margin in force space and derives a task-adaptive margin from the force correction needed to balance pivot moment deviations in bimanual tilting and shows interpretable force redistribution and adaptation to object property changes.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": "",
+  "venue": "IEEE Robotics and Automation Letters",
   "llm": {
    "title_ja": "接触の維持：両手非把持マニピュレーションのためのタスク適応型摩擦マージン",
    "tldr_ja": "符号付き摩擦距離を用いて力空間における摩擦マージンを測定し、両手傾斜時のピボットモーメント偏差をバランスさせるために必要な力補正からタスク適応型マージンを導出して、接触を維持する最適化フレームワークを提案した。",
@@ -22405,7 +22405,7 @@
    "model": "gemini-3.5-flash-lite",
    "tldr_source": "s2"
   },
-  "hf_upvotes": 10,
+  "hf_upvotes": 11,
   "hf_comments": 2,
   "hf_summary_en": "OSWAM enables real-time, high-quality action generation in autonomous driving and embodied control by initializing diffusion with structured imagination tokens and distilling future-conditioned privileged information into a single denoising step.",
   "github_repo": "https://github.com/PolyU-VCLab/OSWAM",
@@ -29079,7 +29079,7 @@
   "tldr_en": "The Dual-Stream Gated Network (DSGN), an architecture designed to address scale-amplified task-transition difficulties by separating surveillance and containment into specialized representation streams and coordinating them through a context-aware gating mechanism, is proposed.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": "",
+  "venue": "IEEE Robotics and Automation Letters",
   "badges": {
    "venue": "RA-L 2026",
    "venue_status": "accepted",
@@ -61862,9 +61862,9 @@
   "abs_url": "https://arxiv.org/abs/2610.26174",
   "pdf_url": "https://arxiv.org/pdf/2610.26174v1",
   "badges": {
-   "venue": "",
-   "venue_status": "",
-   "venue_evidence": "",
+   "venue": "Proceedings of the 2026 ACM SIGSAC Confe",
+   "venue_status": "accepted",
+   "venue_evidence": "semantic_scholar",
    "code_url": "",
    "project_url": "",
    "real_robot": "yes"
@@ -61904,7 +61904,7 @@
   "tldr_en": "End-to-end evaluations conducted on real robots and robotic arms demonstrate that the attack can bypass existing anti-interference mechanisms and effectively hijack their closed-loop control processes, achieving an attack success rate exceeding 95% when the grasping-position offset is bounded within 8~mm.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security"
  },
  "2610.26170": {
   "id": "2610.26170",

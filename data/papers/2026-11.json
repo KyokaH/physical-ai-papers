@@ -658,11 +658,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.17060",
   "pdf_url": "https://arxiv.org/pdf/2611.17060v1",
-  "hf_upvotes": 26,
-  "hf_comments": 2,
+  "hf_upvotes": 27,
+  "hf_comments": 3,
   "hf_summary_en": "",
   "github_repo": "https://github.com/Ropedia/Ropedia-Xperience-2",
-  "github_stars": 16,
+  "github_stars": 20,
   "project_page": "https://ropedia.com/xperience/2-research/",
   "llm": {
    "title_ja": "Ropedia Xperience 2: 物理AIの環境と行動のスケーリングのためのゴールドスタンダード",
@@ -1551,10 +1551,10 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 1,
-  "hf_comments": 1,
+  "hf_comments": 2,
   "hf_summary_en": "EgoX is an egocentric cross-embodiment learning framework that pretrains a modular Transformer with embodiment dreaming on heterogeneous human, robot, and simulated demonstrations, then fine-tunes it to improve manipulation task progress, especially under out-of-distribution conditions.",
   "github_repo": "https://github.com/egox-dream/egox",
-  "github_stars": 9,
+  "github_stars": 10,
   "project_page": "https://egox-dream.github.io/"
  },
  "2611.16725": {
@@ -4183,11 +4183,11 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 4,
-  "hf_comments": 3,
+  "hf_upvotes": 5,
+  "hf_comments": 4,
   "hf_summary_en": "A simplified evaluation harness that keeps full episode history and stops motions early substantially improves robot-use agent scores on RoboDojo, with scene geometry providing the largest additional benefit.",
   "github_repo": "https://github.com/ZefanW/JustRUA",
-  "github_stars": 0,
+  "github_stars": 2,
   "project_page": "https://zefanw.github.io/JustRUA/"
  },
  "2611.15981": {
@@ -9699,7 +9699,7 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 2,
+  "hf_upvotes": 3,
   "hf_comments": 4,
   "hf_summary_en": "A survey analyzes why self-improvement mechanisms for multimodal agents transfer unevenly across reasoning, generation, navigation, and manipulation scenarios, framing them as trade-offs over scarce factors and task-structural resources.",
   "github_repo": "https://github.com/jingjing12110/SE-MMAgents",
@@ -11489,7 +11489,7 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 6,
-  "hf_comments": 2,
+  "hf_comments": 3,
   "hf_summary_en": "",
   "github_repo": "https://github.com/santoshrajkumar/fame-qp",
   "github_stars": 11,
@@ -12032,7 +12032,7 @@
   "fetched_at": "2026-11-11T07:43:32+00:00",
   "s2_id": "8cc43c9f970eb8e7588dbda0545c460624d0c3fa",
   "tldr_en": "This study proposes an extended architecture of KAILOS to make use of the IoT device for removing the barriers of the mobile-app-based approach and conveniently providing indoor positioning service.",
-  "citations": 5,
+  "citations": 6,
   "influential_citations": 0,
   "venue": "International Conference on Indoor Positioning and Indoor Navigation"
  },
@@ -14109,7 +14109,7 @@
   "hf_comments": 4,
   "hf_summary_en": "",
   "github_repo": "https://github.com/ArcheOne-AI/RoboScript",
-  "github_stars": 174,
+  "github_stars": 245,
   "project_page": "https://archeone-ai.github.io/RoboScript/"
  },
  "2611.12879": {
@@ -14428,11 +14428,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.12806",
   "pdf_url": "https://arxiv.org/pdf/2611.12806v1",
-  "hf_upvotes": 102,
+  "hf_upvotes": 103,
   "hf_comments": 2,
   "hf_summary_en": "LingBot-Touch is a tactile foundation model that learns a unified, extensible representation across heterogeneous tactile sensors, yielding plug-and-play tactile tokens that consistently enhance manipulation policies such as diffusion policy and VLA models.",
   "github_repo": "https://github.com/Robbyant/lingbot-touch",
-  "github_stars": 484,
+  "github_stars": 533,
   "project_page": "https://technology.robbyant.com/lingbot-touch",
   "llm": {
    "title_ja": "一般器用把持に向けた異種触覚表現の学習",
@@ -16789,7 +16789,7 @@
   "hf_comments": 4,
   "hf_summary_en": "",
   "github_repo": "https://github.com/mll-lab-nu/embodied-first-exam",
-  "github_stars": 274,
+  "github_stars": 277,
   "project_page": "https://www.embodied-first-exam.ai/"
  },
  "2611.12175": {
@@ -26208,9 +26208,9 @@
    "tldr_source": "ai"
   },
   "badges": {
-   "venue": "",
-   "venue_status": "",
-   "venue_evidence": "",
+   "venue": "Proceedings of the 2026 ACM SIGSAC Confe",
+   "venue_status": "accepted",
+   "venue_evidence": "semantic_scholar",
    "code_url": "",
    "project_url": "",
    "real_robot": "no"
@@ -26220,7 +26220,7 @@
   "tldr_en": "A novel evasion framework, termed Logit Laundering, where the non-compliant LLM provider manipulates model outputs at inference time to undermine detectable watermark signals, and a logit reshaping module to suppress watermark-induced statistical signals by integrating a statistical bias estimator as a plug-and-play component.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security"
  },
  "2611.09433": {
   "id": "2611.09433",
@@ -27155,7 +27155,7 @@
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/Naturalpad-studio/InstantHMR",
-  "github_stars": 395,
+  "github_stars": 403,
   "project_page": ""
  },
  "2611.09145": {
@@ -27611,7 +27611,7 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.08449",
   "pdf_url": "https://arxiv.org/pdf/2611.08449v1",
-  "hf_upvotes": 117,
+  "hf_upvotes": 119,
   "hf_comments": 1,
   "hf_summary_en": "VFlash employs Flash Primitive Decoding to predict visual primitive coordinates jointly via a lightweight drafter, reducing trajectory prediction error and generation time while improving downstream world action model success.",
   "github_repo": "",
@@ -28037,7 +28037,7 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.08373",
   "pdf_url": "https://arxiv.org/pdf/2611.08373v1",
-  "hf_upvotes": 88,
+  "hf_upvotes": 90,
   "hf_comments": 4,
   "hf_summary_en": "The SLA model enhances spatial understanding in Vision-Language-Action systems by aligning visual embeddings with 3D spatial representations through continual pre-training and feature-dependent gating.",
   "github_repo": "",
@@ -28566,7 +28566,7 @@
   "citations": 2,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 15,
+  "hf_upvotes": 20,
   "hf_comments": 4,
   "hf_summary_en": "Exposing benchmark success criteria to self-improving embodied coding agents can raise measured success under those criteria without improving instructed-task completion, and the advantage weakens under slight criteria changes and transfers poorly across tasks, while instruction-faithful criteria better reflect instructed-task performance.",
   "github_repo": "",
@@ -39086,7 +39086,7 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 105,
+  "hf_upvotes": 106,
   "hf_comments": 2,
   "hf_summary_en": "Physical AI should include AI-augmented human intelligence via lifelong cognitive symbionts that close cognitive gaps through sensing, context retention, and proactive assistance, requiring embedded governance.",
   "github_repo": "",
@@ -39601,7 +39601,7 @@
   "hf_comments": 3,
   "hf_summary_en": "Route Anything is a framework for dynamically selecting and coordinating specialized AI models and policies across diverse tasks to improve performance and efficiency.",
   "github_repo": "https://github.com/InfRec-Cardinal/route-anything",
-  "github_stars": 22,
+  "github_stars": 23,
   "project_page": "https://mikeeeeeeeeeeeeee.github.io/RouteAnything",
   "llm": {
    "title_ja": "Route Anything：汎用AIシステムにおけるモデルおよび方策ルーティングの研究",
@@ -42255,7 +42255,7 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 12,
+  "hf_upvotes": 13,
   "hf_comments": 4,
   "hf_summary_en": "A robot control method repurposes a pretrained video diffusion model as a predictive visual encoder via representation distillation, enabling action prediction without generating future videos and achieving real-time control.",
   "github_repo": "",
@@ -42694,7 +42694,7 @@
   "tldr_en": "SR-DP (Spectrally Routed Diffusion Policy) is proposed, a frozen VGGT encoder with a spatial-compression adapter that produces compact multi-scale semantic-geometric tokens, a task-discriminative visual condition for tasks that share a workspace.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "IEEE Robotics and Automation Letters"
  },
  "2611.04424": {
   "id": "2611.04424",
@@ -50096,7 +50096,7 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 9,
-  "hf_comments": 3,
+  "hf_comments": 4,
   "hf_summary_en": "A hierarchical vision-language-action framework stores task-relevant history in explicit language through event detection and memory updates, improving non-Markovian manipulation success while reducing memory use and runtime.",
   "github_repo": "https://github.com/kimspacehuni/HeLM",
   "github_stars": 2,
@@ -53084,7 +53084,7 @@
   "hf_comments": 2,
   "hf_summary_en": "ODE policy learns action dynamics with neural ODEs to generate continuous, multimodal robot trajectories, improving imitation and reinforcement learning across diverse tasks.",
   "github_repo": "https://github.com/NTUMARS/ODE-POLICY",
-  "github_stars": 114,
+  "github_stars": 115,
   "project_page": "https://ntumars.github.io/ODE/"
  },
  "2611.01713": {
@@ -53749,7 +53749,7 @@
   "hf_comments": 2,
   "hf_summary_en": "Uni-robot-agent enables open-weight robot-use agents to surpass proprietary models in zero-shot manipulation and suggests joint development of four core capabilities for future training.",
   "github_repo": "https://github.com/Open-RUA/uni-robot-agent",
-  "github_stars": 400,
+  "github_stars": 409,
   "project_page": "https://openrua.ai/uni-robot-agent",
   "llm": {
    "title_ja": "ロボット利用エージェントの民主化：オープンモデルによる統合ハーネス",
