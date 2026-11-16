@@ -1,4 +1,1637 @@
 {
+ "2611.18562": {
+  "id": "2611.18562",
+  "version": 1,
+  "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+  "abstract": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B reasoning model can be trained to use real robots natively through reinforcement learning, entirely in simulation and without demonstrations. Like a computer-use agent (CUA), the model observes the environment, reasons in a chain of thought, and generates the next end-effector pose, without any harness. We build a Post-training Engine for Agentic Robotics (PEAR) and use it to train the model on simulated robot tasks at scale with robot-use reinforcement learning (RURL), mirroring how frontier models acquire computer use. We find that the skills acquired in simulation generalize well beyond the training tasks: they transfer to an unseen robot, to the real world, and to novel instructions. After training on LIBERO and RoboDojo in simulation, the model succeeds in 60% of our trials on a real dual-arm robot, whereas the base model succeeds in none. On LIBERO, training raises the success rate from 1.6% to 74.4%, approaching GPT-6 Astra and GPT-6.1 Sol at maximum reasoning effort. Compared with $π_{0.5}$, a vision-language-action model fine-tuned on demonstrations, our model is substantially more robust to changes in the task itself. On LIBERO-Pro, $π_{0.5}$ succeeds in only 0.75% of episodes when assigned a new task in a familiar scene whereas our model succeeds in 57.4%. Finally, the model retains its general capabilities, with no measurable degradation on nine reasoning, coding and vision benchmarks. These results highlight robot-use reinforcement learning as a promising component of foundation-model post-training.",
+  "authors": [
+   "Jiaming Tang",
+   "Zhuoyang Zhang",
+   "Junxian Guo",
+   "Fangzhou Zhao",
+   "Yilong Zhao",
+   "Zekai Li",
+   "Xingyang Li",
+   "Yuyang Zhao",
+   "Song Bian",
+   "Zhijian Liu",
+   "Song Han"
+  ],
+  "published": "2026-11-13T18:59:02Z",
+  "updated": "2026-11-13T18:59:02Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO",
+   "cs.LG"
+  ],
+  "comment": "",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18562",
+  "pdf_url": "https://arxiv.org/pdf/2611.18562v1",
+  "llm": {
+   "title_ja": "シミュレーション内での強化学習によるオープンウェイト推論モデルの実機ロボット直接制御の学習",
+   "tldr_ja": "オープンウェイトの27B推論モデルを、実演データなし・完全シミュレーション上の強化学習により、実機ロボットをネイティブに制御できるよう訓練した。",
+   "problem": "オープンウェイトのロボット用エージェントモデルは、プロプライエタリなフロンティアモデルに比べて性能が大幅に劣っている。",
+   "method": "PEAR（Post-training Engine for Agentic Robotics）を構築し、ロボット利用強化学習（RURL）を用いてシミュレーション環境でモデルを大規模に訓練した。",
+   "result": "LIBEROおよびRoboDojoでの訓練後、実機デュアルアームロボットでの試行の60%で成功し、LIBEROでは成功率が1.6%から74.4%に向上した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla",
+    "imitation",
+    "manipulation"
+   ],
+   "keywords_ja": [
+    "ロボット用エージェント",
+    "強化学習",
+    "シミュレーション",
+    "実機実験",
+    "推論モデル"
+   ],
+   "keywords_en": [
+    "reasoning model",
+    "reinforcement learning",
+    "robot-use agent",
+    "simulation-to-real",
+    "manipulation"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "yes"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18546": {
+  "id": "2611.18546",
+  "version": 1,
+  "title": "Modeling the Frictional Contact of Continuum Robots with Environments through Linear Complementarity Problem",
+  "abstract": "Accurate friction modeling in continuum robots is essential for precise motion control and path planning. However, current approaches make predictions only for the mechanism's internal friction that is limited by the boundary forces of the Coulomb friction cone, which fail to characterize the static friction and motion hysteresis. In this paper, we propose a novel friction model based on complementarity constraints under the Coulomb friction assumption. This model predicts various friction effects caused by environmental interactions, including both static and sliding frictions and hysteresis behavior, as well as the corresponding robot deformation induced by these interactions, which are crucial for the practical motion planning and control of continuum robots. Additionally, real-time implementation of this model can be achieved, meeting the demand for computational efficiency in robotic applications. Experimental validations demonstrated that this model is able to reduce the maximum tip position error from 45.4 mm in the frictionless model to 5.85 mm in our friction-included model with a 287.9 mm-long tendon-driven continuum robot.",
+  "authors": [
+   "Jia Shen",
+   "Junhyoung Ha",
+   "Yue Chen"
+  ],
+  "published": "2026-11-13T18:51:17Z",
+  "updated": "2026-11-13T18:51:17Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "Accepted for publication in International Journal of Robotics Research (IJRR). 21 pages, 18 figures",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18546",
+  "pdf_url": "https://arxiv.org/pdf/2611.18546v1",
+  "llm": {
+   "title_ja": "線形相補性問題を用いた連続体ロボットと環境の摩擦接触モデリング",
+   "tldr_ja": "クーロン摩擦を仮定した相補性制約に基づく新しい摩擦モデルを提案し、連続体ロボットの静摩擦・動摩擦やヒステリシス、変形を予測できるようにした。",
+   "problem": "現在の手法ではクーロン摩擦円錐の境界力に制限された内部摩擦しか予測できず、静摩擦や運動ヒステリシスを特徴づけられない。",
+   "method": "クーロン摩擦の仮定のもとで相補性制約に基づく新しい摩擦モデルを提案し、実時間での実装を実現した。",
+   "result": "摩擦なしモデルでは45.4 mmであった最大先端位置誤差が、摩擦考慮モデルでは5.85 mmに減少した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "manipulation",
+    "hardware"
+   ],
+   "keywords_ja": [
+    "連続体ロボット",
+    "摩擦モデル",
+    "線形相補性問題",
+    "運動計画",
+    "制御"
+   ],
+   "keywords_en": [
+    "continuum robots",
+    "frictional contact",
+    "linear complementarity problem",
+    "friction modeling",
+    "motion planning"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "IJRR",
+   "venue_status": "accepted",
+   "venue_evidence": "comment",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "yes"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18505": {
+  "id": "2611.18505",
+  "version": 1,
+  "title": "Disturbance-Aware Informative Planning in Spatiotemporal Environments",
+  "abstract": "Autonomous robots are widely used for persistent monitoring of spatiotemporal environments, where quantities of interest (QoI) change across space and time and require repeated measurements. In practice, robot motion can be affected by external disturbances that vary across the environment. When such external disturbances are not considered in trajectory optimization, it can lead to inaccurate predictions of robot motion and, consequently, the information acquired about the QoI during execution. However, estimating disturbances throughout the environment can be inefficient, as disturbances in regions with little overlap with monitoring trajectories have limited impact on monitoring performance. We therefore propose a two-stage informative planning framework for unknown, spatially varying but time-invariant disturbances, combining informed disturbance sampling with disturbance-aware trajectory optimization. First, we identify where QoI measurements are needed and generate alternative paths to these locations using the environment geometry. We then prioritize disturbance measurements based on their expected reduction of disturbance uncertainty along these paths. Second, rather than optimizing information acquisition based on nominal robot motion, we incorporate the learned disturbance belief into trajectory optimization to account for its effects on robot motion and information acquisition. Across four simulation scenarios, the proposed method reduces disturbance-learning time by 25.0--52.3 percent compared with environment-wide estimation and identifies paths that appear costly under nominal dynamics but become preferable when disturbances are considered.",
+  "authors": [
+   "Kaleb Ben Naveed",
+   "Haejoon Lee",
+   "Anouck Girard",
+   "Dimitra Panagou"
+  ],
+  "published": "2026-11-13T18:22:50Z",
+  "updated": "2026-11-13T18:22:50Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "Submitted to Learning for Dynamics and Control Conference 2027. Project website: https://kalebbennaveed.github.io/dist-aware-ipp/",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18505",
+  "pdf_url": "https://arxiv.org/pdf/2611.18505v1",
+  "llm": {
+   "title_ja": "時空間環境における外乱を考慮した情報的プランニング",
+   "tldr_ja": "未知の空間変動・時間不変の外乱に対応するため、情報的な外乱サンプリングと外乱を考慮した軌道最適化を組み合わせた2段階のプランニングフレームワークを提案した。",
+   "problem": "外乱を考慮せずに軌道最適化を行うと、ロボットの運動予測が不正確になり、実行時に得られる情報の精度が低下する。",
+   "method": "環境形状を用いて代替パスを生成し外乱測定を優先度付けする段階と、学習した外乱の信念を軌道最適化に組み込む段階の2段階フレームワークを提案した。",
+   "result": "4つのシミュレーションシナリオにおいて、環境全体での推定と比較して外乱学習時間を25.0〜52.3%削減した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "planning",
+    "navigation"
+   ],
+   "keywords_ja": [
+    "情報的プランニング",
+    "外乱推定",
+    "軌道最適化",
+    "時空間環境",
+    "自律ロボット"
+   ],
+   "keywords_en": [
+    "informative planning",
+    "disturbance-aware",
+    "trajectory optimization",
+    "spatiotemporal environments",
+    "path planning"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "https://kalebbennaveed.github.io/dist-aware-ipp/",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18501": {
+  "id": "2611.18501",
+  "version": 1,
+  "title": "In Situ Monitoring and Predictive Modeling of Harmful Algal Blooms with Autonomous Surface Vehicles",
+  "abstract": "Harmful Algal Blooms (HABs) pose significant environmental, economic, and public-health challenges in coastal and inland water bodies, creating a need for scalable methods to collect spatially distributed water-quality data. This paper presents an autonomous surface vessel-based sensing system for in-situ water-quality monitoring related to harmful algal bloom detection. The system integrates a BlueBoat Autonomous Surface Vessel (ASV), a motorized winch for depth-controlled sonde deployment, a multiparameter water-quality sonde, side-scan sonar, and an event-camera payload. Autonomous waypoint missions were used to collect measurements across selected sampling regions and multiple depths, enabling both horizontal and vertical characterization of environmental conditions. Field deployments were conducted in Lake Pontchartrain, Louisiana, with additional measurements collected in False River, Louisiana to increase dataset diversity. The collected measurements included algal pigment indicators, nutrient concentration, turbidity, temperature, and other water-quality parameters relevant to bloom formation. In addition, complementary sonar and event-camera data were collected during vehicle operation to provide contextual environmental information. A machine-learning classification approach was also evaluated using the collected water-quality measurements to support HAB and non-HAB classification. The results demonstrate the feasibility of using a modular ASV platform for repeatable, multi-modal water-quality data collection and support future development of autonomous monitoring systems.",
+  "authors": [
+   "Nenyi Kweku Nkensen Dadson",
+   "Jean Paul Gonzalez",
+   "Daniel P. Arabie",
+   "Ryan J. Cedel",
+   "Dorin Boldor",
+   "Corina Barbalata"
+  ],
+  "published": "2026-11-13T18:14:56Z",
+  "updated": "2026-11-13T18:14:56Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18501",
+  "pdf_url": "https://arxiv.org/pdf/2611.18501v1",
+  "llm": {
+   "title_ja": "自律型水上艇を用いた有害藍藻ブルームの現場モニタリングと予測モデリング",
+   "tldr_ja": "有害藍藻ブルーム（HAB）検出のための水質モニタリングを目的として、深度制御可能なウィンチやマルチパラメータ・ゾンデ、ソナー、イベントカメラを統合した自律型水上艇（ASV）センシングシステムを開発した。",
+   "problem": "有害藍藻ブルームは環境・経済・公衆衛生上の大きな課題であり、空間的に分散した水質データを収集するスケーラブルな手法が求められている。",
+   "method": "BlueBoat ASVに深度制御ウィンチ付き水質ゾンデ、サイドスキャンソナー、イベントカメラを搭載し、自律的なウェイポイントミッションで水平・垂直方向のデータを収集した。",
+   "result": "モジュール式ASVプラットフォームを用いた再現性の高いマルチモーダルな水質データ収集の実行可能性を示し、機械学習によるHAB分類も評価した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "perception",
+    "other"
+   ],
+   "keywords_ja": [
+    "自律型水上艇",
+    "水質モニタリング",
+    "有害藍藻ブルーム",
+    "環境センシング",
+    "データ収集"
+   ],
+   "keywords_en": [
+    "autonomous surface vessel",
+    "water-quality monitoring",
+    "harmful algal blooms",
+    "in-situ sensing",
+    "environmental monitoring"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "yes"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18496": {
+  "id": "2611.18496",
+  "version": 1,
+  "title": "Toward Resilient Self-Driving Laboratories through Telerobotic Interventions",
+  "abstract": "Self-driving laboratories (SDLs) accelerate scientific research by integrating robotics, automated experimentation, and machine learning to execute experiments autonomously. Biology and chemistry have adopted these systems. However, increasing SDL complexity heightens susceptibility to unexpected faults in automated workflows, highlighting the need for efficient recovery mechanisms. In this study, we investigate telerobotic interventions to enhance SDL resilience against unexpected failures. We developed a teleoperation interface enabling human operators to resolve disruptions during automated tasks. The interface enables precise control of a six-degree-of-freedom (DOF) robotic arm (UR3e) using a 3D mouse (3Dconnexion SpaceMouse Pro). Two velocity-based controller strategies were evaluated: (i) a coupled mode mapping all six DOFs to the 3D mouse's central knob and (ii) a decoupled mode separating translational and rotational motions. To evaluate the framework, teleoperators intervened across three SDL fault scenarios. In the first study, comparative trials showed that the decoupled controller was associated with shorter completion times and reduced rotational motion. In a second study, teleoperators performed an aiming task with and without reference-path guidance. Users were more target-driven and risk-tolerant without guidance but showed behavioral differences under different guidance strategies. These findings suggest that controller configuration and reference-path design influence operator performance during SDL fault recovery, informing teleoperation interface optimization. This work demonstrates the potential feasibility of teleoperation as a human-in-the-loop recovery mechanism for SDL workflows, combining robotic precision with human adaptability and problem-solving. These findings also provide a foundation for future studies in shared autonomy and semi-autonomous intervention.",
+  "authors": [
+   "Ziheng Wu",
+   "Adrian Vecina Tercero",
+   "Andre A. Fatehi",
+   "Abhik Sarkar",
+   "Brian Giera",
+   "Eric B. Duoss",
+   "Christopher M. Spadaccini",
+   "Nikhil Deshpande",
+   "Aldair E. Gongora"
+  ],
+  "published": "2026-11-13T18:06:25Z",
+  "updated": "2026-11-13T18:06:25Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18496",
+  "pdf_url": "https://arxiv.org/pdf/2611.18496v1",
+  "llm": {
+   "title_ja": "テレロボティック介入を通じたレジリエントなセルフドライビングラボの実現に向けて",
+   "tldr_ja": "セルフドライビングラボ（SDL）の予期せぬ故障に対するレジリエンスを高めるため、3Dマウスを用いた6自由度ロボットアームの遠隔操作インターフェースと2つの速度ベース制御戦略を評価した。",
+   "problem": "SDLの複雑化に伴い自動化ワークフローにおける予期せぬ故障へのsusceptibilityが高まるため、効率的なリカバリメカニズムが必要である。",
+   "method": "UR3eロボットアームと3Dマウスを組み合わせた遠隔操作インターフェースを開発し、結合モードと分離モードの2つの速度ベースコントローラーを評価した。",
+   "result": "分離型コントローラーは完了時間が短く回転動作が少ないこと、また参照パスガイダンスの有無がオペレーターの行動に影響を与えることが示された。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "hri",
+    "manipulation",
+    "hardware"
+   ],
+   "keywords_ja": [
+    "セルフドライビングラボ",
+    "遠隔操作",
+    "ヒューマンインザループ",
+    "ロボットアーム",
+    "障害復旧"
+   ],
+   "keywords_en": [
+    "self-driving laboratories",
+    "telerobotic interventions",
+    "teleoperation",
+    "robot arm",
+    "human-in-the-loop"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "yes"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18491": {
+  "id": "2611.18491",
+  "version": 1,
+  "title": "When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust to Unfamiliar Partners",
+  "abstract": "Cooperative self-play can teach a humanoid to receive an object without any human data, but the partner it meets after training is never the one it trained with; we show that a fluent self-play handover policy breaks with unfamiliar partners, identify the main cause, and repair it. In a physics-based parcel handover between a Unitree G1 and a learned giver, both trained by alternating PPO self-play, the receiver completes 95% and 90% of handovers with its own partner (two training seeds) but only 31% with scripted partners it has never met. Paired interventions isolate the cause: under a shared reward the learned giver always starts its offer at once, so the receiver learns a single rendezvous, and delaying its own partner by one second cuts success from 95% to 6% (87% to 34% in the second seed). We introduce hidden start-delay randomisation (HSD), a one-line rule on the learned partner that the receiver never observes. After 300 further updates, success with unseen scripted partners rises from 31% to 80% in both seeds, against 35--41% for a budget-matched control. The gain holds on a fresh scenario seed, on eleven held-out partner conditions and on partners that start later than any training delay; it cuts high-force contact three- to five-fold and needs no retraining of the partner.",
+  "authors": [
+   "Mohammad Khoshnazar",
+   "Mike Degany",
+   "Deyuan Qu",
+   "Qing Yang",
+   "Matyas Szanto"
+  ],
+  "published": "2026-11-13T18:04:37Z",
+  "updated": "2026-11-13T18:04:37Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "CoRL 2026, Human-Centered Robot Learning and Interaction (HumanRLI) Workshop. Code: https://github.com/mkhoshnam/Selfplay-PPO-handover",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18491",
+  "pdf_url": "https://arxiv.org/pdf/2611.18491v1",
+  "llm": {
+   "title_ja": "いつ受け渡すのか？隠れた開始遅延のランダム化により自己対戦型受け渡しを未知のパートナーに対してロバストにする",
+   "tldr_ja": "ヒューマノイドの自己対戦型物体受け渡しポリシーが未知のパートナーに対して機能しなくなる原因を特定し、学習された提供者側に「隠れた開始遅延のランダム化（HSD）」を導入することで成功率を大幅に向上させた。",
+   "problem": "自己対戦で訓練された流暢な受け渡しポリシーは、訓練時に使用したのとは異なる未知のパートナーに出会うと破綻する。",
+   "method": "報酬共有により提供者が即座に開始してしまうことが原因であると特定し、受動側からは観測できない隠れた開始遅延ランダム化（HSD）を導入した。",
+   "result": "未知のスクリプト化されたパートナーに対する成功率が、両方のシードで31%から80%に向上した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "humanoid",
+    "manipulation",
+    "rl"
+   ],
+   "keywords_ja": [
+    "ヒューマノイド",
+    "物体受け渡し",
+    "自己対戦",
+    "強化学習",
+    "ロバスト性"
+   ],
+   "keywords_en": [
+    "humanoid",
+    "object handover",
+    "self-play",
+    "reinforcement learning",
+    "robustness"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "https://github.com/mkhoshnam/Selfplay-PPO-handover",
+   "project_url": "",
+   "real_robot": "yes"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18484": {
+  "id": "2611.18484",
+  "version": 1,
+  "title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
+  "abstract": "AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping review finds that mature agentic care has not yet emerged: Most systems remain human led, while stronger decision-action coupling and embodied AI remain largely confined to prototypes and pilots. Healthcare robotics makes the transition from monitoring to action especially visible by translating AI-generated recommendations and decisions into speech, movement, prompting, physical assistance, escalation, and care coordination, making embodiment, clinical integration, human oversight, and governance fundamental design requirements. Further progress requires safe and interoperable care architectures in which intelligent components operate through clinically validated and accountable workflows. We propose agentic robotics as a future direction for supervised systems embedded in the care ecosystem, connecting AI agents and robots with clinicians, caregivers, and patients through auditable workflows that can be interrupted and remain subject to human oversight and explicit AI governance.",
+  "authors": [
+   "Ivana Ragusa",
+   "Lorenzo Guiducci",
+   "Filippo Cavallo"
+  ],
+  "published": "2026-11-13T17:59:40Z",
+  "updated": "2026-11-13T17:59:40Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO",
+   "cs.AI",
+   "cs.MA",
+   "cs.SE",
+   "eess.SY"
+  ],
+  "comment": "34 pages, 6 figures, 3 tables. Accepted for publication in Annual Review of Control, Robotics, and Autonomous Systems, Volume 10 (2027)",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18484",
+  "pdf_url": "https://arxiv.org/pdf/2611.18484v1",
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "unknown"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18422": {
+  "id": "2611.18422",
+  "version": 1,
+  "title": "The State Is Not the Bottleneck: A Paged-State Gated-DeltaNet Tile on a Tri-Mode Multicast Mesh, Bit-Exact from RTL to Silicon",
+  "abstract": "Linear-attention language models replace a growing key-value cache with a recurrent state of fixed size. On an edge FPGA, this state can exceed the on-chip memory and must be paged to external memory. This paper asks whether such paging dominates the cost of decoding (generating tokens). We built a hardware tile that computes one complete layer of a custom 369-million-parameter hybrid Gated DeltaNet model on an Agilex 5 FPGA and pages its recurrent state. The model state needs 6.2 MiB, whereas the device has 0.87 MiB of block memory. Paging adds 26.0 MB of memory traffic per decoded token, at most 11.2 percent of the calculated total. On the board at 75 MHz, with synthetic weights, one token takes 11.15 ms in this layer. The matrix-vector products with the weights take about 62 percent of this time and the state phase, including the paging, 13 percent. The tile is one node of a multicast mesh of tri-mode processing elements. We measure the error of the fixed-point arithmetic against floating point and check that the hardware agrees bit for bit with a fixed-point reference. In simulation, the state logic agrees with the reference on all 18 recurrent layers. On the board, six builds pass all 30 runs of 64 tokens and two runs of 1,024 tokens. For this model and memory interface, the delivery of the weights limits the decoding performance, and the recurrent state does not. State paging is therefore practical for such a model on an edge FPGA.",
+  "authors": [
+   "Cong Xu",
+   "Ravi Sankar"
+  ],
+  "published": "2026-11-13T17:01:18Z",
+  "updated": "2026-11-13T17:01:18Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO",
+   "cs.AR",
+   "cs.LG"
+  ],
+  "comment": "12 pages, 5 figures, 6 tables. The technical supplement is included as an ancillary file. This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18422",
+  "pdf_url": "https://arxiv.org/pdf/2611.18422v1",
+  "llm": {
+   "title_ja": "状態はボトルネックではない：RTLからシリコンまでビット完全な、トライモードマルチキャストメッシュ上のページド状態Gated-DeltaNetタイル",
+   "tldr_ja": "エッジFPGA上での線形アテンション言語モデルの推論において、限られたオンチップメモリを超える再帰状態を外部メモリにページングするコストが、デコード性能の主要なボトルネックにならないことを示した。",
+   "problem": "線形アテンション言語モデルの再帰状態が固定サイズであり、エッジFPGA上ではオンチップメモリを超えて外部メモリにページングする必要がある。",
+   "method": "Agilex 5 FPGA上にカスタムGated DeltaNetモデルの1層を計算し再帰状態をページングするハードウェアタイルを構築し、固定小数点演算の誤差を検証した。",
+   "result": "ページングが計算上の合計の最大11.2%のトラフィックしか追加せず、重みの配信がデコード性能を制限していることを示した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "hardware",
+    "other"
+   ],
+   "keywords_ja": [
+    "FPGA",
+    "線形アテンション",
+    "ハードウェアアクセラレーション",
+    "言語モデル",
+    "メモリページング"
+   ],
+   "keywords_en": [
+    "FPGA",
+    "linear attention",
+    "hardware tile",
+    "state paging",
+    "language models"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18397": {
+  "id": "2611.18397",
+  "version": 1,
+  "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+  "abstract": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
+  "authors": [
+   "Run Luo",
+   "Kuan Zhang",
+   "Qi Deng",
+   "Yukun Chen",
+   "Zhihao Yang",
+   "Yufei Zhang",
+   "Renrong Hu",
+   "Yi Zhang",
+   "Guiyu Ma",
+   "Tianyu Fan",
+   "Longze Chen",
+   "Hao Sun",
+   "Jiaming Li",
+   "Jiaming Yang",
+   "Xiaohao Liu",
+   "Tao Tan",
+   "Minzheng Wang",
+   "Hangtian Jia",
+   "Shuai Yuan",
+   "Lvdi Wang",
+   "Xiao Liu",
+   "Chao Ma",
+   "Yuting Zou",
+   "Yinhe Zheng",
+   "Xiaobo Xia",
+   "Dawei Jiang",
+   "Shaoqing Ren"
+  ],
+  "published": "2026-11-13T16:39:30Z",
+  "updated": "2026-11-13T16:39:30Z",
+  "primary_category": "cs.CL",
+  "categories": [
+   "cs.CL",
+   "cs.AI",
+   "cs.CV"
+  ],
+  "comment": "",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18397",
+  "pdf_url": "https://arxiv.org/pdf/2611.18397v1",
+  "hf_upvotes": 55,
+  "hf_comments": 2,
+  "hf_summary_en": "Gamer is a generalist agent framework that integrates perception, memory, and multi-step reasoning, trained through continued pre-training, sparse-thinking instruction tuning, and multi-turn reinforcement learning to interact efficiently in 2D and 3D environments.",
+  "github_repo": "https://github.com/RainBowLuoCS/Gamer",
+  "github_stars": 124,
+  "project_page": "https://mihoyo-gamer.github.io/",
+  "llm": {
+   "title_ja": "Gamer：長期・実時間ゲームエージェントのための汎用ビジョン・言語・行動基盤モデル",
+   "tldr_ja": "知覚・メモリ管理・多段階推論を統合し、継続事前学習・疎な思考の指示チューニング・マルチターン強化学習によって2Dおよび3D環境で効率的に動作する汎用エージェントフレームワーク「Gamer」を提案した。",
+   "problem": "複雑なインタラクティブ環境における長期タスクをこなすための、知覚・メモリ・推論を統合した汎用エージェントの構築が求められている。",
+   "method": "デバイスレベルのキーボード・マウス操作データを用いた継続事前学習、疎な思考の指示チューニング、および安定したマルチターン強化学習を組み合わせた。",
+   "result": "複数の挑戦的な3Dオープンワールドゲームにおいて熟練プレイヤーに匹敵する汎化性能と運用効率を示し、2Dゲームベンチマークでも競争力のある結果を達成した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla",
+    "imitation",
+    "rl"
+   ],
+   "keywords_ja": [
+    "ビジョン・言語・行動モデル",
+    "汎用エージェント",
+    "長期タスク",
+    "強化学習",
+    "ゲームエージェント"
+   ],
+   "keywords_en": [
+    "vision-language-action model",
+    "generalist agent",
+    "long-horizon tasks",
+    "reinforcement learning",
+    "interactive environments"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "hf"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "https://github.com/RainBowLuoCS/Gamer",
+   "project_url": "https://mihoyo-gamer.github.io/",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18390": {
+  "id": "2611.18390",
+  "version": 1,
+  "title": "CS-MPC: Contraction-Certified Sampling-Based MPC for Nonlinear Systems Under Uncertainty",
+  "abstract": "We present contraction-certified sampling-based model predictive control (CS-MPC) for tracking and safety of nonlinear robotic systems under parametric uncertainty, disturbances, and safety constraints that are revealed online. CS-MPC uses a contraction-certified tracking feedback inside every sampled rollout, which concentrates the rollouts around the reference, and an execution layer that verifies the applied input using a quantile-tightened discrete-time control barrier function condition. We derive a verification procedure for nonlinear contraction of the feedback-closed dynamics, and we prove a finite-sample stochastic stability bound and a mission-level probabilistic safety guarantee. We validate CS-MPC in simulation on a rover, a quadrotor, and an asteroid landing. When compared with standard model predictive path integral (MPPI) control, CS-MPC attains the same tracking error with 7 to 20 times fewer rollouts for the rover, and a 2 to 4 times lower tracking error for the quadrotor, with no safety violations in 200 Monte Carlo missions.",
+  "authors": [
+   "Yashwanth Kumar Nakka"
+  ],
+  "published": "2026-11-13T16:33:06Z",
+  "updated": "2026-11-13T16:33:06Z",
+  "primary_category": "eess.SY",
+  "categories": [
+   "eess.SY",
+   "cs.RO"
+  ],
+  "comment": "",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18390",
+  "pdf_url": "https://arxiv.org/pdf/2611.18390v1",
+  "llm": {
+   "title_ja": "CS-MPC：不確実性下での非線形システムに向けた収縮保証付きサンプリングベースMPC",
+   "tldr_ja": "パラメータ不確実性や外乱を持つ非線形ロボットシステムの追従と安全性のために、サンプリングされたロールアウト内に収縮保証付き追跡フィードバックを組み込んだCS-MPCを提案した。",
+   "problem": "非線形ロボットシステムにおいて、不確実性や外乱、オンラインで明らかになる安全制約の下での追従と安全性の担保が困難である。",
+   "method": "すべてのサンプリングロールアウト内で収縮保証付き追跡フィードバックを使用し、制御バリア関数条件を用いて入力を検証するCS-MPCを構築した。",
+   "result": "ローバーでは標準MPPIと比較して7〜20倍少ないロールアウト数で同等の追跡誤差を達成し、クワッドローターでは2〜4倍低い追跡誤差を達成した（200回のモンテカルロミッションで安全性違反ゼロ）。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "planning"
+   ],
+   "keywords_ja": [
+    "モデル予測制御",
+    "非線形システム",
+    "収縮理論",
+    "安全性保証",
+    "軌道追従"
+   ],
+   "keywords_en": [
+    "model predictive control",
+    "nonlinear systems",
+    "contraction theory",
+    "sampling-based MPC",
+    "safety guarantees"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18372": {
+  "id": "2611.18372",
+  "version": 1,
+  "title": "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
+  "abstract": "Vision-language-action (VLA) models adapt web-pretrained vision-language models to output robot actions, so that web knowledge carries over to physical control. In under 4 years the field has moved from RT-2, the first VLA, to open models that fine-tune on a single consumer GPU and to proprietary generalists that clean unseen homes. This survey reviews 88 works from December 2022 to October 2026, mainly on manipulation and navigation, plus humanoid control, world-action models and evaluation. We follow a VLA through its life cycle, from model design to training and deployment, along seven axes. Model design covers (a) inputs and memory, what the model observes; (b) architecture, how its pipeline is built; (c) action output, how it produces motor commands; and (d) intermediate predictions, what else it predicts, from reasoning steps to future observations. Training covers (e) pretraining data, the mix of robot, web, human and simulated data, and (f) post-training, adaptation to the target robot. Deployment covers (g) real-time execution, keeping pace with the robot. We analyse 22 models on these axes and report their training data, model size, inference speed and hardware. Three trends emerge: (i) training data has broadened, from about 10,000 hours of teleoperated robot data ($π_0$) to 23,000 community-collected episodes (SmolVLA) and 20,000 hours of egocentric human video (GR00T N1.7); (ii) model sizes have split: most recent models have 3-7 billion parameters, while a new group under one billion runs on consumer GPUs; and (iii) generalist VLAs are emerging that handle both manipulation and navigation, such as UniVLA and Qwen-VLA. We also compare VLAs with world-action models, which predict future observations as well as actions. We review evidence that some VLAs with near-perfect benchmark scores fail when objects or the camera move slightly, and open up further research questions.",
+  "authors": [
+   "Suvarna Kadam",
+   "Soran Parsa"
+  ],
+  "published": "2026-11-13T16:17:00Z",
+  "updated": "2026-11-13T16:17:00Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO",
+   "cs.AI",
+   "cs.ET",
+   "cs.LG"
+  ],
+  "comment": "43 pages, 9 figures, 11 tables",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18372",
+  "pdf_url": "https://arxiv.org/pdf/2611.18372v1",
+  "llm": {
+   "title_ja": "ビジョン・言語・行動モデル：設計、訓練、デプロイのライフサイクルサーベイ",
+   "tldr_ja": "ウェブ事前学習済みのビジョン言語モデルをロボットの行動出力に適応させるVLAモデルについて、2022年12月から2026年10月までの88本の研究をライフサイクルの7つの軸に沿って包括的にレビューした。",
+   "problem": "VLA分野は急成長しているものの、モデル設計、訓練、デプロイに関する多様なアプローチやトレンドの体系的な整理が必要とされている。",
+   "method": "入力・メモリ、アーキテクチャ、行動出力、中間予測、事前学習データ、ポストトレーニング、リアルタイム実行の7つの軸に沿って22のモデルを分析した。",
+   "result": "訓練データの拡大、モデルサイズの二極化（30億〜70億パラメータのモデルとコンシューマGPU向け1億未満のモデル）、汎用VLAの台頭という3つのトレンドを明らかにした。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla",
+    "manipulation",
+    "navigation"
+   ],
+   "keywords_ja": [
+    "ビジョン・言語・行動モデル",
+    "ロボット基盤モデル",
+    "サーベイ",
+    "マニピュレーション",
+    "ナビゲーション"
+   ],
+   "keywords_en": [
+    "vision-language-action models",
+    "robot foundation models",
+    "survey",
+    "manipulation",
+    "navigation"
+   ],
+   "real_robot": "unknown",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "unknown"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18365": {
+  "id": "2611.18365",
+  "version": 1,
+  "title": "Heavy Metal Acrobatics: Learning Dynamic Control for Skid-Steer Loaders",
+  "abstract": "Automation of heavy machinery offers the opportunity to improve productivity in mechanized industries such as construction, mining, and material handling. Yet, automation of such machines is challenged by their complex dynamics, in part because of hydraulic actuation that involves fluids, flexible elements, and nonlinear delays. A concomitant challenge is the size and weight of these machines, which can make experiments on the physical systems exceedingly dangerous. Here, we show that \\ac{RL} in simulation, followed by transfer of the learned policies from simulation to reality, can successfully automate acrobatic maneuvers that push a heavy construction machine to the limits of its actuation and have only previously been accomplished by a small number of elite human operators in official world-record performances. We trained policies that perform autonomous acrobatic maneuvers on a John Deere 332G, an operational 5-tonne skid-steer loader. The policies can autonomously swing the machine up onto two wheels and, while balancing on two wheels, drive over rough terrain, trace out specified trajectories, spin around, and swing the bucket back and forth before landing it safely back onto four wheels. This work demonstrates that \\ac{RL} and sim-to-real transfer enable dynamic autonomous control of heavy machinery, directly contributing to greater automation in heavy equipment sectors. Videos: https://sites.google.com/leggedrobotics.com/heavy-metal-acrobatics This is the author's version of the work. It is posted here by permission of the AAAS for personal use, not for redistribution. The definitive version was published in Science Robotics on 11 November 2026, DOI: https://doi.org/10.1126/scirobotics.aef0894",
+  "authors": [
+   "Pierre-Jean Lorentz",
+   "Pascal Egli",
+   "Edo Jelavic",
+   "Cliff Li",
+   "Ramitha Sundar",
+   "Harikrishnan Suresh",
+   "Paul Montgomery",
+   "Lee Redden",
+   "Matthias Müller",
+   "Ozan Sener",
+   "Vladlen Koltun",
+   "Marco Hutter"
+  ],
+  "published": "2026-11-13T16:13:08Z",
+  "updated": "2026-11-13T16:13:08Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "",
+  "journal_ref": "P.-J. Lorentz, P. Egli, E. Jelavic, C. Li, R. Sundar, H. Suresh, P. Montgomery, L. Redden, M. Müller, O. Sener, V. Koltun, M. Hutter, Heavy metal acrobatics: Learning dynamic control for skid-steer loaders. Sci. Robot. 11, eaef0894 (2026)",
+  "abs_url": "https://arxiv.org/abs/2611.18365",
+  "pdf_url": "https://arxiv.org/pdf/2611.18365v1",
+  "llm": {
+   "title_ja": "ヘビーメタル・アクロバティックス：スキッドステアローダーのための動的制御の学習",
+   "tldr_ja": "シミュレーション内での強化学習と実機への転移（Sim2Real）により、5トンのスキッドステアローダーを二輪走行でバランスさせながら悪路走行やスピンなどの高度なアクロバティック機動を自律的に実行させることに成功した。",
+   "problem": "重機はその複雑な動特性（流体や柔軟要素を含む油圧作動、非線形遅延）や巨大な重量とサイズのため、実機実験が極めて危険で自動化が困難である。",
+   "method": "シミュレーション環境で強化学習（RL）を用いてポリシーを訓練し、それを実機のジョンディア332Gスキッドステアローダーに転移させた。",
+   "result": "マシンを二輪で自律的に立ち上がらせ、悪路の走行、指定された軌跡のトレース、スピン、バケットの振動などを安全に実行できるようになった。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "rl",
+    "sim2real",
+    "hardware"
+   ],
+   "keywords_ja": [
+    "強化学習",
+    "Sim2Real",
+    "重機自動化",
+    "動的制御",
+    "スキッドステアローダー"
+   ],
+   "keywords_en": [
+    "reinforcement learning",
+    "sim-to-real",
+    "heavy machinery",
+    "dynamic control",
+    "skid-steer loaders"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "P.-J. Lorentz, P. Egli, E. Jelavic, C. L 2026",
+   "venue_status": "accepted",
+   "venue_evidence": "journal_ref",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "yes"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18359": {
+  "id": "2611.18359",
+  "version": 1,
+  "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+  "abstract": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and tools, verifying outcomes, and adapting its strategy. Despite these advances, the community has yet to converge on a shared definition, a reliable evaluation framework, or a research roadmap. We argue that Embodied System 2, realized by a foundation model together with an embodied harness, forms the decision-making core of agentic robotics. Its central challenge is to translate general-purpose reasoning into effective and verifiable actions under physical constraints such as limited reaction time, mechanical limits, unpredictable environment changes, and irreversible consequences. Motivated by this perspective, we propose an evaluation framework that measures both model capabilities and closed-loop system performance. Furthermore, we identify the principles that carry over from digital to physical agents and the challenges that must be addressed to achieve reliable physical autonomy. On top of the Embodied System 2 and the evaluation framework, we envision a research roadmap toward sustained autonomy: the ability to perform work safely and reliably with progressively broader responsibility, from executing individual primitives to fulfilling standing roles.",
+  "authors": [
+   "Grid Robotics",
+   ":",
+   "Qingfeng Lan",
+   "Duo Li",
+   "Siyao Li",
+   "Yiheng Lyu",
+   "Shijian Lu",
+   "Zhenghao Qi",
+   "Shizun Wang",
+   "Xinchao Wang",
+   "Ming Yang",
+   "Zhiqin Yang",
+   "Zuhao Yang",
+   "Tao Yu"
+  ],
+  "published": "2026-11-13T16:07:26Z",
+  "updated": "2026-11-13T16:07:26Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO",
+   "cs.AI",
+   "cs.CL",
+   "cs.CV"
+  ],
+  "comment": "Project website: https://grid-robotics-official.github.io/agentic-robotics-roadmap",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18359",
+  "pdf_url": "https://arxiv.org/pdf/2611.18359v1",
+  "hf_upvotes": 46,
+  "hf_comments": 2,
+  "hf_summary_en": "Agentic robotics, centered on an Embodied System 2 formed by a foundation model and embodied harness, requires a shared evaluation framework and research roadmap to achieve reliable physical autonomy.",
+  "github_repo": "",
+  "github_stars": 0,
+  "project_page": "https://grid-robotics-official.github.io/agentic-robotics-roadmap",
+  "llm": {
+   "title_ja": "エージェント型ロボティクスの展望：ロボットシステムの新しい時代",
+   "tldr_ja": "基盤モデルと身体性ハーネスを組み合わせた「Embodied System 2」を中心に据えたエージェント型ロボティクスのパラダイムを提唱し、信頼性の高い物理的自律性を達成するための評価フレームワークと研究ロードマップを提示した。",
+   "problem": "フロンティアモデルがロボットベンチマークで高い性能を示す一方で、学術界は共通の定義、信頼できる評価フレームワーク、研究ロードマップを確立できていない。",
+   "method": "基盤モデルと身体性ハーネスからなるEmbodied System 2を意思決定の核心と位置づけ、モデル能力と閉ループシステム性能を測定する評価フレームワークを提案した。",
+   "result": "個別のプリミティブ実行から包括的な役割遂行へと責任を段階的に広げながら安全かつ信頼性高く作業を行うための持続的自律性へのロードマップを示した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla",
+    "planning",
+    "other"
+   ],
+   "keywords_ja": [
+    "エージェント型ロボティクス",
+    "身体性AI",
+    "基盤モデル",
+    "ロボット自律性",
+    "評価フレームワーク"
+   ],
+   "keywords_en": [
+    "agentic robotics",
+    "embodied AI",
+    "foundation models",
+    "robot autonomy",
+    "evaluation framework"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "hf"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "https://grid-robotics-official.github.io/agentic-robotics-roadmap",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18346": {
+  "id": "2611.18346",
+  "version": 1,
+  "title": "VLAN: Vision-Language Accessible Navigation",
+  "abstract": "Accessible mobility is user-conditioned rather than scene-intrinsic, as walkable paths for one embodiment are inaccessible to another. Yet, existing benchmarks evaluate traversability under a fixed and limited embodiment. We present Vision-Language Accessible Navigation (VLAN), containing 1,000 scenes, 20K navigation trajectories, and 160K keyframes across diverse lighting, environmental conditions, scene semantics, and path geometries. For each trajectory, VLAN provides embodiment-specific actions and accessibility features for legged and wheeled agents, including humanoid and quadruped robots and people with visual or mobility impairments, while everyday obstacles and accessibility labels are categorized as Passable, Bypass, HighRisk, and Blocked. Unlike goal-only evaluation, our benchmark measures physical safety and alignment with user-specific constraints via goal-reaching, collision-aware, and accessibility-aligned metrics. We benchmark modern vision-language models and find they often fail to consistently adapt obstacle relevance, path selection, and safety criteria across user profiles, suggesting accessibility-aware navigation requires dedicated datasets, tasks, and metrics beyond conventional embodied navigation evaluation. All data and code open-source at https://github.com/InSAI-Lab/VLAN.",
+  "authors": [
+   "Jie Hu",
+   "Yu Zheng",
+   "Wenzhi Wu",
+   "Weixing Feng",
+   "Cunlei Cheng",
+   "Jiaming Zhang"
+  ],
+  "published": "2026-11-13T15:54:23Z",
+  "updated": "2026-11-13T15:54:23Z",
+  "primary_category": "cs.AI",
+  "categories": [
+   "cs.AI",
+   "cs.CV"
+  ],
+  "comment": "Accepted to NeurIPS 2026 Evaluations and Datasets Track. 25 pages, 17 tables, 6 figures. Code: https://github.com/InSAI-Lab/VLAN",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18346",
+  "pdf_url": "https://arxiv.org/pdf/2611.18346v1",
+  "llm": {
+   "title_ja": "VLAN：ビジョン・言語に基づくアクセシブルなナビゲーション",
+   "tldr_ja": "多様な身体性（ヒューマノイド、四足歩行、視覚・運動障害者など）のアクセス可能性を考慮したナビゲーション評価のための大規模ベンチマーク「VLAN」を提案した。",
+   "problem": "既存のベンチマークは固定された限られた身体性でのみ通行可能性を評価しており、アクセス可能な移動はシーン固有ではなくユーザー条件に依存する。",
+   "method": "1,000シーン、2万本のナビゲーション軌道、16万個のキーフレームを含み、通行可能性を「Passable」「Bypass」「HighRisk」「Blocked」に分類したベンチマーク「VLAN」を構築した。",
+   "result": "最新のビジョン言語モデルを評価した結果、障害物の関連性やパス選択をユーザープロファイルに応じて一貫して適応させることができないことが示された。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "navigation",
+    "dataset",
+    "humanoid"
+   ],
+   "keywords_ja": [
+    "アクセシブルナビゲーション",
+    "ビジョン言語モデル",
+    "ベンチマーク",
+    "移動ロボット",
+    "身体性"
+   ],
+   "keywords_en": [
+    "accessible navigation",
+    "vision-language models",
+    "dataset",
+    "benchmark",
+    "embodied navigation"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "NeurIPS 2026",
+   "venue_status": "accepted",
+   "venue_evidence": "comment",
+   "code_url": "https://github.com/InSAI-Lab/VLAN",
+   "project_url": "",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18305": {
+  "id": "2611.18305",
+  "version": 1,
+  "title": "PROOF: Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion",
+  "abstract": "Vision-based perceptive locomotion has enabled legged robots to achieve agile and terrain-aware locomotion across complex environments. However, the reliability of such systems heavily depends on visual observations, which are inherently susceptible to occlusion, reflective surfaces, and illumination variations, often resulting in catastrophic locomotion failures under degraded perception conditions. In this paper, we present PROOF (Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion), a perceptive locomotion framework that enables robust locomotion under severe visual disturbances. Our method adopts a two-stage teacher-student learning paradigm that explicitly models perception reliability: the teacher learns both perception-driven and proprioceptive fallback behaviors, while the student predicts exteroceptive features with uncertainty and suppresses them under out-of-distribution inputs. We evaluate our method on a Unitree Go2 quadruped equipped with a RealSense D435 depth camera in real-world settings. Under normal visual conditions, our method enables the robot to successfully perform high-dynamic parkour maneuvers, including traversing large gaps, elevated platforms, and narrow beam terrains. Under severe visual degradation, such as heavy occlusion and strong illumination changes, the robot continues to maintain stable and robust locomotion performance.",
+  "authors": [
+   "Siyuan Wang",
+   "Dongjie Zhu",
+   "Jinxuan Lu",
+   "Wenjun Xu",
+   "Jiankun Wang"
+  ],
+  "published": "2026-11-13T15:26:14Z",
+  "updated": "2026-11-13T15:26:14Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "CoRL 2026",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18305",
+  "pdf_url": "https://arxiv.org/pdf/2611.18305v1",
+  "llm": {
+   "title_ja": "PROOF：脚式ロボットのためのオクルージョンフォールバックによる知覚的ロバスト性",
+   "tldr_ja": "視覚的撹乱に対してロバストな歩行を実現するため、知覚の信頼性を明示的にモデル化する2段階の教師・生徒学習パラダイムに基づく知覚的歩行フレームワーク「PROOF」を提案した。",
+   "problem": "視覚ベースの知覚的歩行はオクルージョンや反射面、照明変動に弱く、劣化した知覚条件下で壊滅的な歩行失敗を引き起こす。",
+   "method": "教師が知覚駆動型およびプロプリオセプティブなフォールバック行動を学習し、生徒が不確実性つきの外セプティブ特徴を予測してOOD入力時にそれを抑制する2段階学習パラダイムを採用した。",
+   "result": "Unitree Go2実機を用いた実験により、隙間、高所プラットフォーム、狭い梁などのパルクール機動を成功させ、激しい視覚的劣化下でも安定した歩行を維持できた。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "legged",
+    "perception",
+    "sim2real"
+   ],
+   "keywords_ja": [
+    "脚式ロボット",
+    "知覚的ロバスト性",
+    "フォールバック",
+    "強化学習",
+    "実機実験"
+   ],
+   "keywords_en": [
+    "legged locomotion",
+    "perceptive robustness",
+    "fallback behavior",
+    "robust control",
+    "quadruped robot"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "yes"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18298": {
+  "id": "2611.18298",
+  "version": 1,
+  "title": "Objectives as Policies: Vision-Language Model Cost Programs for Contact-Rich Manipulation",
+  "abstract": "Vision-language models (VLMs) have shown strong semantic and spatial reasoning capabilities in 3D environments. Recently, connecting VLMs with model-predictive controllers (MPC) has emerged as a paradigm for combining strong semantic reasoning with physics-based planning. However, connecting these two for contact-rich robotic manipulation requires a task representation that bridges the two and captures how physical interactions can be reasoned by VLMs. In this work, we introduce Objectives as Policies (OaP), a framework that connects a pretrained VLM to a shared sampling-based MPC through an editable objective program. Each program specifies a sequence of stages for completing a task, combining running and terminal costs from a cost library with stage completion conditions. Given a natural-language task instruction and scene observation, we build a simulation-based digital twin through real-to-sim, and the VLM generates an objective program that is executed by the MPC in the simulation. The program is iteratively updated by the VLM based on MPC rollouts, before being deployed in the real world. We evaluate our framework in both simulation and the real world on four tabletop manipulation tasks, and show that it outperforms strong baselines. Additional videos and examples are available on the project website: https://zihaolu001.github.io/oap-project/",
+  "authors": [
+   "Zihao Lu",
+   "Trong Gia Hung Nguyen",
+   "Fuquan Wang",
+   "Yifan Zhu"
+  ],
+  "published": "2026-11-13T15:22:21Z",
+  "updated": "2026-11-13T15:22:21Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "8 pages, 3 figures. Project website: https://zihaolu001.github.io/oap-project/",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18298",
+  "pdf_url": "https://arxiv.org/pdf/2611.18298v1",
+  "llm": {
+   "title_ja": "目的としてのポリシー：接触リッチなマニピュレーションのためのビジョン・言語モデルコストプログラム",
+   "tldr_ja": "事前学習済みVLMを編集可能な目的プログラムを介して共有サンプリングベースMPCに接続し、自然言語の指示に基づいて接触リッチなタスクを実行するフレームワーク「Objectives as Policies (OaP)」を提案した。",
+   "problem": "VLMとモデル予測制御を接触リッチなロボットマニピュレーションで結合するには、物理的相互作用をVLMが推論できるタスク表現が必要である。",
+   "method": "タスク完了のためのステージのシーケンスを指定する編集可能な目的プログラムを介して、VLMとシミュレーションベースのデジタルツインをMPCに接続した。",
+   "result": "シミュレーションと実世界の4つの卓上マニピュレーションタスクにおいて、強力なベースラインを上回る性能を示した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "manipulation",
+    "planning",
+    "vla"
+   ],
+   "keywords_ja": [
+    "ビジョン言語モデル",
+    "モデル予測制御",
+    "マニピュレーション",
+    "タスク計画",
+    "接触リッチ"
+   ],
+   "keywords_en": [
+    "vision-language models",
+    "model predictive control",
+    "contact-rich manipulation",
+    "objective programs",
+    "task planning"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "https://zihaolu001.github.io/oap-project/",
+   "real_robot": "yes"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18230": {
+  "id": "2611.18230",
+  "version": 1,
+  "title": "Personalization of Basic and Moral Values Guiding LLM-Controlled Assistant Robots",
+  "abstract": "Personal assistant robots powered by large language models (LLMs) are likely to enter everyday life within the next decade, but the values that should guide their behaviour remain largely unspecified. Current alignment practice steers a single model toward an aggregate of human values, ignoring that individual users may prefer a robot whose value profile differs from their own. We administer parallel self- and robot-targeted versions of three established psycho-metric instruments - the simplified Schwartz Values Survey (SVS), the Portrait Values Questionnaire (PVQ-21), and the Moral Foundations Questionnaire (MFQ) - to potential future users (N=22), capturing both their personal values and the values they would want an assistant robot to embody. We compare the three instruments as personalization tools using the UEQ-S and benchmark fifteen contemporary LLMs against the resulting profiles. Participants wanted their robot to score markedly lower than themselves on personal-focus values and higher on social-focus values; moral profiles were nearly identical. LLMs prompted to act as robots shifted only weakly toward the desired profile, indicating that default model behaviour and prompt engineering are no substitute for explicit value personalization.",
+  "authors": [
+   "Mateusz Wozniak",
+   "Qi Gao",
+   "Agnieszka Wykowska"
+  ],
+  "published": "2026-11-13T14:28:47Z",
+  "updated": "2026-11-13T14:28:47Z",
+  "primary_category": "cs.HC",
+  "categories": [
+   "cs.HC",
+   "cs.AI"
+  ],
+  "comment": "18 pages, 6 figures. Version accepted for publication in: Value Engineering in Artificial Intelligence: Fourth Inter-national Workshop, VALE 2026, Bremen, Germany, August 15, 2026, Proceedings. Work-shop affiliated with 35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026)",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18230",
+  "pdf_url": "https://arxiv.org/pdf/2611.18230v1",
+  "llm": {
+   "title_ja": "LLM制御アシスタントロボットを導く基本的・道徳的価値観のパーソナライゼーション",
+   "tldr_ja": "将来のユーザーに対して心理測定調査を実施し、LLMベースのアシスタントロボットに対する個人の価値観の好みと、現在のLLMのデフォルト動作やプロンプトエンジニアリングの限界を評価した。",
+   "problem": "現在のアライメント手法は単一のモデルを人間全体の集約値に合わせるだけであり、個々のユーザーが好むロボットの価値観プロファイルの多様性を無視している。",
+   "method": "シュワルツ価値観調査（SVS）、肖像価値観質問票（PVQ-21）、道徳的基盤質問票（MFQ）を用いて将来のユーザーの価値観とロボットに求める価値観を測定し、15のLLMと比較した。",
+   "result": "参加者はロボットに社会的焦点の価値観を高く求めた一方、LLMのプロンプトによるシフトは弱く、明示的な価値観のパーソナライゼーションの必要性が示された。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "hri",
+    "other"
+   ],
+   "keywords_ja": [
+    "パーソナライゼーション",
+    "価値観アライメント",
+    "大規模言語モデル",
+    "アシスタントロボット",
+    "ヒューマンロボットインタラクション"
+   ],
+   "keywords_en": [
+    "personalization",
+    "value alignment",
+    "large language models",
+    "assistant robots",
+    "human-robot interaction"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18186": {
+  "id": "2611.18186",
+  "version": 1,
+  "title": "NPU-Accelerated GNSS Signal Acquisition",
+  "abstract": "On small single-board computers (SBCs), GNSS signal acquisition is a major CPU load. This paper proposes using the neural processing unit (NPU) of an SBC not for machine learning but as an accelerator for the parallel code search in GNSS signal acquisition. The discrete Fourier transform (DFT) used in acquisition is decomposed by the four-step DFT into matrix products of small DFTs and expressed by $1\\times1$ convolutions, element-wise products, and transposes, which NPUs execute efficiently. Furthermore, we propose a method that divides the DFT, the non-coherent integration, and the peak detection between the CPU and the NPU according to the configuration of the NPU (an NPU with its own memory connected via PCIe, or an NPU sharing memory with the CPU). The proposed method is implemented in the open-source software GNSS receiver Pocket SDR and evaluated on a Raspberry Pi 5 combined with the external AX8850 NPU and on the NPU built into the SoC (RK3588) of the ROCK 5C, a small SBC of comparable size. Compared with acquisition by an optimized CPU implementation, the acquisition of short codes on the Raspberry Pi 5 with the AX8850 is 3.0-3.8 times faster. In the evaluation of the whole receiver, the number of tracking channels that reach their first lock within 30 s with the NPU is 1.5 times that with the CPU, and the time until 90% of the channels are locked is reduced from 66 s to 26 s. Furthermore, because the CPU load of acquisition is reduced, the number of tracking channels that can be processed in real time increases from about 175 to about 230. These results show that using the NPU on SBCs with limited CPU resources is effective for achieving both GNSS signal acquisition and tracking. The implementation is publicly available as open source under the name PocketSDR-NPU.",
+  "authors": [
+   "Taro Suzuki"
+  ],
+  "published": "2026-11-13T13:56:19Z",
+  "updated": "2026-11-13T13:56:19Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18186",
+  "pdf_url": "https://arxiv.org/pdf/2611.18186v1",
+  "llm": {
+   "title_ja": "NPUアクセラレーテッドGNSS信号捕捉",
+   "tldr_ja": "小型シングルボードコンピュータ（SBC）のNPUを機械学習ではなくGNSS信号捕捉の並列コード検索のアクセラレータとして活用し、CPU負荷を軽減しつつ高速化する手法を提案した。",
+   "problem": "小型SBC上において、GNSS信号捕捉がCPUに大きな負荷をかけている。",
+   "method": "4ステップDFTを用いた離散フーリエ変換をNPUが効率的に実行可能な小さなDFTの行列積、1x1畳み込み、要素積、転置に分解し、CPUとNPUの間で処理を分割した。",
+   "result": "Raspberry Pi 5と外部AX8850 NPUを用いた評価で、短コードの捕捉が3.0〜3.8倍高速化し、リアルタイム処理可能な追跡チャンネル数が増加した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "hardware",
+    "navigation"
+   ],
+   "keywords_ja": [
+    "GNSS",
+    "NPUアクセラレーション",
+    "信号捕捉",
+    "組み込みシステム",
+    "シングルボードコンピュータ"
+   ],
+   "keywords_en": [
+    "GNSS",
+    "NPU acceleration",
+    "signal acquisition",
+    "embedded systems",
+    "single-board computers"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "yes"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18176": {
+  "id": "2611.18176",
+  "version": 1,
+  "title": "ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents",
+  "abstract": "Independently pretrained language models and vision-language-action (VLA) policies provide complementary building blocks for embodied agents, but connecting them does not automatically produce coordinated behavior. The VLA may generate actions that diverge from the LLM's intended subtask and, upon regaining control after a correction, undo the promising state restored by the LLM. We introduce ESI (Embodied Self-Improvement), an automated flywheel that uses environmental interaction to align reasoning and action. ESI treats the modular agent as the unit of post-training, repeatedly refining the prompts that guide the LLM, the shared skill interface that expresses its intent, and the VLA parameters that realize that intent, then redeploying these components together. Our key insight is that collaboration itself can supply supervision for improving this interface. The LLM's subtask decisions provide semantic supervision for what the policy should execute, while its effective corrections and subsequent student continuations provide action-level supervision for recovery and handoff. The student also learns from its own effective execution, allowing locally useful experience to contribute even when the overall episode fails. On ten selected RoboDojo tasks, ESI achieves a mean Score of 62.03 and a mean success rate of 49.41% using an LLM-VLA agent without generating task-specific control code. On both metrics, it outperforms the published reference results of all hybrid embodied agents, including the Agent+WAM system GO-3 Nano Preview (47.27 Score and 36.60% success), as well as all compared code-based methods.",
+  "authors": [
+   "Yundi Cai",
+   "Zihan Wang",
+   "Chenxi Han",
+   "Yi Cheng",
+   "Houde Liu",
+   "Zilei Wang"
+  ],
+  "published": "2026-11-13T13:44:42Z",
+  "updated": "2026-11-13T13:44:42Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "Technical report. 25 pages, 7 figures. Code: https://github.com/Embodied-Self-Improvement/ESI",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18176",
+  "pdf_url": "https://arxiv.org/pdf/2611.18176v1",
+  "llm": {
+   "title_ja": "ESI：LLM-VLAエージェントのための身体的自己改善フライホイール",
+   "tldr_ja": "LLMの推論とVLAの行動を環境との相互作用を通じて調和させ、プロンプト、共有スキルインターフェース、VLAパラメータを反復的に洗練させる自動化フライホイール「ESI」を提案した。",
+   "problem": "独立に事前学習された言語模型とVLAポリシーを単純に結合しても協調的な動作は得られず、VLAがLLMの意図から逸脱することがある。",
+   "method": "LLMのサブタスク決定をセマンティックな監督信号とし、その効果的な修正や生徒の継続を行動レベルの監督信号として利用する身体的自己改善フレームワークを構築した。",
+   "result": "10個のRoboDojoタスクにおいて、タスク固有の制御コードを生成することなく、公開されているすべてのハイブリッドエージェントの基準結果を上回る平均スコアと成功率を達成した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla",
+    "imitation",
+    "manipulation"
+   ],
+   "keywords_ja": [
+    "身体的自己改善",
+    "大規模言語モデル",
+    "VLAエージェント",
+    "強化学習",
+    "マニピュレーション"
+   ],
+   "keywords_en": [
+    "embodied self-improvement",
+    "vision-language-action models",
+    "LLM-VLA agents",
+    "reinforcement learning",
+    "manipulation"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "https://github.com/Embodied-Self-Improvement/ESI",
+   "project_url": "",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18123": {
+  "id": "2611.18123",
+  "version": 1,
+  "title": "Evaluating Language Models as Spatial Priors for Object-Goal Navigation",
+  "abstract": "Semantic exploration methods for object-goal navigation use large language models (LLMs) to score how strongly a target object is associated with a room type or with a nearby object. This paper considers obtaining from the LLM a spatial prior instead: a distribution over the position of the target in a room. We evaluate whether two open-weight LLMs, Qwen3.5-27B and Gemma-4-31B-it, can provide such a prior. Using real room layouts from CubiCasa5K and ScanNet, we measure the likelihood the models assign to real and perturbed layouts, and the layouts they generate. The object frequencies and room sizes of the generated rooms follow the room type, but the proximity of the objects to the walls does not follow the differences between room types found in real rooms. The likelihood distinguishes real layouts from perturbed ones partly through their geometry and partly through the agreement between the coordinates and a field that states the wall each object touches; for the movable furniture of ScanNet, it is higher for layouts with all objects piled near the room center than for the real layouts in most rooms. When an object is given in the prompt, the models place a related object relative to it. When the wall of each object is given, they place most objects against that wall, but do not keep all objects inside a given room rectangle. As a prior for object search, the generated placements reduce the searched area relative to a uniform prior, but by less than a third of the reduction obtained with a prior built from real layouts, and by less than two thirds when both priors are spatially smoothed. These results support the use of LLMs for object-room associations and for writing coordinates under constraints determined by another component, followed by a geometric check, but not as a source of placement priors where real layouts are available.",
+  "authors": [
+   "Jun Miura"
+  ],
+  "published": "2026-11-13T12:52:37Z",
+  "updated": "2026-11-13T12:52:37Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18123",
+  "pdf_url": "https://arxiv.org/pdf/2611.18123v1",
+  "llm": {
+   "title_ja": "オブジェクトゴールナビゲーションのための空間事前分布としての言語モデルの評価",
+   "tldr_ja": "Qwen3.5-27BとGemma-4-31B-itの2つのオープンウェイトLLMが、オブジェクトゴールナビゲーションにおいて部屋内のターゲット位置の空間事前分布を提供できるかを実際の部屋レイアウトを用いて評価した。",
+   "problem": "オブジェクトゴールナビゲーションのセマンティック探索ではLLMがターゲットの関連性をスコアリングするが、空間的な事前分布として機能するかどうかを検証する必要がある。",
+   "method": "CubiCasa5KおよびScanNetの実際の部屋レイアウトを使用して、モデルが実際のレイアウトと摂動を加えたレイアウトに割り当てる尤度や生成するレイアウトを測定した。",
+   "result": "生成された配置は一様事前分布と比較して探索領域を縮小させるものの、実際のレイアウトから構築された事前分布による縮小効果の3分の1未満にとどまった。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "navigation",
+    "perception"
+   ],
+   "keywords_ja": [
+    "空間事前分布",
+    "大規模言語モデル",
+    "オブジェクトゴールナビゲーション",
+    "セマンティック探索",
+    "ロボットナビゲーション"
+   ],
+   "keywords_en": [
+    "spatial priors",
+    "large language models",
+    "object-goal navigation",
+    "semantic exploration",
+    "robot navigation"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18110": {
+  "id": "2611.18110",
+  "version": 1,
+  "title": "PoliMop: Policy-in-the-Loop Motion Planning in 3D Spaces for Mobile Robots",
+  "abstract": "Reaching a goal state in a complex environment often requires a robot to overcome challenging terrain and obstacles. Which routes are accessible depends on the robot's physical design, the control policy it uses, and how it modifies its surroundings. We present a kinodynamic rapidly-exploring random tree (RRT) planner that uses physics simulation to exploit skills encoded in the control policy, which allows it to find a path in the scene with respect to the robot's capabilities. The planner samples states from a reduced state space in 3D around the scene and expands the RRT toward each sample using policy rollouts. We guide sampling with a preplanned path for a simple mass-point model to focus exploration on promising regions leading toward the goal state, reducing planning time by up to 63%. Simulation experiments with quadrupeds, humanoids, and wheeled robots demonstrate that our approach supports drop-in integration of various robots and control policies, exploiting their physical and policy capabilities without modifying the underlying planning algorithm. Predefined environmental modifications, such as placing a plank across a gap to build a bridge, will automatically be picked up by the planner as the robot's reachable space expands.",
+  "authors": [
+   "Yael Fassbind",
+   "Valentin N. Hartmann",
+   "Huang Su",
+   "Yijiang Huang",
+   "Stelian Coros"
+  ],
+  "published": "2026-11-13T12:35:13Z",
+  "updated": "2026-11-13T12:35:13Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "8 pages, 5 figures. Videos and code: https://ariael21.github.io/polimop.html",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18110",
+  "pdf_url": "https://arxiv.org/pdf/2611.18110v1",
+  "llm": {
+   "title_ja": "PoliMop: モバイルロボットのための3D空間におけるポリシー・イン・ザ・ループモーションプランニング",
+   "tldr_ja": "物理シミュレーションを用いて制御ポリシーにエンコードされたスキルを活用し、ロボットの能力に応じた経路を探索するキノダイナミックRRTプランナーを提案し、計画時間を最大63%削減した。",
+   "problem": "複雑な環境においてロボットが物理的設計や制御ポリシーに適した経路を見つけること",
+   "method": "物理シミュレーションを活用しポリシーロールアウトによってRRTを拡張するキノダイナミックRRTプランナーの提案",
+   "result": "四足歩行、ヒューマノイド、車輪型ロボットを用いたシミュレーション実験において、計画時間を最大63%削減した",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "manipulation",
+    "navigation",
+    "sim2real"
+   ],
+   "keywords_ja": [
+    "モーションプランニング",
+    "モバイルロボット",
+    "物理シミュレーション",
+    "強化学習",
+    "経路探索"
+   ],
+   "keywords_en": [
+    "motion planning",
+    "RRT",
+    "physics simulation",
+    "mobile robots",
+    "control policy"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "https://ariael21.github.io/polimop.html",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18026": {
+  "id": "2611.18026",
+  "version": 1,
+  "title": "A Generalizable Approach to Safety-Aware Robotic Behavior Planning with an Explicit Constraint Space",
+  "abstract": "Large language and vision-language models have substantially advanced robotic behavior planning from natural-language instructions and visual observations. However, safe manipulation in tabletop environments remains challenging because the safety constraints required for a task depend on the surrounding scene and may not be explicitly specified in the instruction. We propose a safety-aware behavior planning framework based on an explicit Constraint Space that stores reusable textual safety rules. Rather than retrieving rules solely by semantic similarity, we formulate constraint selection as task- and environment-conditioned applicability learning. A lightweight query-conditioned dual-tower model identifies the constraints applicable to the current context, which are then provided together with the original task and image to a multimodal behavior planner. To handle incorrect constraint selections and previously unseen hazards, we introduce a multimodal Safety Inspector that evaluates generated primitive plans, reconstructs the complete applicable constraint set, and provides corrective planning feedback. Validated inspection feedback is further used for test-time adaptation of constraint applicability and parameter-efficient adaptation of the Safety Inspector through LoRA, while newly identified constraints are incorporated into the Constraint Space. The resulting framework integrates explicit safety knowledge representation,context-aware constraint selection, corrective safety inspection, and test-time knowledge adaptation for safety-aware robotic behavior planning.",
+  "authors": [
+   "Xianxu Wu",
+   "Shang-Ching Liu",
+   "Zhaocong Liang",
+   "Hengxiang Chen",
+   "Yujian Ma",
+   "Shenwen Deng",
+   "Qiang Li",
+   "Jianwei Zhang"
+  ],
+  "published": "2026-11-13T10:51:57Z",
+  "updated": "2026-11-13T10:51:57Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO",
+   "cs.LG"
+  ],
+  "comment": "",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18026",
+  "pdf_url": "https://arxiv.org/pdf/2611.18026v1",
+  "llm": {
+   "title_ja": "明示的な制約空間を用いた安全性を考慮したロボット行動計画のための汎化可能なアプローチ",
+   "tldr_ja": "再利用可能なテキストベースの安全ルールを格納する明示的な制約空間に基づく、安全性を考慮した行動計画フレームワークを提案する。",
+   "problem": "テーブルトップ環境での安全なマニピュレーションにおいて、必要な安全制約が指示に明示されないこと",
+   "method": "明示的な制約空間、クエリ条件付き二塔モデルによる適用性学習、およびマルチモーダル安全検査官の導入",
+   "result": "要旨に具体的な数値結果の記載なし",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla",
+    "manipulation",
+    "planning"
+   ],
+   "keywords_ja": [
+    "行動計画",
+    "安全制約",
+    "大規模言語モデル",
+    "マニピュレーション",
+    "文脈適応"
+   ],
+   "keywords_en": [
+    "behavior planning",
+    "safety constraints",
+    "constraint space",
+    "vision-language models",
+    "manipulation"
+   ],
+   "real_robot": "unknown",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "unknown"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.18003": {
+  "id": "2611.18003",
+  "version": 1,
+  "title": "Reusing Locomotion Training Recipes Across Humanoids via Body-Aligned Virtual Joints",
+  "abstract": "Reinforcement learning has enabled robust humanoid locomotion, yet training recipes (rewards, architectures, hyperparameters) remain hard to reuse across robots with different native joint coordinates, since policies output native joint angles while action scales, bounds, gains, and penalties are defined in those robot-specific coordinates. Existing transmission models convert native targets into actuator commands but do not standardize the coordinate interface exposed to the policy. We introduce a body-aligned virtual joint space upstream of this mapping: policy actions and observations follow a common anatomical convention, and a deterministic kinematic layer maps virtual targets to native ones, leaving the existing transmission and low-level control stack unchanged. Under a single unmodified recipe on three humanoids with different leg-axis layouts, it is the only interface that tracks accurately, keeps the feet aligned with the travel direction, and trains stably on all three, and on Unitree G1 hardware it reduces heading drift by nearly a factor of six.",
+  "authors": [
+   "Sol Choi",
+   "Mingon Kim",
+   "Seokin Seo",
+   "Jongeun Choi",
+   "Donghyeon Kim",
+   "Yisoo Lee"
+  ],
+  "published": "2026-11-13T10:29:21Z",
+  "updated": "2026-11-13T10:29:21Z",
+  "primary_category": "cs.RO",
+  "categories": [
+   "cs.RO"
+  ],
+  "comment": "8 pages, 7 figures, 1 table",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.18003",
+  "pdf_url": "https://arxiv.org/pdf/2611.18003v1",
+  "llm": {
+   "title_ja": "身体整合型仮想関節を介したヒューマノイド間での移動学習レシピの再利用",
+   "tldr_ja": "異なる関節座標を持つロボット間でポリシーのアクションと観測を共通の解剖学的規約にマッピングする身体整合型仮想関節スペースを導入し、Unitree G1実機で進行方向のドリフトを約6分の1に削減した。",
+   "problem": "ネイティブ関節座標が異なるロボット間で強化学習による移動学習レシピを再利用することが困難であること",
+   "method": "マッピングの上流に身体整合型仮想関節スペースを導入し、決定的運動学レイヤーで仮想ターゲットをネイティブターゲットに変換する",
+   "result": "3つの異なるヒューマノイドですべて安定して学習でき、Unitree G1実機では進行方向のドリフトを約6分の1に削減した",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "legged",
+    "humanoid",
+    "rl"
+   ],
+   "keywords_ja": [
+    "ヒューマノイド",
+    "強化学習",
+    "歩行制御",
+    "移動学習",
+    "実機実験"
+   ],
+   "keywords_en": [
+    "humanoid locomotion",
+    "reinforcement learning",
+    "virtual joints",
+    "transfer learning",
+    "hardware experiments"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "yes"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.17959": {
+  "id": "2611.17959",
+  "version": 1,
+  "title": "DeltaVisionX: A Low-Cost Vision-Guided Automation System Using YOLOv11 and PLC-Based Actuation",
+  "abstract": "This paper presents DeltaVisionX, a low-cost industrial automation system that integrates real-time computer vision with PLC-based actuation for object classification and sorting. The system uses the YOLOv11 (You Only Look Once) deep learning model to detect objects on an operating conveyor belt and communicates detection results to a Delta DVP-SE PLC, which actuates pneumatic pistons for sorting. A custom dataset was created, labeled, and augmented to train the YOLOv11 model, achieving a mean average precision of 0.97 with real-time inference of 100 ms per frame. Encoder-based tracking ensures reliable synchronization between detection and actuation, supporting a throughput of 80 objects per minute. Results show that affordable, locally developed automation can reduce labor dependency and improve manufacturing efficiency. The novelty of the proposed system lies in its encodersynchronized vision-PLC integration rather than in the detection model itself. Future work includes integrating a highspeed Delta robot with EtherCAT-based servo control for advanced pick-and-place operations.",
+  "authors": [
+   "Lara Sobh",
+   "Marc Nahhas",
+   "Francisco Katach El Halabi",
+   "Michel Owayjan",
+   "Fadi Elias Sleiman"
+  ],
+  "published": "2026-11-13T09:50:11Z",
+  "updated": "2026-11-13T09:50:11Z",
+  "primary_category": "cs.LG",
+  "categories": [
+   "cs.LG"
+  ],
+  "comment": "",
+  "journal_ref": "2026 12th International Conference on Mechatronics and Robotics Engineering (ICMRE), Mar 2026, Oldenburg, France. pp.323-329",
+  "abs_url": "https://arxiv.org/abs/2611.17959",
+  "pdf_url": "https://arxiv.org/pdf/2611.17959v1",
+  "llm": {
+   "title_ja": "YOLOv11とPLCベースの作動を用いた低コスト視覚誘導型自動化システム「DeltaVisionX」",
+   "tldr_ja": "YOLOv11ディープラーニングモデルとPLCベースの作動を統合し、コンベアベルト上の物体分類と仕分けを行う低コストな産業用自動化システムを開発した。",
+   "problem": "産業用コンベアにおける物体分類と仕分けの自動化コストと精度の両立",
+   "method": "YOLOv11による物体検出結果をDelta DVP-SE PLCに通信し、空気圧ピストンで仕分けを行うエンコーダ同期型統合システム",
+   "result": "平均精度（mAP）0.97、1フレームあたり100msのリアルタイム推測、毎分80個のスループットを達成した",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "perception",
+    "hardware",
+    "other"
+   ],
+   "keywords_ja": [
+    "産業用自動化",
+    "物体検出",
+    "YOLOv11",
+    "PLC制御",
+    "コンピュータビジョン"
+   ],
+   "keywords_en": [
+    "industrial automation",
+    "object detection",
+    "YOLOv11",
+    "PLC actuation",
+    "computer vision"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "2026 12th International Conference on Me",
+   "venue_status": "accepted",
+   "venue_evidence": "journal_ref",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "yes"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.17917": {
+  "id": "2611.17917",
+  "version": 1,
+  "title": "When Cooperation Must Change: Semantic Strategy Unlearning in Multi-Agent Reinforcement Learning",
+  "abstract": "Cooperative multi-agent reinforcement learning (MARL) supports coordinated decision-making in distributed Web services, multi-robot control, and collaborative games through learned coordination conventions. When deployment requirements change, a previously useful convention may become obsolete or unsafe. For example, revised cache-sharing permissions in Web content delivery may require caches to abandon a learned division of storage and serving roles while maintaining efficient delivery. Teams must therefore remove the specified convention while preserving useful cooperation. This is challenging because the same relational pattern can be reproduced by different agents across different histories. Runtime shielding leaves the underlying coordination preference intact and can impair task progress, while existing reinforcement unlearning and trajectory-deletion methods do not directly target role-invariant conventions. This paper formalizes this problem as semantic coordination-strategy unlearning and proposes CARVE.CARVE uses causal coordination attribution to identify influential interactions and retain-aware subspace updates to limit interference with unrelated behaviors. Counterfactual re-coordination helps agents learn productive alternatives, while adversarial auditing tests whether the target convention can still be recovered. Accepted updates are merged into decentralized actors for direct deployment. Evaluation across five cooperative MARL benchmarks shows that CARVE reduces mean nominal convention-completion and worst-case elicitation rates by 91.4\\% and 83.3\\%, respectively.The median utility loss is 5.9\\%, and measured inference latency matches that of the original policies.",
+  "authors": [
+   "Wenhan Wu",
+   "Linghan Chen",
+   "Yudong Gao",
+   "Fan Yang",
+   "Honglong Chen",
+   "Kai Yin",
+   "Jiawei Jiang",
+   "Chuang Hu"
+  ],
+  "published": "2026-11-13T08:57:49Z",
+  "updated": "2026-11-13T08:57:49Z",
+  "primary_category": "cs.AI",
+  "categories": [
+   "cs.AI"
+  ],
+  "comment": "",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.17917",
+  "pdf_url": "https://arxiv.org/pdf/2611.17917v1",
+  "llm": {
+   "title_ja": "協調が変わらなければならないとき：マルチエージェント強化学習における意味論的戦略アンラーニング",
+   "tldr_ja": "因果協調アトリビューションと維持認識型部分空間更新を用いて、マルチエージェント強化学習における不要または安全ではない協調規約を選択的に削除するCARVEを提案し、無関係な行動への干渉を制限する。",
+   "problem": "展開要件の変化に伴い、学習済みの協調規約が不要または安全でなくなった際に、有用な協調を維持しつつ特定の規約を削除すること",
+   "method": "因果協調アトリビューション、維持認識型部分空間更新、反事実的再協調、および敵対的監査を組み合わせたCARVEの提案",
+   "result": "5つの協調MARLベンチマークにおいて、名目上の規約完了率と最悪の場合の誘出率をそれぞれ91.4%と83.3%削減し、中央値のユーティリティ損失は5.9%にとどまった",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "rl",
+    "other"
+   ],
+   "keywords_ja": [
+    "マルチエージェント",
+    "強化学習",
+    "アンラーニング",
+    "協調制御",
+    "因果推論"
+   ],
+   "keywords_en": [
+    "multi-agent reinforcement learning",
+    "unlearning",
+    "coordination strategy",
+    "causal attribution",
+    "distributed control"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
+ "2611.17883": {
+  "id": "2611.17883",
+  "version": 1,
+  "title": "Securing Multi-Agent Systems by Design",
+  "abstract": "Multi-agent systems solve complex tasks by decomposing them into subtasks, delegating the subtasks to agents, and aggregating the agents' responses using an aggregation rule. Malicious agents can manipulate the final solution by providing malicious responses to their assigned subtasks. In this paper, we first propose response manipulation attacks (ReMA), which iteratively optimize malicious responses to maximize attack effectiveness. Specifically, we formulate untargeted and targeted attacks as optimization problems and develop an approach to approximately solve these problems by iteratively refining malicious responses based on feedback from a surrogate multi-agent system. To defend against such attacks, we further propose SecMAS, a secure aggregation rule that leverages the semantic similarities among agent responses to select the response that is most consistent with a sufficiently large subset of the other responses. We theoretically establish security guarantees for SecMAS against both untargeted and targeted attacks. Extensive evaluations demonstrate that existing aggregation rules are vulnerable to ReMA, whereas SecMAS effectively defends against all evaluated attacks, including adaptive variants of ReMA, while maintaining utility comparable to that of existing aggregation rules.",
+  "authors": [
+   "Xilong Wang",
+   "Xiaoxing Chen",
+   "Neil Gong"
+  ],
+  "published": "2026-11-13T08:22:06Z",
+  "updated": "2026-11-13T08:22:06Z",
+  "primary_category": "cs.CR",
+  "categories": [
+   "cs.CR",
+   "cs.AI",
+   "cs.CL"
+  ],
+  "comment": "",
+  "journal_ref": "",
+  "abs_url": "https://arxiv.org/abs/2611.17883",
+  "pdf_url": "https://arxiv.org/pdf/2611.17883v1",
+  "llm": {
+   "title_ja": "デザインによるマルチエージェントシステムのセキュキュリティ確保",
+   "tldr_ja": "悪意あるエージェントによる応答操作攻撃（ReMA）を定式化し、エージェント応答間の意味的類似性を利用して一貫性のある応答を選択する安全な集約ルール「SecMAS」を提案した。",
+   "problem": "マルチエージェントシステムにおいて悪意あるエージェントが不正な応答により最終的な解決策を操作する脆弱性があること",
+   "method": "応答操作攻撃（ReMA）の最適化問題としての定式化と、意味的類似性に基づく安全な集約ルール（SecMAS）の開発",
+   "result": "既存の集約ルールがReMAに対して脆弱である一方、SecMASは評価されたすべての攻撃に対して有効に防御しつつ同等の有用性を維持することを示した",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "other"
+   ],
+   "keywords_ja": [
+    "マルチエージェントシステム",
+    "セキュリティ",
+    "攻撃と防御",
+    "最適化",
+    "頑健性"
+   ],
+   "keywords_en": [
+    "multi-agent systems",
+    "security",
+    "response manipulation",
+    "secure aggregation",
+    "robustness"
+   ],
+   "real_robot": "no",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "ai"
+  },
+  "badges": {
+   "venue": "",
+   "venue_status": "",
+   "venue_evidence": "",
+   "code_url": "",
+   "project_url": "",
+   "real_robot": "no"
+  },
+  "fetched_at": "2026-11-16T07:57:30+00:00"
+ },
  "2611.17330": {
   "id": "2611.17330",
   "version": 1,
@@ -658,11 +2291,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.17060",
   "pdf_url": "https://arxiv.org/pdf/2611.17060v1",
-  "hf_upvotes": 27,
-  "hf_comments": 3,
+  "hf_upvotes": 32,
+  "hf_comments": 6,
   "hf_summary_en": "",
   "github_repo": "https://github.com/Ropedia/Ropedia-Xperience-2",
-  "github_stars": 20,
+  "github_stars": 26,
   "project_page": "https://ropedia.com/xperience/2-research/",
   "llm": {
    "title_ja": "Ropedia Xperience 2: 物理AIの環境と行動のスケーリングのためのゴールドスタンダード",
@@ -1550,7 +3183,7 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 1,
+  "hf_upvotes": 2,
   "hf_comments": 2,
   "hf_summary_en": "EgoX is an egocentric cross-embodiment learning framework that pretrains a modular Transformer with embodiment dreaming on heterogeneous human, robot, and simulated demonstrations, then fine-tunes it to improve manipulation task progress, especially under out-of-distribution conditions.",
   "github_repo": "https://github.com/egox-dream/egox",
@@ -2540,7 +4173,7 @@
    "venue": "",
    "venue_status": "",
    "venue_evidence": "",
-   "code_url": "",
+   "code_url": "https://github.com/robbyant-research/Lingbot-ALOHA",
    "project_url": "https://robbyant-research.github.io/Lingbot-ALOHA/",
    "real_robot": "yes"
   },
@@ -2549,7 +4182,13 @@
   "tldr_en": "HALO, a human-aligned data collection system for whole-body mobile manipulation, aligns the operator's perception and action space with the robot while preserving direct physical feedback and natural locomotion and enables more natural whole-body demonstrations.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "",
+  "hf_upvotes": 8,
+  "hf_comments": 1,
+  "hf_summary_en": "",
+  "github_repo": "https://github.com/robbyant-research/Lingbot-ALOHA",
+  "github_stars": 1,
+  "project_page": "https://robbyant-research.github.io/Lingbot-ALOHA/"
  },
  "2611.16424": {
   "id": "2611.16424",
@@ -5568,14 +7207,44 @@
    "venue_evidence": "",
    "code_url": "",
    "project_url": "",
-   "real_robot": "unknown"
+   "real_robot": "yes"
   },
   "fetched_at": "2026-11-13T07:53:42+00:00",
   "s2_id": "8b78146353c4a0ccb42df64665950093d59125a4",
   "tldr_en": "This work studies what makes a pretrained VLA reactive, using \\pihalf{} on two dynamic simulation benchmarks and three real-robot tasks to vary the prediction and execution horizons, compare synchronous and asynchronous inference, test methods that deliver actions sooner or keep successive chunks continuous, and adapt the policy with motion cues and latent-space reinforcement learning.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "",
+  "llm": {
+   "title_ja": "何がVLAを反応型にするのか？動的マニピュレーションにおける実行戦略の研究",
+   "tldr_ja": "事前学習済みVLAモデルの反応性を高める要因を調査するため、2つの動的シミュレーションベンチマークと3つの実ロボットタスクを用いて、予測・実行ホライズンや同期・非同期推論などを比較・検証した。",
+   "problem": "オブジェクトが移動する際、VLAモデルが予測する将来のアクションチャンクが実行前に古くなってしまうこと",
+   "method": "予測・実行ホライズンの変更、同期・非同期推論の比較、軌道の継続性を保つ手法の検証、動作手がかりや潜在空間強化学習によるポリシー適応の評価",
+   "result": "最適な予測ホライズンは約1秒であり、反応性はポリシーだけでなく実行パイプラインにも依存することを示した",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla",
+    "manipulation",
+    "rl"
+   ],
+   "keywords_ja": [
+    "視覚言語行動モデル",
+    "動的マニピュレーション",
+    "反応性",
+    "推論パイプライン",
+    "実機実験"
+   ],
+   "keywords_en": [
+    "vision-language-action",
+    "dynamic manipulation",
+    "reactivity",
+    "execution pipeline",
+    "robot learning"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "s2"
+  }
  },
  "2611.15490": {
   "id": "2611.15490",
@@ -14109,7 +15778,7 @@
   "hf_comments": 4,
   "hf_summary_en": "",
   "github_repo": "https://github.com/ArcheOne-AI/RoboScript",
-  "github_stars": 245,
+  "github_stars": 280,
   "project_page": "https://archeone-ai.github.io/RoboScript/"
  },
  "2611.12879": {
@@ -14254,7 +15923,7 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 23,
-  "hf_comments": 7,
+  "hf_comments": 9,
   "hf_summary_en": "",
   "github_repo": "https://github.com/shaaaaron/SWAM",
   "github_stars": 41,
@@ -14428,11 +16097,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.12806",
   "pdf_url": "https://arxiv.org/pdf/2611.12806v1",
-  "hf_upvotes": 103,
+  "hf_upvotes": 104,
   "hf_comments": 2,
   "hf_summary_en": "LingBot-Touch is a tactile foundation model that learns a unified, extensible representation across heterogeneous tactile sensors, yielding plug-and-play tactile tokens that consistently enhance manipulation policies such as diffusion policy and VLA models.",
   "github_repo": "https://github.com/Robbyant/lingbot-touch",
-  "github_stars": 533,
+  "github_stars": 605,
   "project_page": "https://technology.robbyant.com/lingbot-touch",
   "llm": {
    "title_ja": "一般器用把持に向けた異種触覚表現の学習",
@@ -16785,11 +18454,11 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 28,
+  "hf_upvotes": 30,
   "hf_comments": 4,
   "hf_summary_en": "",
   "github_repo": "https://github.com/mll-lab-nu/embodied-first-exam",
-  "github_stars": 277,
+  "github_stars": 282,
   "project_page": "https://www.embodied-first-exam.ai/"
  },
  "2611.12175": {
@@ -23975,7 +25644,7 @@
   "hf_comments": 2,
   "hf_summary_en": "WorldFoundry offers open-source infrastructure for reproducible inference and evaluation of generative world models across video, 3D/4D, embodied action, and interactive systems, with traceable evidence and benchmarks.",
   "github_repo": "https://github.com/OpenEnvision/WorldFoundry",
-  "github_stars": 352,
+  "github_stars": 355,
   "project_page": "https://openenvision.org/WorldFoundry/",
   "llm": {
    "title_ja": "WorldFoundry：世界知能のための統合インフラストラクチャに向けて",
@@ -27155,7 +28824,7 @@
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/Naturalpad-studio/InstantHMR",
-  "github_stars": 403,
+  "github_stars": 406,
   "project_page": ""
  },
  "2611.09145": {
@@ -28037,7 +29706,7 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.08373",
   "pdf_url": "https://arxiv.org/pdf/2611.08373v1",
-  "hf_upvotes": 90,
+  "hf_upvotes": 94,
   "hf_comments": 4,
   "hf_summary_en": "The SLA model enhances spatial understanding in Vision-Language-Action systems by aligning visual embeddings with 3D spatial representations through continual pre-training and feature-dependent gating.",
   "github_repo": "",
@@ -28566,7 +30235,7 @@
   "citations": 2,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 20,
+  "hf_upvotes": 21,
   "hf_comments": 4,
   "hf_summary_en": "Exposing benchmark success criteria to self-improving embodied coding agents can raise measured success under those criteria without improving instructed-task completion, and the advantage weakens under slight criteria changes and transfers poorly across tasks, while instruction-faithful criteria better reflect instructed-task performance.",
   "github_repo": "",
@@ -38974,7 +40643,7 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.05377",
   "pdf_url": "https://arxiv.org/pdf/2611.05377v1",
-  "hf_upvotes": 56,
+  "hf_upvotes": 57,
   "hf_comments": 2,
   "hf_summary_en": "DreamX leverages a pretrained video diffusion model to learn compact, appearance-invariant latent actions that enable cross-embodiment transfer and efficient policy learning.",
   "github_repo": "",
@@ -39947,7 +41616,7 @@
   "hf_comments": 3,
   "hf_summary_en": "RoboTryOn translates human demonstration videos into robot videos to train control policies without real robot demonstrations, improving success rates and reducing data collection costs.",
   "github_repo": "https://github.com/ryan-seungyong-lee/RoboTryOn",
-  "github_stars": 9,
+  "github_stars": 10,
   "project_page": "https://ryan-seungyong-lee.github.io/RoboTryOn",
   "badges": {
    "venue": "",
@@ -53084,7 +54753,7 @@
   "hf_comments": 2,
   "hf_summary_en": "ODE policy learns action dynamics with neural ODEs to generate continuous, multimodal robot trajectories, improving imitation and reinforcement learning across diverse tasks.",
   "github_repo": "https://github.com/NTUMARS/ODE-POLICY",
-  "github_stars": 115,
+  "github_stars": 119,
   "project_page": "https://ntumars.github.io/ODE/"
  },
  "2611.01713": {
@@ -53749,7 +55418,7 @@
   "hf_comments": 2,
   "hf_summary_en": "Uni-robot-agent enables open-weight robot-use agents to surpass proprietary models in zero-shot manipulation and suggests joint development of four core capabilities for future training.",
   "github_repo": "https://github.com/Open-RUA/uni-robot-agent",
-  "github_stars": 409,
+  "github_stars": 417,
   "project_page": "https://openrua.ai/uni-robot-agent",
   "llm": {
    "title_ja": "ロボット利用エージェントの民主化：オープンモデルによる統合ハーネス",

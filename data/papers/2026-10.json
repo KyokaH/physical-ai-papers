@@ -519,7 +519,7 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 8,
-  "hf_comments": 3,
+  "hf_comments": 4,
   "hf_summary_en": "Auriga, a task-agnostic agent harness, closes most of the planning-execution gap in zero-shot robot manipulation by combining explicit task beliefs, calibrated 3D measurements, dual-arm control, and execution monitoring, achieving state-of-the-art results on RoboDojo and RoboCasa365.",
   "github_repo": "https://github.com/lose4578/Auriga",
   "github_stars": 34,
@@ -14616,7 +14616,7 @@
   "hf_comments": 2,
   "hf_summary_en": "Venus-DefakerOne2 is a unified anti-forgery foundation model that extends detection to diverse forgery forms and media types through alternating LoRA and full-parameter tuning and entropy-based test adaptation.",
   "github_repo": "https://github.com/inclusionAI/DefakerOne2",
-  "github_stars": 147,
+  "github_stars": 155,
   "project_page": "https://venus-guangjian.github.io/Venus-DeFakerOne2/"
  },
  "2610.37917": {
@@ -22166,7 +22166,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.35862v1",
   "s2_id": "be7241f8511656c233271ec37010ac53bf371ffa",
   "tldr_en": "FLORE is presented, a framework for learning force-reactive humanoid loco-manipulation, and across three contact-rich tasks on the robot, the force-reactive policy succeeds in 80% of rollouts, compared with 26.7% for a position-only policy trained on the same demonstrations and executed by the same controller.",
-  "citations": 5,
+  "citations": 6,
   "influential_citations": 0,
   "venue": "",
   "badges": {
