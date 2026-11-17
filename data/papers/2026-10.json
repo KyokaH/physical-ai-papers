@@ -65889,7 +65889,7 @@
   "pdf_url": "https://arxiv.org/pdf/2610.25287v2",
   "s2_id": "cb14056a74d2284fc27a97595aabde0473d43adf",
   "tldr_en": "It is found that current frontier models can directly control real robotic arms to perform a variety of manipulation tasks but are not yet precise or efficient enough to complete them within a practical action budget.",
-  "citations": 0,
+  "citations": 1,
   "influential_citations": 0,
   "venue": "",
   "badges": {
