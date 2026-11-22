@@ -72,11 +72,11 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 2,
+  "hf_upvotes": 4,
   "hf_comments": 2,
   "hf_summary_en": "O2LaF repurposes a shared pretrained video model to learn inverse and forward latent action dynamics from unlabeled videos, achieving state-of-the-art few-shot action probing and zero-shot action transfer.",
   "github_repo": "https://github.com/showlab/O2LaF",
-  "github_stars": 5,
+  "github_stars": 6,
   "project_page": "https://showlab.github.io/o2laf/"
  },
  "2611.26613": {
@@ -636,11 +636,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.26444",
   "pdf_url": "https://arxiv.org/pdf/2611.26444v1",
-  "hf_upvotes": 46,
-  "hf_comments": 3,
+  "hf_upvotes": 50,
+  "hf_comments": 4,
   "hf_summary_en": "A diagnostic benchmark of 180 simulated manipulation configurations evaluates whether embodied systems can combine history-based reasoning, precise execution, and closed-loop environmental feedback, revealing that single-view competence does not transfer to composed tasks.",
   "github_repo": "https://github.com/Mind2Act/Mind2Act_World",
-  "github_stars": 28,
+  "github_stars": 32,
   "project_page": "https://mind2act-world.com/",
   "llm": {
    "title_ja": "Mind2Act World：ロボットマニプリレーションにおける身体性マインド、物理的行動、およびマインド・行動の合成のための診断ベンチマーク",
@@ -1880,11 +1880,11 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 3,
-  "hf_comments": 1,
+  "hf_upvotes": 7,
+  "hf_comments": 3,
   "hf_summary_en": "",
   "github_repo": "https://github.com/franciscoliu/SAFI",
-  "github_stars": 0,
+  "github_stars": 1,
   "project_page": "https://franciscoliu.github.io/SAFI/"
  },
  "2611.26218": {
@@ -3027,7 +3027,7 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.25980",
   "pdf_url": "https://arxiv.org/pdf/2611.25980v1",
-  "hf_upvotes": 13,
+  "hf_upvotes": 15,
   "hf_comments": 2,
   "hf_summary_en": "AFFECT, an auxiliary objective that trains world models to match visual responses to temporally correlated action noise, improves rollout fidelity and planning success in simulated and real robotic tasks.",
   "github_repo": "",
@@ -4671,7 +4671,7 @@
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/PerfectXu88/PAD",
-  "github_stars": 2,
+  "github_stars": 3,
   "project_page": "https://perfectxu88.github.io/PAD/"
  },
  "2611.25595": {
@@ -7303,7 +7303,7 @@
   "influential_citations": 0,
   "venue": "",
   "hf_upvotes": 4,
-  "hf_comments": 4,
+  "hf_comments": 5,
   "hf_summary_en": "An LLM-based pipeline audits simulated manipulation success checkers by recreating disagreement scenarios and visually verifying whether observed behavior satisfies task instructions, revealing phantom successes and silent failures.",
   "github_repo": "",
   "github_stars": 0,
@@ -8152,7 +8152,7 @@
   "hf_comments": 2,
   "hf_summary_en": "Inhabitant enables a language-model agent to plan and execute long-horizon human-scene interactions by specifying motions spatially, measuring deviations, and revising control, achieving high task completion on the Inhabit benchmark.",
   "github_repo": "https://github.com/yaozhang182/inhabitant",
-  "github_stars": 1,
+  "github_stars": 2,
   "project_page": "https://ryenhails.github.io/Inhabitant/",
   "llm": {
    "title_ja": "Inhabitant: 空間制御と定量的フィードバックを備えた長期ヒューマン・シーンインタラクションのためのエージェントフレームワーク",
@@ -16615,7 +16615,7 @@
   "hf_comments": 4,
   "hf_summary_en": "",
   "github_repo": "https://github.com/Livioni/TCP4D",
-  "github_stars": 21,
+  "github_stars": 22,
   "project_page": "https://livioni.github.io/TCP4D/",
   "llm": {
    "title_ja": "TCP4D: ロボットマニピュレーションのための統合型ツール中心点追跡・生成モデル",
@@ -19014,11 +19014,11 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 5,
+  "hf_upvotes": 6,
   "hf_comments": 3,
   "hf_summary_en": "VSpark accelerates autoregressive vision-language-action models by improving speculative decoding with calibrated action-noise rollouts, hidden-feature alignment, and reuse of rejected-draft continuations, achieving lossless 1.28x–2.10x speedups across multiple robot manipulation tasks.",
   "github_repo": "https://github.com/suho-yoo/VSpark",
-  "github_stars": 6,
+  "github_stars": 7,
   "project_page": "https://suho-yoo.github.io/VSpark/"
  },
  "2611.22654": {
@@ -21330,7 +21330,7 @@
   "hf_comments": 2,
   "hf_summary_en": "A decentralized framework enables teams of humanoids to coordinate whole-body loco-manipulation over long horizons using low-level multi-agent post-training and a high-level vision-language planner with speech-based leader-follower synchronization.",
   "github_repo": "https://github.com/heaveho-humanoid/Heave-Ho",
-  "github_stars": 24,
+  "github_stars": 28,
   "project_page": "https://heaveho-humanoid.github.io/",
   "llm": {
    "title_ja": "Heave-Ho: 分散型長期マルチヒューマノイド協調",
@@ -23086,7 +23086,7 @@
    "real_robot": "unknown"
   },
   "fetched_at": "2026-11-19T08:45:10+00:00",
-  "hf_upvotes": 6,
+  "hf_upvotes": 10,
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "",
@@ -25228,7 +25228,7 @@
   "hf_comments": 3,
   "hf_summary_en": "",
   "github_repo": "https://github.com/showlab/ForceHarness",
-  "github_stars": 48,
+  "github_stars": 50,
   "project_page": "https://showlab.github.io/ForceHarness/"
  },
  "2611.21069": {
@@ -30923,7 +30923,7 @@
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/AIGeeksGroup/JEPA4R",
-  "github_stars": 5,
+  "github_stars": 10,
   "project_page": "https://aigeeksgroup.github.io/JEPA4R"
  },
  "2611.19765": {
@@ -33271,11 +33271,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.18397",
   "pdf_url": "https://arxiv.org/pdf/2611.18397v1",
-  "hf_upvotes": 144,
+  "hf_upvotes": 148,
   "hf_comments": 4,
   "hf_summary_en": "Gamer is a generalist agent framework that integrates perception, memory, and multi-step reasoning, trained through continued pre-training, sparse-thinking instruction tuning, and multi-turn reinforcement learning to interact efficiently in 2D and 3D environments.",
   "github_repo": "https://github.com/RainBowLuoCS/Gamer",
-  "github_stars": 1152,
+  "github_stars": 1237,
   "project_page": "https://mihoyo-gamer.github.io/",
   "llm": {
    "title_ja": "Gamer：長期・実時間ゲームエージェントのための汎用ビジョン・言語・行動基盤モデル",
@@ -37037,7 +37037,7 @@
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/robbyant-research/Lingbot-ALOHA",
-  "github_stars": 10,
+  "github_stars": 11,
   "project_page": "https://robbyant-research.github.io/Lingbot-ALOHA/"
  },
  "2611.16424": {
@@ -38682,7 +38682,7 @@
   "hf_comments": 4,
   "hf_summary_en": "A simplified evaluation harness that keeps full episode history and stops motions early substantially improves robot-use agent scores on RoboDojo, with scene geometry providing the largest additional benefit.",
   "github_repo": "https://github.com/ZefanW/JustRUA",
-  "github_stars": 6,
+  "github_stars": 7,
   "project_page": "https://zefanw.github.io/JustRUA/"
  },
  "2611.15981": {
@@ -48646,7 +48646,7 @@
   "hf_comments": 4,
   "hf_summary_en": "",
   "github_repo": "https://github.com/ArcheOne-AI/RoboScript",
-  "github_stars": 322,
+  "github_stars": 336,
   "project_page": "https://archeone-ai.github.io/RoboScript/"
  },
  "2611.12879": {
@@ -48969,7 +48969,7 @@
   "hf_comments": 2,
   "hf_summary_en": "LingBot-Touch is a tactile foundation model that learns a unified, extensible representation across heterogeneous tactile sensors, yielding plug-and-play tactile tokens that consistently enhance manipulation policies such as diffusion policy and VLA models.",
   "github_repo": "https://github.com/Robbyant/lingbot-touch",
-  "github_stars": 784,
+  "github_stars": 794,
   "project_page": "https://technology.robbyant.com/lingbot-touch",
   "llm": {
    "title_ja": "一般器用把持に向けた異種触覚表現の学習",
@@ -51326,7 +51326,7 @@
   "hf_comments": 5,
   "hf_summary_en": "",
   "github_repo": "https://github.com/mll-lab-nu/embodied-first-exam",
-  "github_stars": 307,
+  "github_stars": 308,
   "project_page": "https://www.embodied-first-exam.ai/"
  },
  "2611.12175": {
@@ -71620,7 +71620,7 @@
   },
   "fetched_at": "2026-11-05T07:53:40+00:00",
   "s2_id": "bd90e48cceaf9cf2bb2e74d1ed5e96c830f62264",
-  "tldr_en": "Treating a swarm as a fluid, a material people already understand, allows a robot swarm to work as a deformable extension of the human body, according to Fluidic Body, a system that lets a person operate a swarm of fluid-imitating robots as an extension of the hand.",
+  "tldr_en": "Fuidic Body, a system that lets a person operate a swarm of fluid-imitating robots as an extension of the hand, and the system places a virtual fluid between the hand and the swarm, and the user adapts the swarm’s behavior to each task by changing the fluid’s properties through simple hand movements.",
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
@@ -87621,7 +87621,7 @@
   "hf_comments": 2,
   "hf_summary_en": "ODE policy learns action dynamics with neural ODEs to generate continuous, multimodal robot trajectories, improving imitation and reinforcement learning across diverse tasks.",
   "github_repo": "https://github.com/NTUMARS/ODE-POLICY",
-  "github_stars": 131,
+  "github_stars": 137,
   "project_page": "https://ntumars.github.io/ODE/"
  },
  "2611.01713": {
