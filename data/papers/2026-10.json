@@ -522,7 +522,7 @@
   "hf_comments": 4,
   "hf_summary_en": "Auriga, a task-agnostic agent harness, closes most of the planning-execution gap in zero-shot robot manipulation by combining explicit task beliefs, calibrated 3D measurements, dual-arm control, and execution monitoring, achieving state-of-the-art results on RoboDojo and RoboCasa365.",
   "github_repo": "https://github.com/lose4578/Auriga",
-  "github_stars": 35,
+  "github_stars": 37,
   "project_page": "https://auriga.stelledge.com/"
  },
  "2611.01081": {
