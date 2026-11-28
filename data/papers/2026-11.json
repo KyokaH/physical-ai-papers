@@ -568,11 +568,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.34849",
   "pdf_url": "https://arxiv.org/pdf/2611.34849v1",
-  "hf_upvotes": 108,
+  "hf_upvotes": 16,
   "hf_comments": 3,
   "hf_summary_en": "",
   "github_repo": "https://github.com/Real2SimHub/Real2SimLab",
-  "github_stars": 29,
+  "github_stars": 34,
   "project_page": "https://real2simhub.github.io",
   "llm": {
    "title_ja": "Real2SimLab：現実からシミュレーションへの転移のための統一プラットフォーム",
@@ -644,11 +644,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.34811",
   "pdf_url": "https://arxiv.org/pdf/2611.34811v1",
-  "hf_upvotes": 22,
+  "hf_upvotes": 23,
   "hf_comments": 2,
   "hf_summary_en": "HOG-WAM improves visually robust control in world-action models by adding future Histograms of Oriented Gradients as auxiliary structural supervision through a training-only HOG diffusion transformer, yielding higher success under observation corruptions while preserving the original RGB-to-action inference architecture.",
   "github_repo": "https://github.com/iPPLab/HOG-WAM",
-  "github_stars": 5,
+  "github_stars": 6,
   "project_page": "",
   "llm": {
    "title_ja": "HOG-WAM：将来の勾配予測を通じた視覚的頑健性の向上",
@@ -1259,11 +1259,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.34675",
   "pdf_url": "https://arxiv.org/pdf/2611.34675v1",
-  "hf_upvotes": 9,
+  "hf_upvotes": 10,
   "hf_comments": 2,
   "hf_summary_en": "RoboEvo$^2$ recursively co-evolves a coding-agent harness and a vision-language-action policy, using policy failures to discover reusable skills and preference distillation to improve motor control, yielding large success gains without extra human demonstrations.",
   "github_repo": "https://github.com/kaiknower/RoboEvo2",
-  "github_stars": 4,
+  "github_stars": 5,
   "project_page": "https://kaiknower.github.io/RoboEvo2/",
   "llm": {
    "title_ja": "RoboEvo$^2$：ハーネスとポリシーの共進化による再帰的ロボット自己改善",
@@ -1333,11 +1333,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.34671",
   "pdf_url": "https://arxiv.org/pdf/2611.34671v1",
-  "hf_upvotes": 2,
+  "hf_upvotes": 3,
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/RobbinW/DemoFoundry",
-  "github_stars": 4,
+  "github_stars": 8,
   "project_page": "https://robbinw.github.io/DemoFoundry-Web/",
   "llm": {
    "title_ja": "DemoFoundry：コーディングエージェントと生成的レンダリングによるスケーラブルなフォトリアルロボットデータに向けて",
@@ -4490,7 +4490,7 @@
   "hf_comments": 4,
   "hf_summary_en": "A generalizable pipeline reconstructs continuous, high-fidelity 3D surfaces from unposed images by integrating pointmap and ray-based representations, achieving strong zero-shot generalization.",
   "github_repo": "https://github.com/vLAR-group/FoundSurface",
-  "github_stars": 5,
+  "github_stars": 6,
   "project_page": "https://vlar-group.github.io/FoundSurface.html",
   "llm": {
    "title_ja": "FoundSurface：ポーズなし画像からのフィードフォワード型レイベース3Dシーン表面再構成",
@@ -5744,11 +5744,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.33915",
   "pdf_url": "https://arxiv.org/pdf/2611.33915v1",
-  "hf_upvotes": 11,
+  "hf_upvotes": 12,
   "hf_comments": 2,
   "hf_summary_en": "SEEK retains executable manipulation procedures and measured action effects across attempts, enabling fixed foundation-model robots to improve without retraining.",
   "github_repo": "https://github.com/ZeyangGuan/SEEK-Agentic-Robot-Manipulation",
-  "github_stars": 6,
+  "github_stars": 9,
   "project_page": "https://zeyangguan.github.io/SEEK-Agentic-Robot-Manipulation/",
   "llm": {
    "title_ja": "SEEK：エージェント型ロボットマニピュレーションのための実行知識を通じた自己進化",
@@ -9176,7 +9176,7 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 44,
+  "hf_upvotes": 43,
   "hf_comments": 3,
   "hf_summary_en": "A framework enables coding agents to develop dexterous manipulation policies without demonstrations by exploring and distilling successful attempts into a program, then refining it for strong simulated and real-world results.",
   "github_repo": "",
@@ -9254,11 +9254,11 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 15,
+  "hf_upvotes": 16,
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/rxjfighting/ROAM-Bench",
-  "github_stars": 14,
+  "github_stars": 22,
   "project_page": "https://rxjfighting.github.io/ROAM-Bench/"
  },
  "2611.33141": {
@@ -9917,7 +9917,7 @@
   "hf_comments": 2,
   "hf_summary_en": "A new benchmark shows that many robot manipulation policies perform worse when mirrors are present, often because they confuse reflections with real objects rather than simply colliding with the mirror.",
   "github_repo": "https://github.com/iPPLab/robodojo-mirror",
-  "github_stars": 10,
+  "github_stars": 11,
   "project_page": "https://ipplab.github.io/robodojo-mirror",
   "llm": {
    "title_ja": "エンボディドAIは鏡テストに不合格：単純な鏡がロボットポリシーをいかに破るか",
@@ -11041,7 +11041,7 @@
   "hf_comments": 2,
   "hf_summary_en": "SimPWM uses a parameter-free simulator as a proxy to generate robot videos and simulated states, revealing that video models follow arm motion more reliably than object dynamics and often ignore simulated object state.",
   "github_repo": "https://github.com/TingtingLiao/SimPWM",
-  "github_stars": 6,
+  "github_stars": 7,
   "project_page": "https://sim-pwm.pages.dev"
  },
  "2611.32780": {
@@ -12004,7 +12004,7 @@
   "hf_comments": 2,
   "hf_summary_en": "An online benchmark evaluates in-context learning across computer-use and robot-use agent tasks, revealing large gaps between digital and physical performance and between recognizing rules and acting on them.",
   "github_repo": "https://github.com/ICLWorld/ICLWorld",
-  "github_stars": 13,
+  "github_stars": 14,
   "project_page": "https://iclworld.github.io"
  },
  "2611.32642": {
@@ -12109,7 +12109,7 @@
   "hf_comments": 2,
   "hf_summary_en": "ReFocus alternates global and local reinforcement learning with DAG-based progress rewards and adaptive practice windows to target task bottlenecks, improving long-horizon manipulation success over a π0.5 baseline.",
   "github_repo": "https://github.com/ReFocus-Robotics/ReFocus",
-  "github_stars": 2,
+  "github_stars": 3,
   "project_page": "https://refocus-robotics.github.io/",
   "llm": {
    "title_ja": "ReFocus: 長期的なロボットマニピュレーション強化学習のための進捗誘導型適応的練習",
@@ -13470,7 +13470,7 @@
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/cszhilu1998/OmniPersist",
-  "github_stars": 11,
+  "github_stars": 12,
   "project_page": "https://omnipersist.github.io/"
  },
  "2611.32464": {
@@ -14062,7 +14062,7 @@
   "hf_comments": 2,
   "hf_summary_en": "GOLD-SLAM integrates panoramic Gaussian splatting with LiDAR depth priors for omnidirectional SLAM, improving pose estimation and geometric reconstruction while maintaining competitive rendering quality.",
   "github_repo": "https://github.com/InSAI-Lab/GOLD-SLAM",
-  "github_stars": 4,
+  "github_stars": 6,
   "project_page": "https://insailab.org/gold-slam"
  },
  "2611.32308": {
@@ -14543,8 +14543,8 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 6,
-  "hf_comments": 1,
+  "hf_upvotes": 7,
+  "hf_comments": 2,
   "hf_summary_en": "A method that explicitly shapes and expands the handoff boundary of visuomotor policies improves coordination between multimodal agents and robot policies, yielding higher success and lower cost.",
   "github_repo": "",
   "github_stars": 0,
@@ -19345,7 +19345,7 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 66,
+  "hf_upvotes": 67,
   "hf_comments": 3,
   "hf_summary_en": "",
   "github_repo": "",
@@ -19384,11 +19384,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.31201",
   "pdf_url": "https://arxiv.org/pdf/2611.31201v1",
-  "hf_upvotes": 106,
+  "hf_upvotes": 107,
   "hf_comments": 2,
   "hf_summary_en": "A systematic framework shows that frontier multimodal models can serve as robot policies when harnessed with interfaces favoring native visual reasoning and tool use, achieving high success in simulated and real manipulation tasks.",
   "github_repo": "https://github.com/DravenALG/Embo-Harness",
-  "github_stars": 73,
+  "github_stars": 75,
   "project_page": "https://dravenalg.github.io/projects/Embo-Harness/",
   "llm": {
    "title_ja": "Embo-Harness：フロンティアモデル・アス・ポリシー・ハーネスの理解に向けて",
@@ -20315,7 +20315,7 @@
   "hf_comments": 2,
   "hf_summary_en": "ReWeave jointly optimizes an embodied agent harness and an emergent physical task topology from interaction without updating policy weights, improving success and enabling continual learning across tasks.",
   "github_repo": "https://github.com/xuyicheng-zju/ReWeave",
-  "github_stars": 9,
+  "github_stars": 10,
   "project_page": "https://xuyicheng-zju.github.io/ReWeave/",
   "llm": {
    "title_ja": "ReWeave：身体性ハーネス最適化とクロス・タスク・メタ蒸留のための創発的物理タスク・トポロジー",
@@ -20844,7 +20844,7 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.30989",
   "pdf_url": "https://arxiv.org/pdf/2611.30989v1",
-  "hf_upvotes": 137,
+  "hf_upvotes": 86,
   "hf_comments": 2,
   "hf_summary_en": "WorldLeague benchmarks 13 AI systems on 60 simulated robot tasks spanning exploration, rearrangement, and adaptation, measuring progress and success to compare autonomous physical goal achievement.",
   "github_repo": "https://github.com/xyangzhou/WorldLeague",
@@ -20973,7 +20973,7 @@
   "hf_comments": 2,
   "hf_summary_en": "Foresight Forcing distills geometry-aware spatial transition queries from a frozen 3D foundation model to improve robotic manipulation action prediction without requiring future observations at deployment.",
   "github_repo": "https://github.com/anson2333/ForesightForcing",
-  "github_stars": 5,
+  "github_stars": 6,
   "project_page": "https://anson2333.github.io/foresight-forcing/"
  },
  "2611.30957": {
@@ -21315,7 +21315,7 @@
   "hf_comments": 2,
   "hf_summary_en": "GlanceNav is a streaming multimodal navigator that maintains constant per-step memory through recurrent and attention mechanisms and uses a reinforcement learning correction method to improve vision-and-language navigation.",
   "github_repo": "https://github.com/GlanceNav/GlanceNav",
-  "github_stars": 4,
+  "github_stars": 5,
   "project_page": "https://glancenav.github.io/"
  },
  "2611.30898": {
@@ -21347,7 +21347,7 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.30898",
   "pdf_url": "https://arxiv.org/pdf/2611.30898v1",
-  "hf_upvotes": 28,
+  "hf_upvotes": 29,
   "hf_comments": 2,
   "hf_summary_en": "Native LAM distills compact latent actions from a pretrained video diffusion transformer via learnable dynamics registers, and PAWlicy uses these actions to pretrain VLA policies without generating video, achieving strong robotic control and cross-embodiment transfer.",
   "github_repo": "",
@@ -22612,7 +22612,7 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.30597",
   "pdf_url": "https://arxiv.org/pdf/2611.30597v2",
-  "hf_upvotes": 20,
+  "hf_upvotes": 19,
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "",
@@ -27290,11 +27290,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.29897",
   "pdf_url": "https://arxiv.org/pdf/2611.29897v1",
-  "hf_upvotes": 224,
+  "hf_upvotes": 229,
   "hf_comments": 3,
   "hf_summary_en": "",
   "github_repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
-  "github_stars": 40,
+  "github_stars": 46,
   "project_page": "https://aigeeksgroup.github.io/MotionMamba2.0/",
   "llm": {
    "title_ja": "Motion Mamba 2.0: 長期ヒューノイド制御のための自己回帰型拡散Mamba",
@@ -29953,11 +29953,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.29338",
   "pdf_url": "https://arxiv.org/pdf/2611.29338v1",
-  "hf_upvotes": 56,
+  "hf_upvotes": 46,
   "hf_comments": 2,
   "hf_summary_en": "nanoAstra combines semantic action modeling with capability-preserving supervised fine-tuning to train vision-language models for generalizable robot manipulation, achieving strong zero-shot success and faster streaming execution.",
   "github_repo": "https://github.com/Hugo-AGI/nanoAstra",
-  "github_stars": 33,
+  "github_stars": 35,
   "project_page": "https://nanoastra.github.io",
   "badges": {
    "venue": "",
@@ -32731,8 +32731,8 @@
    "model": "gemini-3.5-flash-lite",
    "tldr_source": "s2"
   },
-  "hf_upvotes": 28,
-  "hf_comments": 2,
+  "hf_upvotes": 34,
+  "hf_comments": 3,
   "hf_summary_en": "",
   "github_repo": "",
   "github_stars": 0,
@@ -35170,7 +35170,36 @@
   "tldr_en": "FS-Nav is proposed, a future-state world modeling framework that predicts waypoint-corridor states from spatial memory and language instructions, and communicates them to a VLM navigator through top-down and first-person interfaces, and achieves state-of-the-art performance.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "",
+  "llm": {
+   "title_ja": "未来視を超えて：ビジョン言語ナビゲーションのための未来状態世界モデルの探索",
+   "tldr_ja": "FS-Navという未来状態世界モデルを提案し、空間メモリと言語指示からウェイポイントと回廊の状態を予測して最先端の性能を達成した。",
+   "problem": "視覚言語ナビゲーションにおいて、将来のビューの予測が最終的な表現形態であるかという疑問",
+   "method": "空間メモリと言語指示からウェイポイントと回廊の状態を予測するFS-Navフレームワークの提案",
+   "result": "標準的なVLNベンチマークで最先端の性能を達成した",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla",
+    "world-model",
+    "navigation"
+   ],
+   "keywords_ja": [
+    "ビジョン言語ナビゲーション",
+    "世界モデル",
+    "空間メモリ",
+    "ウェイポイント",
+    "言語指示"
+   ],
+   "keywords_en": [
+    "Vision-Language Navigation",
+    "world models",
+    "spatial memory",
+    "waypoint-corridor states"
+   ],
+   "real_robot": "unknown",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "s2"
+  }
  },
  "2611.27407": {
   "id": "2611.27407",
@@ -35199,14 +35228,42 @@
    "venue_evidence": "journal_ref",
    "code_url": "",
    "project_url": "",
-   "real_robot": "unknown"
+   "real_robot": "yes"
   },
   "fetched_at": "2026-11-23T08:58:46+00:00",
   "s2_id": "feb8ffd832322acb5f2f9a5f952af60718091ec5",
   "tldr_en": "BladeR, a scalable pipeline for high-quality 3D reconstruction from inspection imagery, leverages GPS/IMU data and blade shape priors to guide advanced keypoint matchers on full-resolution images and shows significant improvements in model completeness and detail.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": "International Conference on Computer Vision Theory and Applications"
+  "venue": "International Conference on Computer Vision Theory and Applications",
+  "llm": {
+   "title_ja": "BladeR：UAV画像を用いた風力タービンブレードのスケーラブルで形状誘導型の3D再構築",
+   "tldr_ja": "BladeRは、UAVの検査画像から風力タービンブレードを高精度かつスケーラブルに3D再構築するパイプラインである。",
+   "problem": "高解像度ドローン画像のテクスチャの弱さ、照明の変動、高い計算コストによる3D再構築の課題",
+   "method": "GPS/IMUデータとブレード形状事前知識を活用した階層型スパース再構築とタイリングガウススプラッティング",
+   "result": "モデルの完全性と詳細度の面で大幅な改善を示した",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "perception",
+    "hardware"
+   ],
+   "keywords_ja": [
+    "風力タービン",
+    "3D再構築",
+    "UAV画像",
+    "ガウススプラッティング",
+    "形状誘導"
+   ],
+   "keywords_en": [
+    "3D reconstruction",
+    "wind turbine blades",
+    "UAV imagery",
+    "Gaussian Splatting"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "s2"
+  }
  },
  "2611.27401": {
   "id": "2611.27401",
@@ -35248,7 +35305,36 @@
   "tldr_en": "A prior-instruction competition mechanism is proposed, which explains NF and IF behavior as arising from the dominance of prior and instruction signals, respectively, and is reinterpreted through this mechanism, showing that it acts as a form of instruction signal enhancement.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "",
+  "llm": {
+   "title_ja": "線形デコード可能性を超えて：ワールドアクションモデルにおける指示追従の理解と改善",
+   "tldr_ja": "指示対象情報の線形デコード可能性を促進するLDS（線形デコード可能性監督）を導入し、操作タスクで優れた性能を達成した。",
+   "problem": "ワールドアクションモデル（WAMs）がテスト時の言語指示に従うことにしばしば失敗する問題",
+   "method": "指示対象情報の線形デコード可能性を促進する補助訓練目的であるLDS（Linear Decodability Supervision）の導入",
+   "result": "LIBERO-CFにおいて成功率74.6%を達成し、最強のベースラインを大きく上回った",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "vla",
+    "world-model",
+    "manipulation"
+   ],
+   "keywords_ja": [
+    "ワールドアクションモデル",
+    "指示追従",
+    "線形デコード可能性",
+    "ロボット操作",
+    "補助訓練"
+   ],
+   "keywords_en": [
+    "world action models",
+    "instruction following",
+    "linear decodability",
+    "manipulation tasks"
+   ],
+   "real_robot": "unknown",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "s2"
+  }
  },
  "2611.27397": {
   "id": "2611.27397",
@@ -35274,14 +35360,44 @@
    "venue_evidence": "",
    "code_url": "",
    "project_url": "",
-   "real_robot": "unknown"
+   "real_robot": "yes"
   },
   "fetched_at": "2026-11-23T08:58:46+00:00",
   "s2_id": "f9ea641a6aad051d2a850e8305b955fcd84e61ee",
   "tldr_en": "The AnyBodyCodec results establish reuse through both native geometric fidelity and downstream policy compatibility through both native geometric fidelity and downstream policy compatibility.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "",
+  "llm": {
+   "title_ja": "AnyBodyCodec：ボディモデルの変換、拡張、およびヒューマノイド制御のための共有ネイティブインターフェース",
+   "tldr_ja": "AnyBodyCodecはネイティブ変換を通じて共有表現を学習し、新しいボディモデルと制御に再利用することを可能にする。",
+   "problem": "パラメータ化されたボディモデルが互換性のないポーズおよび形状制御を持ち、ヒューマノイドポリシーを特定の入力形式に縛っていること",
+   "method": "ネイティブ変換を通じて共有表現を学習し、コアを凍結したまま新しいボディモデルと制御に再利用する手法",
+   "result": "複数フォーマットでの全アクション成功率60.78%をサポートし、物理的なG1ロボットに展開された",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "humanoid",
+    "vla",
+    "hardware"
+   ],
+   "keywords_ja": [
+    "ヒューマノイド制御",
+    "ボディモデル",
+    "共有表現",
+    "トランスフォーマー",
+    "実機実験"
+   ],
+   "keywords_en": [
+    "humanoid control",
+    "body models",
+    "shared representation",
+    "transformer",
+    "policy compatibility"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "s2"
+  }
  },
  "2611.27379": {
   "id": "2611.27379",
@@ -35310,14 +35426,43 @@
    "venue_evidence": "",
    "code_url": "",
    "project_url": "",
-   "real_robot": "unknown"
+   "real_robot": "yes"
   },
   "fetched_at": "2026-11-23T08:58:46+00:00",
   "s2_id": "0a55f4d04aec597f0fa6425815372aa89e90609d",
   "tldr_en": "A lightweight, platform-agnostic method to assess one observable aspect of LiDAR simulation fidelity: the range-dependent point density on annotated objects, which is intended as an early-stage, signal-level consistency check for identifying gross mismatches in simulated LiDAR configurations.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "",
+  "llm": {
+   "title_ja": "点群密度に基づくシミュレートされたLiDAR構成検証のための軽量手法",
+   "tldr_ja": "アノテーション付きオブジェクト上の距離依存点密度を用いて、シミュレーション上のLiDARの忠実度を評価する軽量な手法を提案した。",
+   "problem": "単純化されたセンサーモデルや限られた設定可能性により、シミュレートされたLiDARの信号レベルの現実性を達成することが困難であること",
+   "method": "3Dバウンディングボックスと点群のみを使用し、距離別ビンの平均絶対パーセント誤差から密度類似度スコア（DSS）を定式化する手法",
+   "result": "センサーの非一様な垂直ビーム角を用いたカスタム設定が最も高い類似度を達成することを示した",
+   "limitation": "シミュレーション品質や下流の知覚性能の完全な尺度ではなく、初期段階の信号レベルの一貫性チェックであること",
+   "tags": [
+    "perception",
+    "sim2real"
+   ],
+   "keywords_ja": [
+    "LiDARシミュレーション",
+    "点群密度",
+    "検証手法",
+    "センサーモデル",
+    "シミュレーション忠実度"
+   ],
+   "keywords_en": [
+    "simulated LiDAR",
+    "point density",
+    "simulation fidelity",
+    "density similarity score",
+    "sensor validation"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "s2"
+  }
  },
  "2611.27373": {
   "id": "2611.27373",
@@ -35801,7 +35946,7 @@
   "hf_comments": 2,
   "hf_summary_en": "O2LaF repurposes a shared pretrained video model to learn inverse and forward latent action dynamics from unlabeled videos, achieving state-of-the-art few-shot action probing and zero-shot action transfer.",
   "github_repo": "https://github.com/showlab/O2LaF",
-  "github_stars": 29,
+  "github_stars": 34,
   "project_page": "https://showlab.github.io/o2laf/"
  },
  "2611.26613": {
@@ -36371,7 +36516,7 @@
   "hf_comments": 4,
   "hf_summary_en": "A diagnostic benchmark of 180 simulated manipulation configurations evaluates whether embodied systems can combine history-based reasoning, precise execution, and closed-loop environmental feedback, revealing that single-view competence does not transfer to composed tasks.",
   "github_repo": "https://github.com/Mind2Act/Mind2Act_World",
-  "github_stars": 54,
+  "github_stars": 55,
   "project_page": "https://mind2act-world.com/",
   "llm": {
    "title_ja": "Mind2Act World：ロボットマニプリレーションにおける身体性マインド、物理的行動、およびマインド・行動の合成のための診断ベンチマーク",
@@ -40493,11 +40638,11 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 5,
-  "hf_comments": 2,
+  "hf_upvotes": 6,
+  "hf_comments": 3,
   "hf_summary_en": "",
   "github_repo": "https://github.com/anhdao69/LoopedWAM",
-  "github_stars": 5,
+  "github_stars": 6,
   "project_page": "https://anhdao69.github.io/LoopedWAM/"
  },
  "2611.25594": {
@@ -44412,19 +44557,19 @@
    "tldr_source": "ai"
   },
   "badges": {
-   "venue": "",
-   "venue_status": "",
-   "venue_evidence": "",
+   "venue": "Journal of Intelligence and Information ",
+   "venue_status": "accepted",
+   "venue_evidence": "semantic_scholar",
    "code_url": "",
    "project_url": "",
    "real_robot": "no"
   },
   "fetched_at": "2026-11-19T08:45:10+00:00",
   "s2_id": "e30e6cde966391338ebfa2273666181e7f66c481",
-  "tldr_en": "It is contended that making tabular XAI genuinely comprehensible requires shifting toward composite explanation pipelines that pair intuitive similarity-based reasoning with rigorous feature-level auditing.",
+  "tldr_en": "It is argued that prototypes remain overlooked and underutilized, and should be integrated as a complementary, intuitive gateway to auditing complex machine learning models, and introduced a Geometric Validity Triad to conceptualize why prototypes validate the data manifold.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "Journal of Intelligence and Information Systems"
  },
  "2611.24816": {
   "id": "2611.24816",
@@ -44588,7 +44733,7 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.24789",
   "pdf_url": "https://arxiv.org/pdf/2611.24789v1",
-  "hf_upvotes": 22,
+  "hf_upvotes": 14,
   "hf_comments": 3,
   "hf_summary_en": "",
   "github_repo": "https://github.com/tuandattt/hintwam_code",
@@ -48132,7 +48277,7 @@
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "https://github.com/starsholic/AeroRSI",
-  "github_stars": 17,
+  "github_stars": 20,
   "project_page": "https://starsholic.github.io/AeroRSI/"
  },
  "2611.24076": {
@@ -51812,7 +51957,7 @@
   "tldr_en": "This study provides a mechanistic basis for fetal sensorimotor development and generates testable predictions about the consequences of naturally occurring and experimentally induced variations.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "arXiv.org"
  },
  "2611.23228": {
   "id": "2611.23228",
@@ -57097,7 +57242,7 @@
   "hf_comments": 2,
   "hf_summary_en": "A decentralized framework enables teams of humanoids to coordinate whole-body loco-manipulation over long horizons using low-level multi-agent post-training and a high-level vision-language planner with speech-based leader-follower synchronization.",
   "github_repo": "https://github.com/heaveho-humanoid/Heave-Ho",
-  "github_stars": 34,
+  "github_stars": 35,
   "project_page": "https://heaveho-humanoid.github.io/",
   "llm": {
    "title_ja": "Heave-Ho: 分散型長期マルチヒューマノイド協調",
@@ -58571,7 +58716,7 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 5,
+  "hf_upvotes": 6,
   "hf_comments": 2,
   "hf_summary_en": "",
   "github_repo": "",
@@ -63551,14 +63696,42 @@
    "venue_evidence": "",
    "code_url": "",
    "project_url": "",
-   "real_robot": "unknown"
+   "real_robot": "yes"
   },
   "fetched_at": "2026-11-17T09:10:57+00:00",
   "s2_id": "6bd3f402aa282ece963f6615021f8d199a237bbc",
   "tldr_en": "This report describes the design of a 360-camera visual-inertial pipeline that uses only the provided dual-fisheye image streams and IMU measurements and performs tightly regularized intrinsic and extrinsic refinement, and global scale adjustment supported by the known inter-camera baseline and cross-view constraints.",
   "citations": 0,
   "influential_citations": 0,
-  "venue": ""
+  "venue": "",
+  "llm": {
+   "title_ja": "sqrtVINSベースの360度視覚・慣性SLAMシステム：Hilti-Trimble SLAMチャレンジ2026エントリー",
+   "tldr_ja": "提供されたデュアル魚眼画像ストリームとIMU測定値のみを使用し、厳密に正則化された内因・外因の洗練とグローバルスケール調整を行う360度カメラ視覚・慣性パイプラインを設計した。",
+   "problem": "暗い領域、反復的な廊下、動的オブジェクト、幾何学的視差の限られた長い屋内シーケンスでのSLAMの課題。",
+   "method": "デュアル魚眼画像とIMUを用い、SuperPoint特徴量やGTSAMベースのバックエンド最適化等を統合した$\\sqrt{\\text{VINS}}$ベースのパイプライン。",
+   "result": "いくつかの屋内シーケンスにおいて、提案手法がフロアプランによく整合することを示した。",
+   "limitation": "要旨に記載なし",
+   "tags": [
+    "navigation",
+    "perception"
+   ],
+   "keywords_ja": [
+    "SLAM",
+    "視覚慣性オドメトリ",
+    "360度カメラ",
+    "因子グラフ最適化",
+    "屋内ナビゲーション"
+   ],
+   "keywords_en": [
+    "Visual-Inertial SLAM",
+    "360-camera",
+    "factor graph optimization",
+    "odometry"
+   ],
+   "real_robot": "yes",
+   "model": "gemini-3.5-flash-lite",
+   "tldr_source": "s2"
+  }
  },
  "2611.20558": {
   "id": "2611.20558",
@@ -69044,11 +69217,11 @@
   "journal_ref": "",
   "abs_url": "https://arxiv.org/abs/2611.18397",
   "pdf_url": "https://arxiv.org/pdf/2611.18397v1",
-  "hf_upvotes": 167,
+  "hf_upvotes": 171,
   "hf_comments": 4,
   "hf_summary_en": "Gamer is a generalist agent framework that integrates perception, memory, and multi-step reasoning, trained through continued pre-training, sparse-thinking instruction tuning, and multi-turn reinforcement learning to interact efficiently in 2D and 3D environments.",
   "github_repo": "https://github.com/RainBowLuoCS/Gamer",
-  "github_stars": 1603,
+  "github_stars": 1620,
   "project_page": "https://mihoyo-gamer.github.io/",
   "llm": {
    "title_ja": "Gamer：長期・実時間ゲームエージェントのための汎用ビジョン・言語・行動基盤モデル",
@@ -70869,7 +71042,7 @@
   "citations": 0,
   "influential_citations": 0,
   "venue": "",
-  "hf_upvotes": 16,
+  "hf_upvotes": 15,
   "hf_comments": 2,
   "hf_summary_en": "SALA aligns latent actions across human and robot videos by using language-based semantic similarities to form a shared latent action space that supervises embodied foundation model training and improves robot task performance.",
   "github_repo": "",
